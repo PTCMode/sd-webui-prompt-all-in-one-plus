@@ -27,6 +27,8 @@
 # 本内容的本地化翻译均来自机翻，可能存在不准确的情况，如有发现，欢迎前往 Github 提交 PR 进行修正。
 # 如有分类错误、关键词错误、关键词翻译错误等问题，欢迎前往 Github 提交 Issue 进行反馈。
 
+# UGLY: 改成tag, array[types], translate. 或者SQL
+
 - name: 人物
   groups:
     - name: 对象
@@ -41,25 +43,26 @@
         girl: 女孩
         boy: 男孩
         solo: 单人
-        multiple_girls: 多个女孩
-        little_girl: 小女孩
-        little_boy: 小男孩
+        solo focus: 专注于单人(多人时)
+        multiple girls: 多个女孩
+        little girl: 小女孩
+        little boy: 小男孩
         shota: 正太
         loli: 萝莉
         kawaii: 可爱
         mesugaki: 雌小鬼
-        adorable_girl: 可爱的女孩
+        adorable girl: 可爱的女孩
         bishoujo: 美少女
         gyaru: 辣妹
         sisters: 姐妹
         ojousama: 大小姐
         female: 女性
-        mature_female: 成熟女性
+        mature female: 成熟女性
         mature: 成熟
-        female_pervert: 痴女
+        female pervert: 痴女
         male: 男性
         milf: 熟女
-        otoko_no_ko: 伪娘
+        otoko no ko: 伪娘
         crossdressing: 伪娘
 
     - name: 身份
@@ -109,15 +112,14 @@
         barista: 咖啡师
         the hermit: 隐士
         makihitsuji: 牧羊人
-        office_lady: 办公室小姐
-        race_queen: 赛车女郎
+        race queen: 赛车女郎
         queen: 女王
         doctor: 医生
         knight: 骑士
         housemaid: 女仆
         dancer: 舞者
         ballerina: 芭蕾舞演员
-        gym_leader: 体操教练
+        gym leader: 体操教练
         trap: 伪娘
         female: 女人
         harem: 后宫
@@ -125,7 +127,7 @@
         male: 男人
         priest: 牧师
         cleric: 神职人员(基督教)
-        wa_maid: 和风女仆
+        wa maid: 和风女仆
         yaoi: 搞基
         yuri: 百合
         albino: 白化病患者
@@ -155,7 +157,7 @@
         ninja: 忍者
         vampire: 吸血鬼
         knight: 骑士
-        magical_girl: 魔法少女
+        magical girl: 魔法少女
         orc: 半兽人
         druid: 德鲁伊
         elf: 妖精
@@ -166,30 +168,30 @@
         magister: 魔导师
         spider-man: 蜘蛛侠
         santa alter: 圣诞老人
-        monster_girl: 人外娘
-        cat_girl: 猫娘
-        dog_girl: 犬娘
-        fox_girl: 狐娘
+        monster girl: 人外娘
+        cat girl: 猫娘
+        dog girl: 犬娘
+        fox girl: 狐娘
         kitsune: 狐妖
         kyuubi: 九尾|九尾狐
-        raccoon_girl: 浣熊娘
-        wolf_girl: 狼女孩
-        bunny_girl: 兔娘
-        horse_girl: 马娘
-        cow_girl: 牛娘
-        dragon_girl: 龙娘
+        raccoon girl: 浣熊娘
+        wolf girl: 狼女孩
+        bunny girl: 兔娘
+        horse girl: 马娘
+        cow girl: 牛娘
+        dragon girl: 龙娘
         centaur: 半人马
-        slime_musume: 史莱姆娘
-        spider_girl: 蜘蛛娘
+        slime musume: 史莱姆娘
+        spider girl: 蜘蛛娘
         dominatrix: 女王(SM中)
-        sailor_senshi: 美少女战士
+        sailor senshi: 美少女战士
         mecha: 机甲
-        mecha_musume: 机甲娘
-        humanoid_robot_: 类人机器人
+        mecha musume: 机甲娘
+        humanoid robot: 类人机器人
         cyborg: 半机械人
         angel: 天使
         devil: 魔鬼
-        dark_elf: 暗精灵
+        dark elf: 暗精灵
         imp: 小恶魔
         succubus: 魅魔
         giantess: 女巨人
@@ -206,7 +208,7 @@
         underage: 未成年
         teenager: 青少年(13-19)
         teen: 青少年(13-19)
-        early teen: 青少年早期（11-15）
+        early teen: 青少年早期(11-15)
         adult: 大人
         elder: 老人
         old: 老年
@@ -216,15 +218,15 @@
     - name: 皮肤
       color: rgba(255, 123, 2, .4)
       tags:
-        white_skin: 白皮肤
-        pale_skin: 苍白的皮肤
-        fair_skin: 白皙的皮肤
-        brown_skin: 棕色皮肤
-        deep_skin: 深色皮肤
-        dark_skin: 黑皮肤
-        black_skin: 黑皮肤
-        shiny_skin: 有光泽的皮肤
-        white_marble_glowing_skin: 白色大理石发光皮肤
+        white skin: 白皮肤
+        pale skin: 苍白的皮肤
+        fair skin: 白皙的皮肤
+        brown skin: 棕色皮肤
+        deep skin: 深色皮肤
+        dark skin: 黑皮肤
+        black skin: 黑皮肤
+        shiny skin: 有光泽的皮肤
+        white marble glowing skin: 白色大理石发光皮肤
         tattoo: 纹身
         tan: 日晒
         tanlines: 日晒痕迹
@@ -275,7 +277,7 @@
         blue hair: 蓝色头发
         black hair: 黑色头发
         brown hair: 棕色头发
-        straight_hair: 直发
+        straight hair: 直发
         short hair: 短发
         curly hair: 卷发
         long hair: 长发
@@ -305,7 +307,7 @@
         air bangs: 空气刘海
         hair wings: 翼状头发
         long bangs: 长刘海
-        side_blunt_bangs: 侧面空气刘海
+        side blunt bangs: 侧面空气刘海
         centre parting bangs: 中分刘海
         asymmetric bangs: 不对称刘海
         disheveled hair: 蓬发
@@ -320,7 +322,7 @@
         hair bun: 包子头
         double bun: 俩包子头
         messy hair: 凌乱发型
-        hair_flaps: 发翼
+        hair flaps: 发翼
 
     - name: 面部
       color: rgba(255, 123, 2, .4)
@@ -330,97 +332,88 @@
         eyeshadow: 眼影
         lipstick: 口红
         mascara: 睫毛膏
-        long_eyelashes: 长睫毛
-        red_lips_: 红唇
+        long eyelashes: 长睫毛
+        red lips: 红唇
         facepaint: 面部涂装
         lipgloss: 唇彩
-        colored_eyelashes: 彩色睫毛
+        colored eyelashes: 彩色睫毛
         blush: 脸红
-        light_blush: 淡淡的腮红
-        anime_style_blush: 动画式脸红
-        nose_blush: 鼻腮红
+        light blush: 淡淡的腮红
+        anime style blush: 动画式脸红
+        nose blush: 鼻腮红
         nosebleed: 鼻血
-        bruise_on_face: 脸上有瘀伤
-        facial_mark: 面部标记
-        forehead_mark: 额头标记
-        anger_vein: 头部愤怒符号
+        bruise on face: 脸上有瘀伤
+        facial mark: 面部标记
+        forehead mark: 额头标记
+        anger vein: 头部愤怒符号
         mole: 痣
-        mole_under_eye: 眼睛下方的痣
+        mole under eye: 眼睛下方的痣
         freckles: 雀斑
-        food_on_face: 食物在脸上
-        rice_on_face: 饭在脸上
-        cream_on_face: 奶油在脸上
+        food on face: 食物在脸上
+        rice on face: 饭在脸上
+        cream on face: 奶油在脸上
         mustache: 小胡子
         goatee: 山羊胡
-        whisker_markings: 胡须斑纹
+        whisker markings: 胡须斑纹
         scar: 疤痕
-        scar_across_eye: 穿过眼睛的疤痕
-        smoking_pipe: 烟斗
+        scar across eye: 穿过眼睛的疤痕
+        smoking pipe: 烟斗
         tattoo: 纹身
 
     - name: 耳朵
       color: rgba(255, 123, 2, .4)
       tags:
-        elf ears: 精灵耳朵
-        fake animal ears: 动物耳朵
-        cat ears: 猫耳朵
-        dog ears: 狗耳朵
-        fox ears: 狐狸耳朵
-        bunny ears: 兔子耳朵
-        bear ears: 熊耳朵
-        wolf ears: 狼耳朵
-        horse ears: 马耳朵
-        cow ears: 牛耳朵
-        mouse ears: 老鼠耳朵
-        pig ears: 猪耳朵
-        sheep ears: 羊耳朵
-        deer ears: 鹿耳朵
-        goat ears: 山羊耳朵
-        antelope ears: 羚羊耳朵
-        rhino ears: 犀牛耳朵
-        elephant ears: 大象耳朵
-        bat ears: 蝙蝠耳朵
-        dragon ears: 龙耳朵
-        demon ears: 恶魔耳朵
-        angel ears: 天使耳朵
         alien ears: 外星人耳朵
-        ear_blush: 耳朵通红
-        ear_ornament: 耳饰
-        ear_piercing: 耳洞
-        animal_ears: 兽耳
-        ears_down: 垂耳
-        fake_animal_ears: 假兽耳
-        floppy_ears: 松软的耳朵
-        animal_ear_fluff: 动物耳朵绒毛
-        fox_ears: 狐狸耳朵
-        cat_ears: 猫耳朵
-        lion_ears: 狮子耳朵
-        jaguar_ears: 美洲豹耳朵
-        tiger_ears: 虎耳
-        dog_ears: 狗耳朵
-        coyote_ears: 郊狼耳朵
-        bunny_ears: 兔耳
-        horse_ears: 马耳
-        pointy_ears: 尖耳朵
-        long_pointy_ears: 长尖耳朵
-        mouse_ears: 老鼠耳朵
-        raccoon_ears: 浣熊耳朵
-        squirrel_ears: 松鼠耳朵
-        bear_ears: 熊耳朵
-        panda_ears: 熊猫耳朵
-        bat_ears: 蝙蝠耳朵
-        robot_ears: 机器人耳朵
-        extra_ears: 额外的耳朵
-        ears_through_headwear: 耳朵穿过帽子或头饰
-        alpaca_ears: 羊驼耳
-        horns: 兽角
-        fake_horns: 假角
-        dragon_horns: 龙角
-        oni_horns: 鬼角
+        alpaca ears: 羊驼耳
+        angel ears: 天使耳朵
+        animal ear fluff: 动物耳朵绒毛
+        animal ears: 兽耳
+        antelope ears: 羚羊耳朵
         antlers: 鹿角
-        curled_horns: 弯角
-        goat_horns: 山羊角
-        hair_on_horn: 角上的头发
+        bat ears: 蝙蝠耳朵
+        bear ears: 熊耳朵
+        bunny ears: 兔子耳朵
+        cat ears: 猫耳朵
+        cow ears: 牛耳朵
+        coyote ears: 郊狼耳朵
+        curled horns: 弯角
+        deer ears: 鹿耳朵
+        demon ears: 恶魔耳朵
+        dog ears: 狗耳朵
+        dragon ears: 龙耳朵
+        dragon horns: 龙角
+        ear blush: 耳朵通红
+        ear ornament: 耳饰
+        ear piercing: 耳洞
+        ears down: 垂耳
+        ears through headwear: 耳朵穿过帽子或头饰
+        elephant ears: 大象耳朵
+        elf ears: 精灵耳朵
+        extra ears: 额外的耳朵
+        fake animal ears: 假兽耳
+        fake horns: 假角
+        floppy ears: 松软的耳朵
+        fox ears: 狐狸耳朵
+        goat ears: 山羊耳朵
+        goat horns: 山羊角
+        hair on horn: 角上的头发
+        horns: 兽角
+        horse ears: 马耳朵
+        jaguar ears: 美洲豹耳朵
+        lion ears: 狮子耳朵
+        long pointy ears: 长尖耳朵
+        mouse ears: 老鼠耳朵
+        oni horns: 鬼角
+        panda ears: 熊猫耳朵
+        pig ears: 猪耳朵
+        pointy ears: 尖耳朵
+        raccoon ears: 浣熊耳朵
+        rhino ears: 犀牛耳朵
+        robot ears: 机器人耳朵
+        sheep ears: 羊耳朵
+        squirrel ears: 松鼠耳朵
+        tiger ears: 虎耳
+        wolf ears: 狼耳朵
 
     - name: 眉毛
       color: rgba(255, 123, 2, .4)
@@ -433,6 +426,9 @@
     - name: 眼睛
       color: rgba(255, 123, 2, .4)
       tags:
+        jitome: 轻蔑的眼神
+        tareme: 眼尾下垂
+        # 眼睛基础颜色
         blue eyes: 蓝色眼睛
         red eyes: 红色眼睛
         brown eyes: 棕色眼睛
@@ -444,47 +440,50 @@
         aqua eyes: 水蓝色眼睛
         orange eyes: 橙色眼睛
         grey eyes: 灰色眼睛
-        multicolored eyes: 多彩眼睛
         white eyes: 白色眼睛
-        gradient eyes: 渐变眼睛
+        silver eyes: 银色眼睛
+        light brown eyes: 浅棕色眼睛
+        # 眼睛状态
         closed eyes: 闭上眼睛
         half-closed eyes: 半闭眼
         crying with eyes open: 睁着眼睛哭
         narrowed eyes: 眯起眼睛
         hidden eyes: 隐藏眼睛
-        heart-shaped eyes: 心形眼睛
-        button eyes: 纽扣眼睛
-        cephalopod eyes: 头足类眼睛
-        eyes visible through hair: 透过头发看见眼睛
-        glowing eyes: 发光的眼睛
-        empty eyes: 空洞的眼睛
         rolling eyes: 翻白眼
         cross eyed: 斗鸡眼
         blank eyes: 空白的眼睛
         no eyes: 没有眼睛
+        uneven eyes: 不均匀的眼睛
+        squinting: 眯起眼睛看
+        tears: 眼泪
+        eye contact: 眼神交流
+        # 眼睛特殊效果
+        heart-shaped eyes: 心形眼睛
+        button eyes: 纽扣眼睛
+        glowing eyes: 发光的眼睛
+        empty eyes: 空洞的眼睛
         sparkling eyes: 闪闪发光的眼睛
         extra eyes: 额外的眼睛
         crazy eyes: 疯狂的眼睛
         solid circle eyes: 实心圆眼
         solid oval eyes: 实心椭圆形眼睛
-        uneven eyes: 不均匀的眼睛
-        blood from eyes: 眼里流血
-        eyeshadow: 眼影
-        red eyeshadow: 红色眼影
-        blue eyeshadow: 蓝色眼影
-        purple eyeshadow: 紫色眼影
-        pink eyeshadow: 粉色眼影
-        green eyeshadow: 绿色眼影
-        bags under eyes: 眼袋
-        ringed eyes: 眼圈
-        covered eyes: 蒙住眼睛
-        covering eyes: 遮住眼睛
-        shading eyes: 挡着眼睛
         devil eyes: 魔鬼眼
+        mechanical eye: 机械眼
+        clock eyes: 钟眼
+        compound eyes: 复眼
+        fisheye: 鱼眼
+        spiral eyes: 漩涡眼
+        third eye: 第三只眼
+        flaming eye: 焰目
+        sharp eyes: 锐利的眼
+        slanted eyes: 锐利的眼
+        upturned eyes: 上翘的眼睛
+        beautiful detailed eyes: 美丽的眼睛
+        anime style eyes: 动画眼
+        water eyes: 水汪汪
+        glint: 眼中闪现强烈的情感
+        # 瞳孔特征
         slit pupils: 猫眼
-        bloodshot eyes: 充血的眼睛
-        tsurime: 眼尾上扬
-        tareme: 眼尾下垂
         constricted pupils: 瞳孔收缩
         devil pupils: 魔瞳
         snake pupils: 蛇瞳
@@ -492,121 +491,83 @@
         flower-shaped pupils: 花状瞳孔
         heart-shaped pupils: 心形瞳孔
         heterochromia: 异色瞳
+        horizontal pupils: 水平瞳孔
+        solid circle pupils: Q版实心圆瞳孔
+        # 眼部装饰/妆容
+        eyeshadow: 眼影
+        red eyeshadow: 红色眼影
+        blue eyeshadow: 蓝色眼影
+        purple eyeshadow: 紫色眼影
+        pink eyeshadow: 粉色眼影
+        green eyeshadow: 绿色眼影
         color contact lenses: 美瞳
         longeyelashes: 长睫毛
         colored eyelashes: 彩色睫毛
         mole under eye: 眼下痣
-        light_eyes: 明亮的眼睛
-        glowing_eye: 发光的眼睛
-        shiny_eyes: 闪亮的眼睛
-        sparkling_eyes: 星星眼
-        gradient_eyes: 渐变眼睛
-        anime_style_eyes: 动画眼
-        water_eyes: 水汪汪
-        beautiful_detailed_eyes: 美丽的眼睛
-        solid_oval_eyes_: Q版实心椭圆眼睛
-        solid_circle_pupils: Q版实心圆瞳孔
-        blush_stickers: Q版腮红贴纸
-        heart_in_eye: 心形眼
-        evil_eyes: 邪恶的眼睛
-        crazy_eyes: 疯狂的眼睛
-        empty_eyes: 失去高光的眼睛
-        covered_eyes: 蒙住的眼睛
-        hollow_eyes: star-shaped_pupils
-        multicolored_eyes: 多彩多姿的眼睛
-        ringed_eyes: 眼圈
-        sanpaku: 三白症(瞳孔偏移)
-        mismatched_sclera: 错配巩膜
-        eye_relfection: 眼睛反射(没有效果
-        mechanical_eye: 机械眼
-        cephalopod_eyes: 头足类眼睛
-        clock_eyes: 钟眼
-        compound_eyes: 复眼
-        fisheye: 鱼眼
-        devil_eyes: 恶魔之眼
-        bloodshot_eyes: 布满血丝的眼睛
-        blood_from_eyes: 血从眼里流出
-        aqua_eyes: 青色眼睛
-        solid_eyes: 坚定的眼睛
-        sparkling_anime_eyes: 闪光动画眼
-        blue_eyes: 蓝眼睛
-        brown_eyes: 棕色的眼睛
-        closed_eyes: 闭上的眼睛
-        crying_with_eyes_open: 睁着眼落泪
-        extra_eyes: 多只眼睛
-        eye_contact: 眼神交流
-        eye_of_horus: 荷鲁斯之眼
-        eyeball: 眼球
+        blush stickers: Q版腮红贴纸
         eyeliner: 眼线
-        eyes: 眼睛
-        glint: 眼中闪现强烈的情感
-        glowing_eyes: 发光的双眼
-        half-closed_eye: 半闭的眼睛(单眼)
-        half-closed_eyes: 半闭的双眼
-        horizontal_pupils:
-        jitome: 轻蔑的眼神
-        light_brown_eyes: 浅棕色眼睛
-        no_eyes: 没画出眼睛
-        one-eyed: 反光的眼睛
-        reflective_eyes:
-        silver_eyes: 银色的眼睛
-        spiral_eyes: 漩涡眼
-        third_eye: 第三只眼
-        uneven_eyes: 大小眼
-        flaming_eye: 焰目
-        eyes_closed: 闭眼
-        half_closed_eyes: 半闭双眼
-        narrowed_eyes: 眯起眼睛
-        squinting: 眯起眼睛看
-        tears: 眼泪
-        sharp_eyes: 锐利的眼
-        slanted_eyes: 锐利的眼
-        upturned_eyes: 上翘的眼睛
-        cross-eyed: 斗鸡眼
-        hair_over_eyes: 头发遮着双眼
-        eyes_visible_through_hair: 透过头发可以看到的眼睛
-        hair_over_one_eye: 头发遮住了一只眼睛
-        one_eye_covered: 一只眼被遮住
-        bags_under_eyes: 眼袋
+        # 眼部症状/特征
+        bags under eyes: 眼袋
+        ringed eyes: 眼圈
+        bloodshot eyes: 充血的眼睛
+        blood from eyes: 眼里流血
+        tsurime: 眼尾上扬
+        sanpaku: 三白症/瞳孔偏移
+        mismatched sclera: 错配巩膜
+        # 眼睛遮挡
+        covered eyes: 蒙住眼睛
+        covering eyes: 遮住眼睛
+        shading eyes: 挡着眼睛
+        eyes visible through hair: 透过头发看见眼睛
+        hair over eyes: 头发遮着双眼
+        hair over one eye: 头发遮住了一只眼睛
+        one eye covered: 一只眼被遮住
         eyepatch: 眼罩
-        medical_eyepatch: 医用眼罩
-        scar_across_eye: 眼睛上的疤痕
-        no_blindfold: 去掉了(原设有的)蒙眼要素
-        no_eyepatch: 去掉了(原设有的)眼罩
+        medical eyepatch: 医用眼罩
+        scar across eye: 眼睛上的疤痕
+        # 其他特殊标签
+        cephalopod eyes: 头足类眼睛
+        gradient eyes: 渐变眼睛
+        multicolored eyes: 多彩眼睛
+        eye of horus: 荷鲁斯之眼
+        eyeball: 眼球
+        one-eyed: 独眼
         ahegao: 阿嘿颜
 
     - name: 瞳孔
       color: rgba(255, 123, 2, .4)
       tags:
+        # 基础瞳孔
         pupils: 瞳孔
-        bright_pupils: 明亮的瞳孔
+        bright pupils: 明亮的瞳孔
+        dilated pupils: 瞳孔散大
+        constricted pupils: 收缩的瞳孔
+        no pupils: 没有瞳孔
+        extra pupils: 额外的瞳孔
+        mismatched pupils: 不匹配的瞳孔
+        # 瞳孔形状
+        slit pupils: 竖的瞳孔/猫眼
+        heart-shaped pupils: 爱心形瞳孔
+        diamond-shaped pupils: 钻石形状瞳孔
+        star-shaped pupils: 五角星形状瞳孔
+        x-shaped pupils: X形瞳孔
+        horizontal pupils: 水平瞳孔
+        butterfly-shaped pupils: 蝴蝶形瞳孔
+        rectangular pupils: 长方形瞳孔
+        square pupils: 方形瞳孔
+        dot pupils: 点瞳孔
+        # 瞳孔颜色
+        purple pupils: 紫色瞳孔
+        orange pupils: 橙色瞳孔
+        blue pupils: 蓝色瞳孔
         heterochromia: 异色瞳
-        slit_pupils: 竖的瞳孔/猫眼
-        snake_pupils: 瞳孔闪光
-        symbol-shaped_pupils: 符号形瞳孔
-        heart-shaped_pupils: 爱心形瞳孔
-        diamond-shaped_pupils: 钻石形状瞳孔
-        star-shaped_pupils: 五角星形状瞳孔
-        dilated_pupils: 瞳孔散大
-        no_pupils: 没有瞳孔
-        ringed_eyes: 轮回眼
-        constricted_pupils: 收缩的瞳孔(没有效果
-        star_in_eye: 眼睛里的星星
-        x-shaped_pupils: X形瞳孔
-        horizontal_pupils: 水平瞳孔
-        dashed_eyes: 虚线的眼睛
-        butterfly-shaped_pupils: 蝴蝶形瞳孔
-        rectangular_pupils: 长方形瞳孔
-        square_pupils: 方形瞳孔
-        dot_pupils: 点瞳孔
-        extra_pupils: 额外的瞳孔
-        mismatched_pupils: 不匹配的瞳孔
+        # 特殊效果
+        snake pupils: 瞳孔闪光
+        ringed eyes: 轮回眼
+        star in eye: 眼睛里的星星
+        dashed eyes: 虚线的眼睛
+        symbol in eye: 眼睛里有符号
         "+_+": 十字星星眼
-        cross-shaped_pupils: 符号形瞳孔(没有效果
-        purple_pupils: 紫色瞳孔
-        orange_pupils: 橙色瞳孔
-        blue_pupils: 橙色瞳孔
-        symbol_in_eye: 眼睛里有符号
 
     - name: 鼻子
       color: rgba(255, 123, 2, .4)
@@ -614,9 +575,9 @@
         pointed nose: 尖鼻子
         small nose: 小鼻子
         big nose: 大鼻子
-        no_nose: 没鼻子的
-        dot_nose: 点状鼻
-        nose_bubble: 鼻泡
+        no nose: 没鼻子的
+        dot nose: 点状鼻
+        nose bubble: 鼻泡
         smelling: 闻
         nose: 鼻子
         nosebleed: 流鼻血
@@ -635,62 +596,58 @@
         open mouth: 张嘴
         closed mouth: 闭嘴
         shark mouth: 鲨鱼嘴
-        parted lips: 张开的嘴
         mole under mouth: 嘴下痣
-        open_mouth: 张嘴
         gasping: 喘气（张大嘴）
-        Slightly_open_mouth: 嘴巴微微张开
-        wavy_mouth: 波浪嘴
-        close_mouth: 闭嘴
-        dot_mouth: 点嘴
-        no_mouth: 没有嘴
+        Slightly open mouth: 嘴巴微微张开
+        wavy mouth: 波浪嘴
+        close mouth: 闭嘴
+        dot mouth: 点嘴
+        no mouth: 没有嘴
         gag: 堵嘴
         gnaw: 啃
         :3: 猫嘴
         :o: 张嘴
         :>: V嘴
-        parted_lips: 嘴唇张开
-        bit_gag: 勒住嘴
-        chestnut_mouth: 栗子嘴
-        cleave_gag: 被封住嘴
-        closed_mouth: 闭着的嘴
-        covered_mouth: 蒙住的嘴
-        extra_mouth: 有多张嘴巴
-        hair_in_mouth: 嘴里有头发
-        hair_tie_in_mouth: 将系头发的东西叼在嘴里
+        parted lips: 嘴唇张开
+        bit gag: 勒住嘴
+        cleave gag: 被封住嘴
+        covered mouth: 蒙住的嘴
+        extra mouth: 有多张嘴巴
+        hair in mouth: 嘴里有头发
+        hair tie in mouth: 将系头发的东西叼在嘴里
         homu: 嘟嘴|抿嘴
         lips: 嘴唇
         mouth: 嘴
-        mouth_hold: 用嘴叼着
+        mouth hold: 用嘴叼着
         oral: 用嘴
         pacifier: 奶嘴
         Pouted lips: 撅起的嘴唇
-        sideways_mouth: 把嘴画在侧脸
-        spoon_in_mouth: 嘴里含着勺子
-        triangle_mouth: 三角嘴
+        sideways mouth: 把嘴画在侧脸
+        spoon in mouth: 嘴里含着勺子
+        triangle mouth: 三角嘴
         saliva: 唾液
         drooling: 流口水
-        mouth_drool: 嘴角画着口水滴形状的缺口
+        mouth drool: 嘴角画着口水滴形状的缺口
 
     - name: 牙齿
       color: rgba(255, 123, 2, .4)
       tags:
         teeth: 牙齿
-        upper_teeth: 上牙
+        upper teeth: 上牙
         fang: 虎牙
-        skin_fang: 肤色虎牙
-        round_teeth: 圆齿
-        sharp_teeth: 锋利的牙齿
-        clenched_teeth: 咬紧牙关
+        skin fang: 肤色虎牙
+        round teeth: 圆齿
+        sharp teeth: 锋利的牙齿
+        clenched teeth: 咬紧牙关
         tongue: 舌头
-        buck_teeth: 龅牙
-        fang_out: 露出虎牙|露出尖牙
+        buck teeth: 龅牙
+        fang out: 露出虎牙|露出尖牙
         fangs: 尖牙
-        spiked_club: 狼牙棒
+        spiked club: 狼牙棒
         tooth: 牙
         toothbrush: 牙刷
         tusks: 象牙
-        shark_mouth: 鲨鱼牙
+        shark mouth: 鲨鱼牙
 
     - name: 舌头
       color: rgba(255, 123, 2, .4)
@@ -698,11 +655,11 @@
         :q: 舌头放在上唇
         :p: 舌头放在下唇
         ;p: 眨眼舌头上伸
-        french_kiss: 舌吻|法式湿吻
-        long_tongue: 长舌头
-        oral_invitation: 迎接射精而伸出舌头
+        french kiss: 舌吻|法式湿吻
+        long tongue: 长舌头
+        oral invitation: 迎接射精而伸出舌头
         tongue: 舌头
-        tongue_out: 吐舌头
+        tongue out: 吐舌头
         uvula: 小舌头|口盖垂|悬雍垂
 
     - name: 指甲
@@ -710,16 +667,16 @@
       tags:
         fingernails: 手指甲
         toenails: 脚趾甲
-        nail_polish: 指甲油
-        toenail_polish: 脚趾甲油
-        black_nails: 黑指甲
-        red_nails: 红指甲
-        pink_nails: 粉色指甲
-        long_fingernails: 长指甲
+        nail polish: 指甲油
+        toenail polish: 脚趾甲油
+        black nails: 黑指甲
+        red nails: 红指甲
+        pink nails: 粉色指甲
+        long fingernails: 长指甲
         nail: 钉子|指甲
-        multicolored_nails: 多彩指甲
-        nail_art: 美甲
-        brown_vest: 棕色马甲
+        multicolored nails: 多彩指甲
+        nail art: 美甲
+        brown vest: 棕色马甲
 
     - name: 肩部
       color: rgba(255, 123, 2, .4)
@@ -727,18 +684,18 @@
         bare shoulders: 赤肩
         collarbonea: 锁骨
         armpits: 腋下
-        armpit_crease: 腋窝皱痕
+        armpit crease: 腋窝皱痕
 
     - name: 胸部
       color: rgba(255, 123, 2, .4)
       tags:
-        chest: 胸部
-        flat chest: 贫乳(A_)
-        small_breasts: 小胸部(B)
-        medium breasts: 中等胸部(C)
-        big breasts: 大胸部(D)
-        huge breasts: 巨乳(E)
-        gigantic breasts: 超巨乳(F)
+        breasts: 胸部
+        flat chest: 平胸
+        small breasts: 小胸部
+        medium breasts: 中等胸部
+        large breasts: 大胸部
+        huge breasts: 巨乳
+        gigantic breasts: 超巨乳
         between breasts: 两胸之间
         breasts apart: 胸部分开
         hanging breasts: 下垂
@@ -747,21 +704,21 @@
         areola: 乳晕
         nipples: 乳头
         pectorals: 胸肌
-        large_pectorals: 大胸肌
+        large pectorals: 大胸肌
         unbuttoned clothes: 半露前胸
 
     - name: 腰部
       color: rgba(255, 123, 2, .4)
       tags:
-        narrow_waist: 细腰
-        slender_waist: 纤细的腰
+        narrow waist: 细腰
+        slender waist: 纤细的腰
 
     - name: 腹部
       color: rgba(255, 123, 2, .4)
       tags:
         midriff: 腹部
         belly: 肚子
-        absolute_territory: 腹肌
+        absolute territory: 腹肌
         inflation: 隆起的腹部
         navel: 肚脐
         groin: 腹股沟
@@ -771,350 +728,323 @@
       color: rgba(255, 123, 2, .4)
       tags:
         wings: 翅膀
-        bat_wings: 蝙蝠翅膀
-        butterfly_wings: 蝴蝶翅膀
-        black_wings: 黑色之翼
-        demon_wings: 恶魔之翼
-        asymmetrical_wings: 不对称的翅膀
-        detached_wings: 不与本体相连的翅膀
-        fairy_wings: 妖精的翅膀
-        fake_wings: 仿造的翅膀
-        fiery_wings: 燃烧着的翅膀
-        insect_wings: 昆虫翅膀
-        large_wings: 大翅膀
-        low_wings: 腰间的翅膀
-        mini_wings: 迷你翅膀
-        multicolored_wings: 有多种颜色的翅膀
-        multiple_wings: 多对翅膀
-        no_wings: 去掉了(原设有的)翅膀
-        winged_helmet: 带翅膀的头盔
+        bat wings: 蝙蝠翅膀
+        butterfly wings: 蝴蝶翅膀
+        black wings: 黑色之翼
+        demon wings: 恶魔之翼
+        asymmetrical wings: 不对称的翅膀
+        detached wings: 不与本体相连的翅膀
+        fairy wings: 妖精的翅膀
+        fake wings: 仿造的翅膀
+        fiery wings: 燃烧着的翅膀
+        insect wings: 昆虫翅膀
+        large wings: 大翅膀
+        low wings: 腰间的翅膀
+        mini wings: 迷你翅膀
+        multicolored wings: 有多种颜色的翅膀
+        multiple wings: 多对翅膀
+        no wings: 去掉了(原设有的)翅膀
+        winged helmet: 带翅膀的头盔
 
 - name: 服饰
   groups:
     - name: 正装
       color: rgba(230, 84, 128, .4)
       tags:
-        suit: 西装
-        tuxedo: 燕尾服
-        formal_dress: 礼服
-        evening_gown: 礼服
-        canonicals: 晚会礼服
-        cocktail_dress: 鸡尾酒连衣裙
-        gown: 女长服
-        japanese_clothes: 和服
+        # 传统正装
+        business suit: 职场制服
+        cocktail dress: 鸡尾酒连衣裙
+        evening gown: 礼服
+        formal dress: 礼服
+        wedding dress: 婚纱
+        # 亚洲传统服装
+        china dress: 旗袍
+        japanese clothes: 和服
         kimono: 和服
-        sleeveless_kimono: 无袖和服
-        short_kimono: 短和服
-        print_kimono: 印花和服
-        furisode: 振袖(和服的一部份)
-        obi: 衣带(和服用)
-        sash: 饰带
-        cheongsam: 旗袍
-        china_dress: 旗袍
-        print_cheongsam: 印花旗袍
-        pelvic_curtain: 旗袍类衣物的前摆
-        wedding_dress: 婚纱
-        uchikake: 白无垢(日式嫁衣)
-        school_uniform: 校服
-        sailor: 水手服
-        serafuku: 水手服
-        summer_uniform: 夏季制服
-        kindergarten_uniform: 幼儿园制服
-        police_uniform: 警服
-        naval_uniform: 海军制服
-        military_uniform: 陆军制服
-        ss_uniform/nazi_uniform: 纳粹制服
-        maid: 女仆装
-        stile_uniform: 女侍从的制服
-        miko: 巫女服
-        overalls: 工作服
-        business_suit: 职场制服
-        nurse: 护士
-        chef_uniform: 厨师工装
-        labcoat: 白大褂
-        cheerleader: 啦啦队服
-        band_uniform: 乐队制服
-        space_suit: 宇航服
-        leotard: 连衣裤
-        domineering: 修女服
+        pelvic curtain: 旗袍类衣物的前摆
+        print cheongsam: 印花旗袍
+        print kimono: 印花和服
+        short kimono: 短和服
+        sleeveless kimono: 无袖和服
+        # 制服类
+        band uniform: 乐队制服
+        chef uniform: 厨师工装
+        kindergarten uniform: 幼儿园制服
+        military uniform: 陆军制服
+        naval uniform: 海军制服
+        police uniform: 警服
+        school uniform: 校服
+        space suit: 宇航服
+        ss uniform/nazi uniform: 纳粹制服
+        stile uniform: 女侍从的制服
+        summer uniform: 夏季制服
 
     - name: 风格
       color: rgba(230, 84, 128, .4)
       tags:
-        china_dress: 中国服饰
-        chinese_style: 中国风
-        traditional_clothes: 传统服装|民族服装
-        japanese_clothes: 日式服装
-        hanten_(clothes): 袢缠(日式
-        hanbok: 韩服
-        korean_clothes: 朝鲜服饰
-        western: 西部风格
-        german_clothes: 德国服装
-        gothic: 哥特风格
-        lolita: 洛丽塔风格
-        gothic_lolita: 哥特洛丽塔风格
-        byzantine_fashion: 拜占庭风格
-        Tropical: 热带特征的
-        indian_style: 印度风格
-        Ao_Dai: 越南校服（奥黛）
-        ainu_clothes: 阿伊努人的服饰
-        arabian_clothes: 阿拉伯服饰
-        egyptian_clothes: 埃及风格服饰
-        costume: 套装
-        animal_costume: 动物系套装(皮套)
-        bunny_costume: 兔子服装
-        adapted_costume: 原设服装改编
-        cat_costume: 猫系服装
-        dog_costume: 皮套狗
-        bear_costume: 熊套装
-        embellished_costume: 经润饰的服装
-        santa_costume: 圣诞风格服装
-        halloween_costume: 万圣节服装
-        kourindou_tengu_costume: 香霖堂天狗装束
-        alternate_costume: 与原设不同衣服
-        costume_switch: 换衣play
-        meme_attire: 模因服装
+        # 亚洲风格
+        ainu clothes: 阿伊努人的服饰
+        chinese style: 中国风
+        japanese clothes: 日式服装
+        korean clothes: 朝鲜服饰
+        traditional clothes: 传统服装|民族服装
+        # 欧美风格
+        byzantine fashion: 拜占庭风格
+        german clothes: 德国服装
+        gothic lolita: 哥特洛丽塔风格
+        # 其他地域风格
+        arabian clothes: 阿拉伯服饰
+        egyptian clothes: 埃及风格服饰
+        indian style: 印度风格
+        # 特殊装扮
+        adapted costume: 原设服装改编
+        alternate costume: 与原设不同衣服
+        animal costume: 动物系套装(皮套)
+        bear costume: 熊套装
+        bunny costume: 兔子服装
+        cat costume: 猫系服装
+        costume switch: 换衣play
+        dog costume: 皮套狗
+        embellished costume: 经润饰的服装
+        halloween costume: 万圣节服装
+        kourindou tengu costume: 香霖堂天狗装束
+        meme attire: 模因服装
+        santa costume: 圣诞风格服装
 
     - name: 休闲装
       color: rgba(230, 84, 128, .4)
       tags:
-        casual: 休闲
-        loungewear: 休闲服
-        hoodie: 卫衣
-        homewear: 居家服
-        pajamas: 睡衣
-        nightgown: 睡衣
-        sleepwear: 睡衣
-        babydoll: 情趣睡衣
-        print_pajamas: 印花睡衣
-        polka_dot_pajamas: 波点睡衣
-        yukata: 浴衣
-        chinese_clothes: 唐装
-        hanfu: 汉服
-        Taoist robe: 道袍
-        robe: 长袍
-        robe_of_blending: 混合长袍
-        cloak: 斗篷
-        hooded_cloak: 连帽斗篷
-        winter_clothes: 冬装
+        # 居家服装
+        baby doll: 情趣睡衣
+        home wear: 居家服
+        lounge wear: 休闲服
+        night gown: 睡衣
+        polka dot pajamas: 波点睡衣
+        print pajamas: 印花睡衣
+        # 外套类
         down jacket: 羽绒服
-        santa: 圣诞装
-        harem_outfit: 舞娘服
-        shrug_(clothing): 耸肩（服装）
+        hooded cloak: 连帽斗篷
+        winter clothes: 冬装
+        # 传统服饰
+        chinese clothes: 唐装
+        harem outfit: 舞娘服
+        robe of blending: 混合长袍
+        Taoist robe: 道袍
 
     - name: 运动服
       color: rgba(230, 84, 128, .4)
       tags:
-        sportswear: 运动服
-        gym_uniform: 运动服
-        athletic_leotard: 体操服
-        tennis_uniform: 网球衫
-        baseball_uniform: 棒球服
-        letterman_jacket: 棒球夹克
-        volleyball_uniform: 排球服
-        biker_clothes: 自行车运动服
-        bikesuit: 骑行套装
-        wrestling_outfit: 摔角服
-        dougi: 武道服
+        # 一般运动服
+        athletic leotard: 体操服
+        gym uniform: 运动服
+        sport swear: 运动服
+        # 专项运动服
+        baseball uniform: 棒球服
+        biker clothes: 自行车运动服
+        bike suit: 骑行套装
+        letterman jacket: 棒球夹克
+        tennis uniform: 网球衫
+        volleyball uniform: 排球服
+        wrestling outfit: 摔角服
 
     - name: 泳装
       color: rgba(230, 84, 128, .4)
       tags:
-        swimsuit: 泳装
-        swimwear: 泳衣
-        wet_swimsuit: 湿泳衣
-        school_swimsuit: 学校泳装（死库水）
-        new_school_swimsuit: 新式死库水
-        old_school_swimsuit: 旧式死库水
-        competition_school_swimsuit: 竞泳死库水
-        competition_swimsuit: 赛用泳衣
-        casual_one-piece_swimsuit: 连体泳衣
-        front_zipper_swimsuit: 拉链在正面的泳衣
-        highleg_swimsuit: 高开衩的泳衣
-        one-piece_swimsuit: 一体式泳衣
-        swimsuit_of_perpetual_summer: 常夏的泳衣(fgo学妹灵衣)
-        bikini: 比基尼
-        highleg_bikini: 高腰比基尼
-        lowleg_bikini: 低腰比基尼
-        slingshot_swimsuit: V字泳衣
-        sailor_bikini: 水手服款比基尼
-        shell_bikini: 贝壳比基尼
-        sports_bikini: 运动比基尼
-        string_bikini: 系绳比基尼
-        strapless_bikini: 无肩带比基尼
-        side-tie_bikini: 细带款比基尼
-        front-tie_bikini_top: 前系带比基尼上衣
-        multi-strapped_bikini: 多绑带比基尼
-        thong_bikini: 丁字裤比基尼
-        front-tie_bikini: 从正面打结的比基尼
-        frilled_bikini: 花边比基尼
-        o-ring_bikini: 带O型环的比基尼
-        eyepatch_bikini: 眼罩比基尼
-        layered_bikini: 分层比基尼
-        bow_bikini: 带蝴蝶结的比基尼
-        frilled_swimsuit: 花边泳衣
-        polka_dot_swimsuit: 圆斑泳衣
-        striped_swimsuit: 条纹泳衣
-        striped_bikini: 条纹比基尼
-        plaid_bikini: 格子比基尼
-        polka_dot_bikini: 圆斑比基尼
-        print_bikini: 印花比基尼
-        american_flag_bikini: 美国国旗比基尼
-        german_flag_bikini: 德国国旗比基尼
-        impossible_swimsuit: 人体彩绘般的泳衣
-        bikini_top: 只穿着比基尼上衣
-        bikini_top_only: 仅比基尼上衣
-        bikini_top_removed: 脱下了比基尼上衣
-        bikini_bottom_only: 仅比基尼下装
-        bikini_bottom: 比基尼泳裤
-        untied_bikini: 解开的比基尼
-        bikini_aside: 从三点剥开的比基尼
-        swimsuit_aside: 把泳衣的裆部挪到一边
-        swimsuit_under_clothes: 衣服里面穿着泳衣
-        torn_swimsuit: 破损的泳衣
-        bikini_skirt: 比基尼裙
-        swim_briefs: 泳裤
-        swim_cap: 泳帽
-        swim_trunks: 泳裤
-        male_swimwear: 男用泳裤
+        # 学校泳装
+        competition school swimsuit: 竞泳死库水
+        new school swimsuit: 新式死库水
+        old school swimsuit: 旧式死库水
+        school swimsuit: 学校泳装（死库水）
+        # 连体泳装
+        casual one piece swimsuit: 连体泳衣
+        competition swimsuit: 赛用泳衣
+        front zipper swimsuit: 拉链在正面的泳衣
+        frilled swimsuit: 花边泳衣
+        highleg swimsuit: 高开衩的泳衣
+        impossible swimsuit: 人体彩绘般的泳衣
+        one piece swimsuit: 一体式泳衣
+        polka dot swimsuit: 圆斑泳衣
+        slingshot swimsuit: V字泳衣
+        striped swimsuit: 条纹泳衣
+        swimsuit aside: 把泳衣的裆部挪到一边
+        swimsuit of perpetual summer: 常夏的泳衣(fgo学妹灵衣)
+        swimsuit under clothes: 衣服里面穿着泳衣
+        torn swimsuit: 破损的泳衣
+        wet swimsuit: 湿泳衣
+        # 比基尼
+        american flag bikini: 美国国旗比基尼
+        bikini aside: 从三点剥开的比基尼
+        bikini bottom: 比基尼泳裤
+        bikini bottom only: 仅比基尼下装
+        bikini top: 只穿着比基尼上衣
+        bikini top only: 仅比基尼上衣
+        bikini top removed: 脱下了比基尼上衣
+        bow bikini: 带蝴蝶结的比基尼
+        eyepatch bikini: 眼罩比基尼
+        front tie bikini: 从正面打结的比基尼
+        front tie bikini top: 前系带比基尼上衣
+        frilled bikini: 花边比基尼
+        german flag bikini: 德国国旗比基尼
+        highleg bikini: 高腰比基尼
+        layered bikini: 分层比基尼
+        lowleg bikini: 低腰比基尼
+        multi strapped bikini: 多绑带比基尼
+        o ring bikini: 带O型环的比基尼
+        plaid bikini: 格子比基尼
+        polka dot bikini: 圆斑比基尼
+        print bikini: 印花比基尼
+        sailor bikini: 水手服款比基尼
+        shell bikini: 贝壳比基尼
+        side tie bikini: 细带款比基尼
+        sports bikini: 运动比基尼
+        strapless bikini: 无肩带比基尼
+        striped bikini: 条纹比基尼
+        string bikini: 系绳比基尼
+        thong bikini: 丁字裤比基尼
+        untied bikini: 解开的比基尼
+        # 其他泳装配件
+        male swimwear: 男用泳裤
+        swim briefs: 泳裤
+        swim cap: 泳帽
+        swim trunks: 泳裤
 
     - name: 制服
       color: rgba(230, 84, 128, .4)
       tags:
-        adapted_uniform: 改装制服
-        anzio_military_uniform: 安齐奥军服
-        anzio_school_uniform: 安齐奥校服
-        aria_company_uniform: 亚利亚公司制服
-        ashford_academy_uniform: 阿什福特学院制服
-        bc_freedom_military_uniform: BC自由学园制服
-        chaldea_uniform: 迦勒底制服
-        chi-hatan_military_uniform: 知波单学院制服
-        fleur_de_lapin_uniform: 点兔女仆装
-        garreg_mach_monastery_uniform: 加尔格·马可大修道院制服
-        gem_uniform_(houseki_no_kuni): 宝石之国的制服
-        hanasakigawa_school_uniform: 花咲川女子学园
-        hikarizaka_private_high_school_uniform: 私立光坂高等学校校服
-        homurahara_academy_uniform: 穗群原学园制服
-        kamiyama_high_school_uniform: 神山高中校服
-        keizoku_military_uniform: 继续高中军服
-        kita_high_school_uniform: 北高中制服
-        kiyosumi_school_uniform: 清澄高中校服
-        luna_nova_school_uniform: 鲁纳诺娃魔法学校校服
-        meiji_schoolgirl_uniform: 明治女学生制服
-        mitakihara_school_uniform: 见泷原中学校制服
-        nami_junior_high_school_uniform: 波路中学校服
-        nanairogaoka_middle_school_uniform: 七色丘中学校服
-        nanamori_school_uniform: 七森中学校服
-        naoetsu_high_school_uniform: 私立直江津高校制服
-        national_shin_ooshima_school_uniform: 新大岛学园校服
-        ooarai_military_uniform: 大洗联队军装
-        ooarai_school_uniform: 大洗联队校服
-        otonokizaka_school_uniform: 国立音乃木坂学院女子制服
-        paradis_military_uniform: 帕拉迪岛军装
-        polar_chaldea_uniform: 极地迦勒底制服
-        pravda_military_uniform: 真理学院军装
-        pravda_school_uniform: 真理学院校服
-        rabbit_house_uniform: 点兔兔之家制服
-        raimon_soccer_uniform: 雷门足球队服
-        ryouou_school_uniform: 陵樱学园制服
-        sailor_senshi_uniform: 美少女战士制服
-        sakugawa_school_uniform: 栅川中学校服
-        sakuragaoka_high_school_uniform: 樱丘女子高等学校校服
-        saunders_military_uniform: 桑德斯军装
-        saunders_school_uniform: 桑德斯附高校服
-        seishou_elementary_school_uniform: 圣祥大附小学校校服
-        shinda_sekai_sensen_uniform: 死后世界战线制服
-        shuuchiin_academy_uniform: 秀知院学园制服
-        shuujin_academy_uniform: 秀尽学院制服
-        st._gloriana's_military_uniform: 圣葛罗莉安娜军装
-        st._gloriana's_school_uniform: 圣葛罗莉安娜女学园校服
-        starlight_academy_uniform: 星光学园制服
-        tokisadame_school_uniform: 时定高校校服
-        tokiwadai_school_uniform: 常盘台中学校服
-        tomoeda_elementary_school_uniform: 友枝小学校服
-        tsab_ground_military_uniform: 时空管理局军服
-        u.a._school_uniform: 雄英高中校服
-        uranohoshi_school_uniform: 浦之星女学院校服
-        yasogami_school_uniform: 八十神高中校服
-        mismatched_bikini: 双色比基尼
-        multicolored_bikini: 多色款比基尼
+        adapted uniform: 改装制服
+        anzio military uniform: 安齐奥军服
+        anzio school uniform: 安齐奥校服
+        aria company uniform: 亚利亚公司制服
+        ashford academy uniform: 阿什福特学院制服
+        bc freedom military uniform: BC自由学园制服
+        chaldea uniform: 迦勒底制服
+        chi-hatan military uniform: 知波单学院制服
+        fleur de lapin uniform: 点兔女仆装
+        garreg mach monastery uniform: 加尔格·马可大修道院制服
+        gem uniform \(houseki no kuni\): 宝石之国的制服
+        hanasakigawa school uniform: 花咲川女子学园
+        hikarizaka private high school uniform: 私立光坂高等学校校服
+        homurahara academy uniform: 穗群原学园制服
+        kamiyama high school uniform: 神山高中校服
+        keizoku military uniform: 继续高中军服
+        kita high school uniform: 北高中制服
+        kiyosumi school uniform: 清澄高中校服
+        luna nova school uniform: 鲁纳诺娃魔法学校校服
+        meiji schoolgirl uniform: 明治女学生制服
+        mitakihara school uniform: 见泷原中学校制服
+        nami junior high school uniform: 波路中学校服
+        nanairogaoka middle school uniform: 七色丘中学校服
+        nanamori school uniform: 七森中学校服
+        naoetsu high school uniform: 私立直江津高校制服
+        national shin ooshima school uniform: 新大岛学园校服
+        ooarai military uniform: 大洗联队军装
+        ooarai school uniform: 大洗联队校服
+        otonokizaka school uniform: 国立音乃木坂学院女子制服
+        paradis military uniform: 帕拉迪岛军装
+        polar chaldea uniform: 极地迦勒底制服
+        pravda military uniform: 真理学院军装
+        pravda school uniform: 真理学院校服
+        rabbit house uniform: 点兔兔之家制服
+        raimon soccer uniform: 雷门足球队服
+        ryouou school uniform: 陵樱学园制服
+        sailor senshi uniform: 美少女战士制服
+        sakugawa school uniform: 栅川中学校服
+        sakuragaoka high school uniform: 樱丘女子高等学校校服
+        saunders military uniform: 桑德斯军装
+        saunders school uniform: 桑德斯附高校服
+        seishou elementary school uniform: 圣祥大附小学校校服
+        shinda sekai sensen uniform: 死后世界战线制服
+        shuuchiin academy uniform: 秀知院学园制服
+        shuujin academy uniform: 秀尽学院制服
+        st. gloriana's military uniform: 圣葛罗莉安娜军装
+        st. gloriana's school uniform: 圣葛罗莉安娜女学园校服
+        starlight academy uniform: 星光学园制服
+        tokisadame school uniform: 时定高校校服
+        tokiwadai school uniform: 常盘台中学校服
+        tomoeda elementary school uniform: 友枝小学校服
+        tsab ground military uniform: 时空管理局军服
+        u.a. school uniform: 雄英高中校服
+        uranohoshi school uniform: 浦之星女学院校服
+        yasogami school uniform: 八十神高中校服
+        mismatched bikini: 双色比基尼
+        multicolored bikini: 多色款比基尼
 
     - name: 上衣
       color: rgba(230, 84, 128, .4)
       tags:
         blouse: 女式衬衫
-        white_shirt: 白衬衫
-        collared_shirt: 有领衬衫
-        dress_shirt: 西服衬衫
-        sailor_shirt: 水手服衬衫
-        cropped_shirt: 短衬衫
+        white shirt: 白衬衫
+        collared shirt: 有领衬衫
+        dress shirt: 西服衬衫
+        sailor shirt: 水手服衬衫
+        cropped shirt: 短衬衫
         t-shirt: T恤
         casual T-shirts: 日常T恤
         short sleeve T-shirts: 短袖T恤
-        off-shoulder_shirt: 露肩衬衫(搭肩衫)
-        shrug_(clothing): 包肩上衣
+        off-shoulder shirt: 露肩衬衫(搭肩衫)
+        shrug \(clothing\): 包肩上衣
         cardigan: 开襟毛衣衫
-        criss-cross_halter: 交叉吊带衫
-        frilled_shirt: 褶边衬衫
+        criss-cross halter: 交叉吊带衫
+        frilled shirt: 褶边衬衫
         sweatshirt: 长袖运动卫衣
-        hawaiian_shirt: 夏威夷衫
+        hawaiian shirt: 夏威夷衫
         hoodie: 连帽衫
         Impossible shirt: 贴合程度不合逻辑的衬衫
         kappougi: (烹饪时穿的)罩衫
-        plaid_shirt: 格子衬衫
-        polo_shirt: 马球衫
-        print_shirt: 印花衬衫
+        plaid shirt: 格子衬衫
+        polo shirt: 马球衫
+        print shirt: 印花衬衫
         shirt: 衬衫
-        sleeveless_hoodie: 无袖连帽衫
-        sleeveless_shirt: 无袖衬衫
-        striped_shirt: 条纹衬衫
-        tank_top: 背心(居家)
+        sleeveless hoodie: 无袖连帽衫
+        sleeveless shirt: 无袖衬衫
+        striped shirt: 条纹衬衫
+        tank top: 背心(居家)
         vest: 背心(正式)
         waistcoat: 背心(正式)
         camisole: 吊帶背心(小可愛)
-        tied_shirt: 系带衬衫(把衣角和下擺打结)
+        tied shirt: 系带衬衫(把衣角和下擺打结)
         undershirt: 汗衫
-        crop_top: 截短上衣
+        crop top: 截短上衣
         highleg: 高开衩的衣物
-        clothing_cutout: 衣服漏洞
-        back_cutout: 露背上衣
-        cleavage_cutout: 乳沟处开洞
-        navel_cutout: 肚脐开洞
+        clothing cutout: 衣服漏洞
+        back cutout: 露背上衣
+        cleavage cutout: 乳沟处开洞
+        navel cutout: 肚脐开洞
         midriff: 露腰上衣
-        heart_cutout: 心形开口
-        torn_clothes: 撕裂的衣服
-        torn_shirt: 撕裂的衬衫
+        heart cutout: 心形开口
+        torn clothes: 撕裂的衣服
+        torn shirt: 撕裂的衬衫
         undressing: 脱衣服中
-        clothes_down: 褪下衣物
-        shirt_lift: 掀起衬衫
-        shirt_pull: 衬衫拉下来
-        shirt_tucked_in: 衬衫塞进去
-        clothes_tug: 拖拽衣服
-        shirt_tug: 拖拽衬衫
-        untucked_shirt: 解开的衬衫
-        lifted_by_self: 掀自己衣服
+        clothes down: 褪下衣物
+        shirt lift: 掀起衬衫
+        shirt pull: 衬衫拉下来
+        shirt tucked in: 衬衫塞进去
+        clothes tug: 拖拽衣服
+        shirt tug: 拖拽衬衫
+        untucked shirt: 解开的衬衫
+        lifted by self: 掀自己衣服
         untied: 掀自己衣服
-        open_clothes: 敞开的衣服
+        open clothes: 敞开的衣服
         unbuttoned shirt: 解开纽扣的衬衫
-        button_gap: 纽扣之间的缝隙(没解开
-        partially_unbuttoned: 解开部分纽扣
-        partially_unzipped: 拉开上部分拉链
-        clothes_removed: 脱下的衣服
-        shirt_removed: 脱下衬衫
-        wardrobe_error: 衣服滑落
-        undersized_clothes: 穿衣方式错了
+        button gap: 纽扣之间的缝隙(没解开
+        partially unbuttoned: 解开部分纽扣
+        partially unzipped: 拉开上部分拉链
+        clothes removed: 脱下的衣服
+        shirt removed: 脱下衬衫
+        wardrobe error: 衣服滑落
+        undersized clothes: 穿衣方式错了
         tight: 衣物紧紧的
         wedgie: 嵌入(拉裆部衣物所致)
-        wardrobe_malfunction: 衣服出了意外(如崩开)
-        taut_shirt: 绷紧的衬衫
-        taut_clothes: 绷紧的衣服
+        wardrobe malfunction: 衣服出了意外(如崩开)
+        taut shirt: 绷紧的衬衫
+        taut clothes: 绷紧的衣服
         underbust: 勒出下胸围
-        oversized_clothes: 过大号的衣服
-        oversized_shirt: 过大号衬衫
-        borrowed_garments: 男友的衣服
-        strap_slip: 衣物吊带滑落(导致走光)
-        wet_shirt: 湿衬衫
-        clothes_theft: 偷衣服
+        oversized clothes: 过大号的衣服
+        oversized shirt: 过大号衬衫
+        borrowed garments: 男友的衣服
+        strap slip: 衣物吊带滑落(导致走光)
+        wet shirt: 湿衬衫
+        clothes theft: 偷衣服
 
     - name: 外套
       color: rgba(230, 84, 128, .4)
@@ -1122,32 +1052,32 @@
         blazer: 西装外套
         overcoat: 大衣
         double-breasted: 双排纽扣(双排扣
-        long_coat: 长外套
+        long coat: 长外套
         haori: 一种宽上衣
-        winter_coat: 冬季大衣
-        hooded_coat: 连帽大衣
-        fur_coat: 皮草大衣
-        fur-trimmed_coat: 镶边皮草大衣
-        duffel_coat: 粗呢大衣
-        fishnet_top: 渔网上衣
+        winter coat: 冬季大衣
+        hooded coat: 连帽大衣
+        fur coat: 皮草大衣
+        fur-trimmed coat: 镶边皮草大衣
+        duffel coat: 粗呢大衣
+        fishnet top: 渔网上衣
         parka: 派克大衣
         jacket: 夹克衫
-        jacket_partially_removed: 夹克部分移除
-        jacket_removed: 夹克被移除
-        open_jacket: 开襟夹克(配合spread_legs)
-        cropped_jacket: 短款夹克
-        track_jacket: 运动夹克
-        hooded_track_jacket: 连帽运动夹克
-        military_jacket: 军装夹克
-        camouflage_jacket: 迷彩夹克
-        leather_jacket: 皮夹克
-        letterman_jacket: 莱特曼夹克
-        bomber_jacket: 飞行员夹克
-        denim_jacket: 牛仔夹克
-        loating_jacket: 休闲夹克
-        fur-trimmed_jacket: 毛皮边饰夹克
-        two-tone_jacket: 两色夹克
-        trench_coat: 风衣
+        jacket partially removed: 夹克部分移除
+        jacket removed: 夹克被移除
+        open jacket: 开襟夹克(配合spread legs)
+        cropped jacket: 短款夹克
+        track jacket: 运动夹克
+        hooded track jacket: 连帽运动夹克
+        military jacket: 军装夹克
+        camouflage jacket: 迷彩夹克
+        leather jacket: 皮夹克
+        letterman jacket: 莱特曼夹克
+        bomber jacket: 飞行员夹克
+        denim jacket: 牛仔夹克
+        loating jacket: 休闲夹克
+        fur-trimmed jacket: 毛皮边饰夹克
+        two-tone jacket: 两色夹克
+        trench coat: 风衣
         furisode: 振袖(和服的一部份)
         windbreaker: 冲锋衣
         raincoat: 雨衣
@@ -1155,42 +1085,42 @@
         tunic: 束腰外衣
         cape: 披肩
         capelet: 披肩
-        winter_clothes: 冬装
+        winter clothes: 冬装
         sweater: 毛衣
-        pullover_sweaters: 套頭毛衣
-        ribbed_sweater: 罗纹毛衣
-        sweater_vest: 毛衣背心
-        backless_sweater: 露背毛衣
-        aran_sweater: 爱尔兰毛衣
-        beige_sweater: 米色毛衣
-        brown_sweater: 棕色毛衣
-        hooded_sweater: 连帽毛衣
-        off-shoulder_sweater: 露肩毛衣
-        striped_sweater: 条纹毛衣
-        virgin_killer_sweater: 处男杀手毛衣
-        down_jacket: 羽绒服
-        puffer_jacket: 羽绒服
+        pullover sweaters: 套頭毛衣
+        ribbed sweater: 罗纹毛衣
+        sweater vest: 毛衣背心
+        backless sweater: 露背毛衣
+        aran sweater: 爱尔兰毛衣
+        beige sweater: 米色毛衣
+        brown sweater: 棕色毛衣
+        hooded sweater: 连帽毛衣
+        off-shoulder sweater: 露肩毛衣
+        striped sweater: 条纹毛衣
+        virgin killer sweater: 处男杀手毛衣
+        down jacket: 羽绒服
+        puffer jacket: 羽绒服
 
     - name: 其他
       color: rgba(230, 84, 128, .4)
       tags:
         transparent: 透明的
-        burnt_clothes: 烧焦的衣服
-        dissolving_clothes: 溶解掉的衣服
-        dirty_clothes: 弄脏的衣服
-        expressive_clothes: 富有表现力的衣服
-        impossible_clothes: 有不现实的包裹程度的衣服
-        living_clothes: 活体衣服
-        leotard_under_clothes: 内层穿着连衣裤
-        multicolored_clothes: 多色款衣服
-        ofuda_on_clothes: 衣服上贴着符纸
-        wringing_clothes: 拧干衣服
+        burnt clothes: 烧焦的衣服
+        dissolving clothes: 溶解掉的衣服
+        dirty clothes: 弄脏的衣服
+        expressive clothes: 富有表现力的衣服
+        impossible clothes: 有不现实的包裹程度的衣服
+        living clothes: 活体衣服
+        leotard under clothes: 内层穿着连衣裤
+        multicolored clothes: 多色款衣服
+        ofuda on clothes: 衣服上贴着符纸
+        wringing clothes: 拧干衣服
         clothesline: 晒衣服
-        shiny_clothes: 有光泽的衣服
+        shiny clothes: 有光泽的衣服
         kariginu: 狩衣
-        front-tie_top: 从正面打结的衣物
-        jacket_on_shoulders: 用夹克披肩
-        short_jumpsuit: 短裤腿连体衣
+        front-tie top: 从正面打结的衣物
+        jacket on shoulders: 用夹克披肩
+        short jumpsuit: 短裤腿连体衣
         harness: 背带；挽具
         rigging: 舰装
         aiguillette: 肩带
@@ -1199,13 +1129,13 @@
       color: rgba(230, 84, 128, .4)
       tags:
         apron: 围裙
-        waist_apron: 腰围裙
-        maid_apron: 女仆围裙
+        waist apron: 腰围裙
+        maid apron: 女仆围裙
         bow tied at the waist: 系在前腰的蝴蝶结
-        waist_cape: 穿在腰部的小披风
-        clothes_around_waist: 腰间衣服
-        jacket_around_waist: 腰围夹克
-        sweater_around_waist: 围腰毛衣
+        waist cape: 穿在腰部的小披风
+        clothes around waist: 腰间衣服
+        jacket around waist: 腰围夹克
+        sweater around waist: 围腰毛衣
         loincloth: 缠腰布
         bustier: 胸衣
         corset: 束腰(马甲)
@@ -1215,166 +1145,166 @@
       color: rgba(230, 84, 128, .4)
       tags:
         armor: 盔甲
-        bikini_armor: 比基尼盔甲
-        full_armor: 穿着全套盔甲的
-        plate_armor: 板甲
-        japanese_armor: 日本铠甲
+        bikini armor: 比基尼盔甲
+        full armor: 穿着全套盔甲的
+        plate armor: 板甲
+        japanese armor: 日本铠甲
         kusazuri: 腹当|草摺(日式下半盔甲
-        power_armor: 动力装甲
+        power armor: 动力装甲
         mecha: 机甲
         helmet: 头盔
         kabuto: 头盔(日式)
-        off-shoulder_armor: 無肩甲盔甲
-        shoulder_armor: 肩甲
+        off-shoulder armor: 無肩甲盔甲
+        shoulder armor: 肩甲
         muneate: 日本弓道護胸甲
         breastplate: 胸甲
         faulds: 腹甲
         greaves: 胫甲
-        shin_guards: 胫甲
-        armored_boots: 装甲靴
+        shin guards: 胫甲
+        armored boots: 装甲靴
 
     - name: 裙子
       color: rgba(230, 84, 128, .4)
       tags:
         dress: 连衣裙
         microdress: 微型连衣裙
-        long_dress: 长连衣裙
-        off-shoulder_dress: 露肩连衣裙
-        strapless_dress: 无肩带连衣裙
-        backless_dress: 露背连衣裙
-        halter_dress: 绕颈露背吊带裙
+        long dress: 长连衣裙
+        off-shoulder dress: 露肩连衣裙
+        strapless dress: 无肩带连衣裙
+        backless dress: 露背连衣裙
+        halter dress: 绕颈露背吊带裙
         sundress: 吊帶連衣裙（大熱天穿的無袖連衣裙）
-        sleeveless_dress: 无袖连衣裙
-        sailor_dress: 水手服款裙子
-        summer_dress: 夏日长裙
-        china_dress: 中国服饰
-        pinafore_dress: 围裙连衣裙
-        sweater_dress: 围裙连衣裙
-        wedding_dress: 婚纱
-        armored_dress: 战甲裙
-        frilled_dress: 花边连衣裙
-        lace-trimmed_dress: 蕾丝边连衣裙
-        collared_dress: 有领连衣裙
-        fur-trimmed_dress: 毛皮镶边连衣裙
-        layered_dress: 分层连衣裙
-        pleated_dress: 百褶连衣裙
-        taut_dress: 绷紧的连衣裙
-        pencil_dress: 铅笔裙
-        impossible_dress: 过分紧身的衣服
-        multicolored_dress: 多色款连衣裙
-        striped_dress: 条纹连衣裙
-        checkered_skirt: 格子裙
-        plaid_dress: 格子连衣裙
-        ribbed_dress: 罗纹连衣裙
-        polka_dot_dress: 波点连衣裙
-        print_dress: 印花连衣裙
-        vertical-striped_dress: 竖条纹连衣裙
-        see-through_dress: 透视连衣裙
+        sleeveless dress: 无袖连衣裙
+        sailor dress: 水手服款裙子
+        summer dress: 夏日长裙
+        china dress: 中国服饰
+        pinafore dress: 围裙连衣裙
+        sweater dress: 围裙连衣裙
+        wedding dress: 婚纱
+        armored dress: 战甲裙
+        frilled dress: 花边连衣裙
+        lace-trimmed dress: 蕾丝边连衣裙
+        collared dress: 有领连衣裙
+        fur-trimmed dress: 毛皮镶边连衣裙
+        layered dress: 分层连衣裙
+        pleated dress: 百褶连衣裙
+        taut dress: 绷紧的连衣裙
+        pencil dress: 铅笔裙
+        impossible dress: 过分紧身的衣服
+        multicolored dress: 多色款连衣裙
+        striped dress: 条纹连衣裙
+        checkered skirt: 格子裙
+        plaid dress: 格子连衣裙
+        ribbed dress: 罗纹连衣裙
+        polka dot dress: 波点连衣裙
+        print dress: 印花连衣裙
+        vertical-striped dress: 竖条纹连衣裙
+        see-through dress: 透视连衣裙
         skirt: 短裙
         microskirt: 超短裙
         miniskirt: 迷你裙
-        skirt_suit: 正装短裙
-        bikini_skirt: 比基尼裙
-        pleated_skirt: 百褶裙
-        pencil_skirt: 短铅笔裙
-        bubble_skirt: 蓬蓬裙
+        skirt suit: 正装短裙
+        bikini skirt: 比基尼裙
+        pleated skirt: 百褶裙
+        pencil skirt: 短铅笔裙
+        bubble skirt: 蓬蓬裙
         tutu: 芭蕾舞裙
         ballgown: 蓬蓬裙(禮服)
         pettiskirt: 蓬蓬裙(兒童)
-        showgirl_skirt: 展会女郎装束
+        showgirl skirt: 展会女郎装束
         Medium length skirt: 中等长裙子
         beltskirt: 皮带裙
-        denim_skirt: 牛仔裙
-        suspender_skirt: 吊带裙
-        skirt_set: 与上衣搭配的短裙
-        long_skirt: 长裙
-        summer_long_skirt: 夏日长裙
+        denim skirt: 牛仔裙
+        suspender skirt: 吊带裙
+        skirt set: 与上衣搭配的短裙
+        long skirt: 长裙
+        summer long skirt: 夏日长裙
         overskirt: 外裙
-        hakama_skirt: 袴裙
-        high-waist_skirt: 高腰裙
-        kimono_skirt: 和服裙
-        suspender_long_skirt: 背带裙;吊带裙
-        chiffon_skirt: 雪紡裙
-        frilled_skirt: 花边裙子
-        fur-trimmed_skirt: 毛皮镶边短裙
-        lace_skirt: 蕾絲短裙
-        lace-trimmed_skirt: 蕾丝边短裙
-        ribbon-trimmed_skirt: 缎带饰边短裙
-        layered_skirt: 分层的半裙
-        print_skirt: 印花短裙
-        multicolored_skirt: 多色款裙子
-        striped_skirt: 条纹裙
-        vertical-striped_skirt: 竖条纹裙子
-        plaid_skirt: 格子呢短裙
-        flared_skirt: 伞裙
-        floral_skirt: 碎花裙
+        hakama skirt: 袴裙
+        high-waist skirt: 高腰裙
+        kimono skirt: 和服裙
+        suspender long skirt: 背带裙;吊带裙
+        chiffon skirt: 雪紡裙
+        frilled skirt: 花边裙子
+        fur-trimmed skirt: 毛皮镶边短裙
+        lace skirt: 蕾絲短裙
+        lace-trimmed skirt: 蕾丝边短裙
+        ribbon-trimmed skirt: 缎带饰边短裙
+        layered skirt: 分层的半裙
+        print skirt: 印花短裙
+        multicolored skirt: 多色款裙子
+        striped skirt: 条纹裙
+        vertical-striped skirt: 竖条纹裙子
+        plaid skirt: 格子呢短裙
+        flared skirt: 伞裙
+        floral skirt: 碎花裙
 
     - name: 与裙子互动
       color: rgba(230, 84, 128, .4)
       tags:
-        skirt_hold: 优雅地提着裙子
-        skirt_tug: 扯住裙摆|按住裙摆
-        dress_tug: 压住裙摆
-        skirt_lift: 掀起裙子
-        skirt_around_one_leg: 一条腿上挂着短裙
-        skirt_removed: 脱下的短裙
-        dress_removed: 脱下裙子
-        open_skirt: 敞开的裙子
+        skirt hold: 优雅地提着裙子
+        skirt tug: 扯住裙摆|按住裙摆
+        dress tug: 压住裙摆
+        skirt lift: 掀起裙子
+        skirt around one leg: 一条腿上挂着短裙
+        skirt removed: 脱下的短裙
+        dress removed: 脱下裙子
+        open skirt: 敞开的裙子
 
     - name: 裤子
       color: rgba(230, 84, 128, .4)
       tags:
-        dress_bow: 连衣裙上的蝴蝶结
-        dressing_another: 着装
-        shorts_under_skirt: 短裙里穿着短裤
-        side_slit: 侧开衩
+        dress bow: 连衣裙上的蝴蝶结
+        dressing another: 着装
+        shorts under skirt: 短裙里穿着短裤
+        side slit: 侧开衩
         shorts: 短裤
-        micro_shorts: 小尺寸短裤
-        short_shorts: 热裤
-        hot_pants: 热裤
+        micro shorts: 小尺寸短裤
+        short shorts: 热裤
+        hot pants: 热裤
         cutoffs: 热裤
-        striped_shorts: 条纹短裤
-        suspender_shorts: 吊带短裤
-        denim_shorts: 牛仔短裤
-        puffy_shorts: 蓬蓬的短裤
-        dolphin_shorts: 海豚短褲(真理褲)
-        dolfin_shorts: 海豚短褲(真理褲)
-        tight_pants: 紧身裤/运动裤
-        crotchless_pants: 无裆裤（紧身）
-        track_pants: 运动裤
-        yoga_pants: 瑜伽裤
-        bike_shorts: 自行车短裤
-        gym_shorts: 体操短裤
+        striped shorts: 条纹短裤
+        suspender shorts: 吊带短裤
+        denim shorts: 牛仔短裤
+        puffy shorts: 蓬蓬的短裤
+        dolphin shorts: 海豚短褲(真理褲)
+        dolfin shorts: 海豚短褲(真理褲)
+        tight pants: 紧身裤/运动裤
+        crotchless pants: 无裆裤（紧身）
+        track pants: 运动裤
+        yoga pants: 瑜伽裤
+        bike shorts: 自行车短裤
+        gym shorts: 体操短裤
         pants: 长裤
-        puffy_pants: 蓬松裤/宽松裤
-        pumpkin_pants: 南瓜裤
-        hakama_pants: 袴裤
-        harem_pants: 哈伦裤
+        puffy pants: 蓬松裤/宽松裤
+        pumpkin pants: 南瓜裤
+        hakama pants: 袴裤
+        harem pants: 哈伦裤
         bloomers: 灯笼裤
         buruma: 女式灯笼裤
         jeans: 牛仔裤
-        cargo_pants: 工装裤
-        camouflage_pants: 迷彩裤
-        capri_pants: 七分裤
+        cargo pants: 工装裤
+        camouflage pants: 迷彩裤
+        capri pants: 七分裤
         chaps: 皮套裤(上宽下窄
         jumpsuit: (尤指女式)连衫裤
-        lowleg_pants: 低腰裤子
-        plaid_pants: 格子呢裤子
-        single_pantsleg: 单边长裤
-        striped_pants: 条纹裤
+        lowleg pants: 低腰裤子
+        plaid pants: 格子呢裤子
+        single pantsleg: 单边长裤
+        striped pants: 条纹裤
 
     - name: 与裤子互动
       color: rgba(230, 84, 128, .4)
       tags:
-        asymmetrical_legwear: 不对称的裤子
-        leotard_aside: 把连衣裤裆部剥到一边
-        open_fly: 解开的裤子拉链
-        pants_down: 褪下裤子
-        pants_rolled_up: 裤子卷起来
-        pants_tucked_in: 裤子塞进去
-        torn_jeans: 破损的牛仔裤
-        torn_pants: 破损的裤子
-        torn_shorts: 破损的短裤
+        asymmetrical legwear: 不对称的裤子
+        leotard aside: 把连衣裤裆部剥到一边
+        open fly: 解开的裤子拉链
+        pants down: 褪下裤子
+        pants rolled up: 裤子卷起来
+        pants tucked in: 裤子塞进去
+        torn jeans: 破损的牛仔裤
+        torn pants: 破损的裤子
+        torn shorts: 破损的短裤
 
     - name: 袜子
       color: rgba(230, 84, 128, .4)
@@ -1386,78 +1316,78 @@
         thighhighs: 长筒袜(过膝高筒袜)
         kneehighs: 中筒袜
         socks: 短袜
-        bare_legs: 裸腿
-        black_bodystocking: 连体黑丝
-        white_bodystocking: 连体白丝
-        stocking_under_clothes: 衣服下的袜子
-        black_pantyhose: 黑丝裤袜
-        white_pantyhose: 白丝裤袜
-        thighband_pantyhose: 有腿环的裤袜
+        bare legs: 裸腿
+        black bodystocking: 连体黑丝
+        white bodystocking: 连体白丝
+        stocking under clothes: 衣服下的袜子
+        black pantyhose: 黑丝裤袜
+        white pantyhose: 白丝裤袜
+        thighband pantyhose: 有腿环的裤袜
         pantylines: 紧致的裤袜(勾勒出线条
-        single_leg_pantyhose: 单边穿着连裤袜
-        panties_under_pantyhose: 裤袜里的内裤
+        single leg pantyhose: 单边穿着连裤袜
+        panties under pantyhose: 裤袜里的内裤
         fishnets: 网袜(材质)
-        stirrup_legwear: 渔网袜
-        toeless_legwear: 露趾袜
-        mismatched_legwear: 双色裤袜
-        two-tone_legwear: 双色裤袜
-        asymmetrical_legwear: 不对称裤袜
-        uneven_legwear: 长短袜
-        white_thighhighs: 白色长筒袜
-        black_thighhighs: 黑色长筒袜
-        pink_thighhighs: 粉色长筒袜
+        stirrup legwear: 渔网袜
+        toeless legwear: 露趾袜
+        mismatched legwear: 双色裤袜
+        two-tone legwear: 双色裤袜
+        asymmetrical legwear: 不对称裤袜
+        uneven legwear: 长短袜
+        white thighhighs: 白色长筒袜
+        black thighhighs: 黑色长筒袜
+        pink thighhighs: 粉色长筒袜
         suspenders: 吊带袜
-        garter_straps: 腰带(吊带袜的)
-        torn_legwear: 破损的裤袜
-        torn_thighhighs: 损坏了的长筒袜
-        see-through_legwear_: 透明的袜子
-        frilled_legwear: 花边袜
-        lace-trimmed_legwear: 蕾边袜丝
-        seamed_legwear: 有接缝的袜
-        back-seamed_legwear: 中间有一条黑线的袜子
-        animal_ear_legwear: 动物耳朵过膝袜
-        striped_legwear: 横条纹袜
-        vertical-striped_legwear: 竖条纹袜
-        polka_dot_legwear: 圆斑袜
-        print_legwear: 印花袜
-        legwear_under_shorts: 短裤穿在袜子外
+        garter straps: 腰带(吊带袜的)
+        torn legwear: 破损的裤袜
+        torn thighhighs: 损坏了的长筒袜
+        see-through legwear: 透明的袜子
+        frilled legwear: 花边袜
+        lace-trimmed legwear: 蕾边袜丝
+        seamed legwear: 有接缝的袜
+        back-seamed legwear: 中间有一条黑线的袜子
+        animal ear legwear: 动物耳朵过膝袜
+        striped legwear: 横条纹袜
+        vertical-striped legwear: 竖条纹袜
+        polka dot legwear: 圆斑袜
+        print legwear: 印花袜
+        legwear under shorts: 短裤穿在袜子外
         over-kneehighs: 过膝袜
-        bobby_socks: 鲍比袜(白短袜)
+        bobby socks: 鲍比袜(白短袜)
         tabi: 日式厚底短袜(足袋)
-        loose_socks: 泡泡袜
-        ankle_socks: 踝袜
-        leg_warmers: 腿套|暖腿袜
-        single_sock: 单短袜
-        striped_socks: 横条短袜
+        loose socks: 泡泡袜
+        ankle socks: 踝袜
+        leg warmers: 腿套|暖腿袜
+        single sock: 单短袜
+        striped socks: 横条短袜
 
     - name: 与袜子互动
       color: rgba(230, 84, 128, .4)
       tags:
-        leg_cutout: 袜子有开口
-        thighhighs_under_boots: 靴子穿在袜子外面
-        adjusting_legwear: 整理裤袜
-        pantyhose_pull: 褪下的裤袜
-        socks_removed: 脱袜子
-        sock_pull: 拉着袜子(短袜
-        thighhighs_pull: 拉着袜子(长袜
+        leg cutout: 袜子有开口
+        thighhighs under boots: 靴子穿在袜子外面
+        adjusting legwear: 整理裤袜
+        pantyhose pull: 褪下的裤袜
+        socks removed: 脱袜子
+        sock pull: 拉着袜子(短袜
+        thighhighs pull: 拉着袜子(长袜
 
     - name: 其他
       color: rgba(230, 84, 128, .4)
       tags:
         garters: 袜带
-        leg_garter: 腿环|袜带
-        garter_straps: 吊带袜的吊带
-        thigh_strap: 大腿绑带
-        thigh_ribbon: 大腿缎带
-        leg_ribbon: 腿锻带
-        bandaid_on_leg: 腿上的绷带
-        bandaged_leg: 包扎过的腿
-        ankle_lace-up: 脚踝系带
-        thigh_holster: 大腿皮套
-        bandaid_on_knee: 膝盖上的创可贴
-        argyle_legwear: 含菱形花纹的裤袜
-        bow_legwear: 带蝴蝶结的裤袜
-        arm_garter: 手臂袜带
+        leg garter: 腿环|袜带
+        garter straps: 吊带袜的吊带
+        thigh strap: 大腿绑带
+        thigh ribbon: 大腿缎带
+        leg ribbon: 腿锻带
+        bandaid on leg: 腿上的绷带
+        bandaged leg: 包扎过的腿
+        ankle lace-up: 脚踝系带
+        thigh holster: 大腿皮套
+        bandaid on knee: 膝盖上的创可贴
+        argyle legwear: 含菱形花纹的裤袜
+        bow legwear: 带蝴蝶结的裤袜
+        arm garter: 手臂袜带
 
     - name: 材质
       color: rgba(230, 84, 128, .4)
@@ -1477,313 +1407,313 @@
       color: rgba(230, 84, 128, .4)
       tags:
         frilled: 褶边
-        center_frills: 中心褶花边
+        center frills: 中心褶花边
         crease: 起皱的(有褶的)
         layered: 分层的
         lace: 蕾丝
-        fur_trim: 皮草饰边
+        fur trim: 皮草饰边
         fur-trimmed: 毛边的
-        fine_fabric_emphasis: 材质增强
-        latex_thighhighs: 乳胶材质的长筒袜
-        see-through_thighhighs: 透明的长筒袜
-        ass_cutout: 露出屁股的服饰
-        asymmetrical_clothes: 不对称的服饰
-        back_bow: (服饰)打在背后的结
-        costume_switch: 服饰互换
-        cross-laced_clothes: 交叉花边服饰
-        double_vertical_stripe: 服饰上有两条平行条纹
-        halter_top: 吊带式的上身的服饰
-        multicolored_legwear: 多色款腿部服饰
-        navy_blue_legwear: 海军蓝腿部服饰
-        nontraditional_miko: 改款过的日本服饰
-        side_cutout: 侧边开口的服饰
-        side_slit: 侧面有缝的服饰
-        sideless_outfit: 侧面没有布料的服饰
-        single_kneehigh: 单边穿着过膝服饰
-        single_vertical_stripe: 露出单边服饰上的垂直条纹
+        fine fabric emphasis: 材质增强
+        latex thighhighs: 乳胶材质的长筒袜
+        see-through thighhighs: 透明的长筒袜
+        ass cutout: 露出屁股的服饰
+        asymmetrical clothes: 不对称的服饰
+        back bow: (服饰)打在背后的结
+        costume switch: 服饰互换
+        cross-laced clothes: 交叉花边服饰
+        double vertical stripe: 服饰上有两条平行条纹
+        halter top: 吊带式的上身的服饰
+        multicolored legwear: 多色款腿部服饰
+        navy blue legwear: 海军蓝腿部服饰
+        nontraditional miko: 改款过的日本服饰
+        side cutout: 侧边开口的服饰
+        side slit: 侧面有缝的服饰
+        sideless outfit: 侧面没有布料的服饰
+        single kneehigh: 单边穿着过膝服饰
+        single vertical stripe: 露出单边服饰上的垂直条纹
         turtleneck: 高领服饰
-        two-sided_fabric: 双层样式的服饰画法
+        two-sided fabric: 双层样式的服饰画法
         o-ring: 带O型环的衣物
-        o-ring_top: 带O型环的上衣
-        fringe_trim: 须边(围巾末端
-        loose_belt: 松散的带子(衣物)
-        pom_pom_(clothes): 小绒球(衣物挂件)
+        o-ring top: 带O型环的上衣
+        fringe trim: 须边(围巾末端
+        loose belt: 松散的带子(衣物)
+        pom pom \(clothes\): 小绒球(衣物挂件)
         drawstring: 衣服的抽绳
-        full-length_zipper: 有整件衣物长的拉链
+        full-length zipper: 有整件衣物长的拉链
         gathers: 褶裥(衣物)
         gusset: 缝在衣服上衬料
-        breast_pocket: 胸口的袋子
+        breast pocket: 胸口的袋子
 
     - name: 花纹
       color: rgba(230, 84, 128, .4)
       tags:
         argyle: 阿盖尔菱形花纹
         checkered: 格子花纹
-        colored_stripes: 多彩条纹
-        diagonal_stripes: 斜条纹
-        horizontal_stripes: 水平条纹
-        multicolored_stripes: 多彩条纹
-        polka_dot_: 点装纹
+        colored stripes: 多彩条纹
+        diagonal stripes: 斜条纹
+        horizontal stripes: 水平条纹
+        multicolored stripes: 多彩条纹
+        polka dot: 点装纹
         ribbed: 棱纹
         striped: 横条纹
-        unmoving_pattern: 连续重复花纹
-        vertical_stripes: 竖条纹
+        unmoving pattern: 连续重复花纹
+        vertical stripes: 竖条纹
         plaid: 格子呢图案
-        animal_print: 动物印花
-        cat_print: 猫咪印花
-        bear_print: 熊印花
-        bird_print: 鸟印花
-        bunny_print: 兔子印花
-        cow_print: 奶牛印花
-        dragon_print: 龙印花
-        fish_print: 鱼印花
-        frog_print: 青蛙印花
-        shark_print: 鲨鱼印花
-        snake_print: 蛇纹
-        zebra_print: 斑马印花
-        tiger_print: 虎纹
-        leopard_print: 豹纹
-        jaguar_print: 美洲豹印花
-        bat_print: 蝙蝠印花
-        aardwolf_print: 土狼印花
-        african_wild_dog_print: 非洲野狗印花
-        cheetah_print: 猎豹印花
-        dog_print: 狗印花
-        fox_print: 狐狸印花
-        giraffe_print: 长颈鹿印花
-        panda_print: 熊猫印花
-        sand_cat_print: 沙猫印花
-        whale_print: 鲸鱼印花
-        white_tiger_print: 白虎纹
-        goldfish_print: 金鱼印花
-        wing_print: 翼印
-        spider_web_print: 蛛网纹
-        butterfly_print: 蝴蝶印花
-        floral_print: 碎花
-        leaf_print: 叶印花
-        clover_print: 三叶草印花
-        maple_leaf_print: 枫叶印花
-        rose_print: 玫瑰印花
-        strawberry_print: 草莓印花
-        cherry_print: 樱桃印花
-        bamboo_print: 竹印花
-        carrot_print: 胡萝卜印花
-        hibiscus_print: 芙蓉印花
-        jack-o'-lantern_print: 南瓜灯印花
-        petal_print: 花瓣印花
-        sunflower_print: 向日葵印花
-        watermelon_print: 西瓜印花
-        sky_print: 天空印花
-        cloud_print: 云印花
-        lightning_bolt_print: 闪电印花
-        rainbow_print: 彩虹印花
-        snowflake_print: 雪花印花
-        starry_sky_print: 星空印花
-        crescent_print: 新月印花
-        star_print: 星形印花
-        star_(symbol): 星形符号
-        moon_print: 月亮印花
-        sun_print: 太阳印花
-        character_print: 字符印花
-        clothes_writing_: 衣服上的字
-        anchor_print: 锚印花
-        cherry_blossom_print: 樱花印花
-        musical_note_print: 音符印花
-        triangle_print: 三角印花
-        arrow_print: 箭头打印
-        wave_print: 波浪纹
-        peace_symbol: ☮(东方仗助衣服上有)
-        heart_print: 心形图案|心形印花
-        flame_print: 火焰印花
-        hitodama_print: 鬼火印花
-        paw_print: 爪印花
-        skeleton_print: 骨架印花
-        skull_print: 骷髅头印花
-        sparkle_print: 闪闪发光的印花
-        yin_yang_print: 阴阳印花
-        cross_print: 十字架元素图案
+        animal print: 动物印花
+        cat print: 猫咪印花
+        bear print: 熊印花
+        bird print: 鸟印花
+        bunny print: 兔子印花
+        cow print: 奶牛印花
+        dragon print: 龙印花
+        fish print: 鱼印花
+        frog print: 青蛙印花
+        shark print: 鲨鱼印花
+        snake print: 蛇纹
+        zebra print: 斑马印花
+        tiger print: 虎纹
+        leopard print: 豹纹
+        jaguar print: 美洲豹印花
+        bat print: 蝙蝠印花
+        aardwolf print: 土狼印花
+        african wild dog print: 非洲野狗印花
+        cheetah print: 猎豹印花
+        dog print: 狗印花
+        fox print: 狐狸印花
+        giraffe print: 长颈鹿印花
+        panda print: 熊猫印花
+        sand cat print: 沙猫印花
+        whale print: 鲸鱼印花
+        white tiger print: 白虎纹
+        goldfish print: 金鱼印花
+        wing print: 翼印
+        spider web print: 蛛网纹
+        butterfly print: 蝴蝶印花
+        floral print: 碎花
+        leaf print: 叶印花
+        clover print: 三叶草印花
+        maple leaf print: 枫叶印花
+        rose print: 玫瑰印花
+        strawberry print: 草莓印花
+        cherry print: 樱桃印花
+        bamboo print: 竹印花
+        carrot print: 胡萝卜印花
+        hibiscus print: 芙蓉印花
+        jack-o'-lantern print: 南瓜灯印花
+        petal print: 花瓣印花
+        sunflower print: 向日葵印花
+        watermelon print: 西瓜印花
+        sky print: 天空印花
+        cloud print: 云印花
+        lightning bolt print: 闪电印花
+        rainbow print: 彩虹印花
+        snowflake print: 雪花印花
+        starry sky print: 星空印花
+        crescent print: 新月印花
+        star print: 星形印花
+        star (symbol): 星形符号
+        moon print: 月亮印花
+        sun print: 太阳印花
+        character print: 字符印花
+        clothes writing: 衣服上的字
+        anchor print: 锚印花
+        cherry blossom print: 樱花印花
+        musical note print: 音符印花
+        triangle print: 三角印花
+        arrow print: 箭头打印
+        wave print: 波浪纹
+        peace symbol: ☮(东方仗助衣服上有)
+        heart print: 心形图案|心形印花
+        flame print: 火焰印花
+        hitodama print: 鬼火印花
+        paw print: 爪印花
+        skeleton print: 骨架印花
+        skull print: 骷髅头印花
+        sparkle print: 闪闪发光的印花
+        yin yang print: 阴阳印花
+        cross print: 十字架元素图案
         camoflage: 迷彩
-        flag_print: 旗帜印花
-        bone_print: 骨印花
-        ghost_print: 幽灵印画
-        mushroom_print: 蘑菇印花
-        onigiri_print: 饭团打印
-        cat_ear: 猫耳造型
-        cat_ear_cutout: 猫耳造型镂空
+        flag print: 旗帜印花
+        bone print: 骨印花
+        ghost print: 幽灵印画
+        mushroom print: 蘑菇印花
+        onigiri print: 饭团打印
+        cat ear: 猫耳造型
+        cat ear cutout: 猫耳造型镂空
 
     - name: 鞋子
       color: rgba(230, 84, 128, .4)
       tags:
         barefoot: 赤脚
-        no_shoes: 没有鞋子
-        shoes_removed: 脱下的鞋子
-        single_shoe: 单鞋
-        the_only_shoe: 单鞋
-        black_loafers: 乐福鞋(小皮鞋)
+        no shoes: 没有鞋子
+        shoes removed: 脱下的鞋子
+        single shoe: 单鞋
+        the only shoe: 单鞋
+        black loafers: 乐福鞋(小皮鞋)
         shoes: 运动鞋
         uwabaki: 室内鞋
-        platform_footwear: 厚底鞋
-        high_heels: 高跟鞋
-        stiletto_heels: 细跟高跟鞋
-        strappy_heels: 带束带的高跟鞋
-        platform_heels_: 厚底高跟鞋
-        rudder_footwear: 舰C舰娘专用鞋
+        platform footwear: 厚底鞋
+        high heels: 高跟鞋
+        stiletto heels: 细跟高跟鞋
+        strappy heels: 带束带的高跟鞋
+        platform heels: 厚底高跟鞋
+        rudder footwear: 舰C舰娘专用鞋
         sandals: 凉鞋
-        barefoot_sandals: 裸足凉鞋
-        clog_sandals: 木屐凉鞋
+        barefoot sandals: 裸足凉鞋
+        clog sandals: 木屐凉鞋
         geta: 木屐
         slippers: 拖鞋
         skates: 溜冰鞋
-        roller_skates: 旱冰鞋
-        animal_feet: 动物脚
-        animal_slippers: 动物拖鞋
+        roller skates: 旱冰鞋
+        animal feet: 动物脚
+        animal slippers: 动物拖鞋
         anklet: 脚环
         shackles: 镣铐
-        brown_footwear: 棕色鞋类
-        cross-laced_footwear: 交叉系带鞋
+        brown footwear: 棕色鞋类
+        cross-laced footwear: 交叉系带鞋
         loafers: 乐福鞋
-        mary_janes: 珍妮鞋
-        mismatched_footwear: 双色鞋子
-        pointy_footwear: 尖头鞋
+        mary janes: 珍妮鞋
+        mismatched footwear: 双色鞋子
+        pointy footwear: 尖头鞋
         pumps: 低胸装高跟鞋打扮
-        sandals_removed: 脱下凉鞋
-        shoe_soles: 鞋底
+        sandals removed: 脱下凉鞋
+        shoe soles: 鞋底
         shoelaces: 鞋带
         sneakers: 运动鞋
-        winged_footwear: 带翅膀的鞋子
+        winged footwear: 带翅膀的鞋子
         zouri: 日式草鞋
 
     - name: 靴子
       color: rgba(230, 84, 128, .4)
       tags:
         boots: 靴子
-        boots_removed: 脱下的靴子
-        thigh_boots: 大腿靴
-        knee_boots: 及膝靴(马靴)
-        cross-laced_footwear: 系带靴
-        ankle_boots: 踝靴
-        high_heel_boots: 高跟靴
-        toeless_boots: 露趾靴
-        lace-up_boots: 系带靴
-        fur-trimmed_boots: 毛边靴子
-        snow_boots: 雪地靴
+        boots removed: 脱下的靴子
+        thigh boots: 大腿靴
+        knee boots: 及膝靴(马靴)
+        cross-laced footwear: 系带靴
+        ankle boots: 踝靴
+        high heel boots: 高跟靴
+        toeless boots: 露趾靴
+        lace-up boots: 系带靴
+        fur-trimmed boots: 毛边靴子
+        snow boots: 雪地靴
         anklet: 脚链
-        rubber_boots: 胶靴
-        santa_boots: 圣诞靴
-        leather_boots: 皮靴
-        thighhighs_under_boots: 靴子下的长筒袜
-        combat_boots: 作战靴
-        doc_martens: 马丁靴
-        rain_boots: 雨靴
-        belt_boots: 皮带靴
-        fur_boots: 矮跟休闲皮草靴
-        single_boot: 一只脚没穿靴子
+        rubber boots: 胶靴
+        santa boots: 圣诞靴
+        leather boots: 皮靴
+        thighhighs under boots: 靴子下的长筒袜
+        combat boots: 作战靴
+        doc martens: 马丁靴
+        rain boots: 雨靴
+        belt boots: 皮带靴
+        fur boots: 矮跟休闲皮草靴
+        single boot: 一只脚没穿靴子
 
     - name: 鞋底
       color: rgba(230, 84, 128, .4)
       tags:
-        shoe_soles: 鞋底
-        arched_soles: 拱形鞋底
-        paw_print_soles: 爪印鞋底
+        shoe soles: 鞋底
+        arched soles: 拱形鞋底
+        paw print soles: 爪印鞋底
         horseshoe: 马蹄铁
         
     - name: 领口
       color: rgba(230, 84, 128, .4)
       tags:
-        sailor_collar: 水手领
-        fur_collar: 毛皮衣领
-        frilled_collar: 花边衣领
-        popped_collar: 竖起来的衣领
+        sailor collar: 水手领
+        fur collar: 毛皮衣领
+        frilled collar: 花边衣领
+        popped collar: 竖起来的衣领
         choker: 颈部饰品
-        black_choker: 黑色颈圈
-        belt_collar: 皮带颈环
-        frilled_choker: 褶边项链
+        black choker: 黑色颈圈
+        belt collar: 皮带颈环
+        frilled choker: 褶边项链
         neckerchief: 领巾
-        red_neckerchief: 红领巾
+        red neckerchief: 红领巾
         necktie: 领带
-        short_necktie: 短领带
-        white_necktie: 白色领带
+        short necktie: 短领带
+        white necktie: 白色领带
         bowtie: 蝴蝶结领带
-        headphones_around_neck: 挂在脖子上的耳机
-        goggles_around_neck: 脖子上护目镜
-        neck_bell: 颈铃
-        neck_ruff: 领口
+        headphones around neck: 挂在脖子上的耳机
+        goggles around neck: 脖子上护目镜
+        neck bell: 颈铃
+        neck ruff: 领口
         v-neck: V领
-        towel_around_neck: 脖子上的毛巾
-        loose_necktie: 宽松领带
-        neck_tattoo: 颈部纹身
+        towel around neck: 脖子上的毛巾
+        loose necktie: 宽松领带
+        neck tattoo: 颈部纹身
         ascot: 领巾状宽领带
-        ribbon_choker: 颈丝带
+        ribbon choker: 颈丝带
         maebari/pasties: 阴贴/乳贴
         latex: 乳贴
-        torn_clothes: 破烂衣服
-        iron_cross: 铁十字勋章
-        chinese_knot: 中国结
-        cross_necklace: 十字架项链
-        bead_necklace: 珠子项链
-        pearl_necklace: 珍珠项链
-        heart_necklace: 心形项链
-        carrot_necklace: 胡萝卜项链
-        chain_necklace: 锁链项链
-        magatama_necklace: 珠玉项链
-        tooth_necklace: 牙项链
-        key_necklace: 钥匙项链
-        anchor_necklace: 锚项链
-        skull_necklace: 骷髅项链
-        shell_necklace: 贝壳项链
-        gold_necklace: 金项链
-        crescent_necklace: 新月项链
-        ring_necklace: 戒指项链
-        feather_necklace: 羽毛项链
-        bone_necklace: 骨项链
-        ankh_necklace: 十字项链
-        multiple_necklaces: 多条项链
-        bullet_necklace: 子弹项链
-        holding_necklace: 拿着项链
-        necklace_removed: 项链被移除
-        brown_neckwear: 棕色领饰
-        checkered_neckwear: 格子领口
-        diagonal-striped_neckwear: 斜纹领结
+        torn clothes: 破烂衣服
+        iron cross: 铁十字勋章
+        chinese knot: 中国结
+        cross necklace: 十字架项链
+        bead necklace: 珠子项链
+        pearl necklace: 珍珠项链
+        heart necklace: 心形项链
+        carrot necklace: 胡萝卜项链
+        chain necklace: 锁链项链
+        magatama necklace: 珠玉项链
+        tooth necklace: 牙项链
+        key necklace: 钥匙项链
+        anchor necklace: 锚项链
+        skull necklace: 骷髅项链
+        shell necklace: 贝壳项链
+        gold necklace: 金项链
+        crescent necklace: 新月项链
+        ring necklace: 戒指项链
+        feather necklace: 羽毛项链
+        bone necklace: 骨项链
+        ankh necklace: 十字项链
+        multiple necklaces: 多条项链
+        bullet necklace: 子弹项链
+        holding necklace: 拿着项链
+        necklace removed: 项链被移除
+        brown neckwear: 棕色领饰
+        checkered neckwear: 格子领口
+        diagonal-striped neckwear: 斜纹领结
         halterneck: 绕颈系带
-        mole_on_neck: 脖子上有痣
+        mole on neck: 脖子上有痣
         neck: 脖子
-        neck_ribbon: 颈部系着缎带
-        neck_ring: 颈环
+        neck ribbon: 颈部系着缎带
+        neck ring: 颈环
         necklace: 项链
-        plaid_neckwear: 格子呢领子
-        plunging_neckline: 深领
-        print_neckwear: 印花领带
-        sleeveless_turtleneck: 无袖高领毛衣
-        star_necklace: 星形项链
-        striped_neckwear: 条纹领子
-        turtleneck_sweater: 高领毛衣
-        undone_necktie: 解开领带
-        whistle_around_neck: 脖子上挂着口哨
+        plaid neckwear: 格子呢领子
+        plunging neckline: 深领
+        print neckwear: 印花领带
+        sleeveless turtleneck: 无袖高领毛衣
+        star necklace: 星形项链
+        striped neckwear: 条纹领子
+        turtleneck sweater: 高领毛衣
+        undone necktie: 解开领带
+        whistle around neck: 脖子上挂着口哨
 
     - name: 围巾
       color: rgba(230, 84, 128, .4)
       tags:
-        plaid_scarf: 格子围巾
-        striped_scarf: 条纹围巾
-        print_scarf: 印花围巾
-        vertical-striped_scarf: 竖条纹围巾
-        polka_dot_scarf: 波点围巾
-        argyle_scarf: 菱形围巾
-        beige_scarf: 米色围巾
-        scarf_bow: 围巾蝴蝶结
-        fur_scarf: 皮草围巾
-        naked_scarf: 裸围巾
-        multicolored_scarf: 五彩围巾
-        floating_scarf: 漂浮围巾
-        long_scarf: 长围巾
-        arm_scarf: 手臂围巾
-        scarf_on_head: 头上的围巾
-        scarf_over_mouth: 围巾在嘴上
-        scarf_removed: 围巾被取下
-        adjusting_scarf: 调整围巾
-        holding_scarf: 拿着围巾
-        scarf_pull: 扯围巾
-        brown_scarf: 棕色围巾
+        plaid scarf: 格子围巾
+        striped scarf: 条纹围巾
+        print scarf: 印花围巾
+        vertical-striped scarf: 竖条纹围巾
+        polka dot scarf: 波点围巾
+        argyle scarf: 菱形围巾
+        beige scarf: 米色围巾
+        scarf bow: 围巾蝴蝶结
+        fur scarf: 皮草围巾
+        naked scarf: 裸围巾
+        multicolored scarf: 五彩围巾
+        floating scarf: 漂浮围巾
+        long scarf: 长围巾
+        arm scarf: 手臂围巾
+        scarf on head: 头上的围巾
+        scarf over mouth: 围巾在嘴上
+        scarf removed: 围巾被取下
+        adjusting scarf: 调整围巾
+        holding scarf: 拿着围巾
+        scarf pull: 扯围巾
+        brown scarf: 棕色围巾
         scarf: 围巾
 
     - name: 眼镜
@@ -1792,101 +1722,101 @@
         glasses: 眼镜
         eyewear: 眼睛
         monocle: 单片眼镜
-        under-rim_eyewear: 带框眼镜
-        rimless_eyewear: 无框眼镜
-        semi-rimless_eyewear: 半无框眼镜
-        red-framed_eyewear: 红框眼镜
-        round_eyewear: 圆框眼镜
-        black-framed_eyewear: 黑框眼镜
-        tinted_eyewear: 有色眼镜
-        medical_eyepatch: 医用眼罩
-        bandage_over_one_eye: 用绷带包扎一只眼睛
-        crooked_eyewear: 歪斜的眼镜
-        eyewear_removed: 取下眼镜
+        under-rim eyewear: 带框眼镜
+        rimless eyewear: 无框眼镜
+        semi-rimless eyewear: 半无框眼镜
+        red-framed eyewear: 红框眼镜
+        round eyewear: 圆框眼镜
+        black-framed eyewear: 黑框眼镜
+        tinted eyewear: 有色眼镜
+        medical eyepatch: 医用眼罩
+        bandage over one eye: 用绷带包扎一只眼睛
+        crooked eyewear: 歪斜的眼镜
+        eyewear removed: 取下眼镜
         sunglasses: 太阳镜
         goggles: 风镜
         Blindfold: 眼罩
         eyepatch: 眼罩(独眼)
         visor: 面罩|遮阳帽舌|遮阳板
         bespectacled: 戴眼镜的
-        blue-framed_eyewear: 蓝框眼镜
-        brown-framed_eyewear: 棕色镜框眼镜
-        coke-bottle_glasses: 厚如玻璃瓶底的圆眼镜
-        no_eyewear: 去掉了(原设有的)眼镜
-        opaque_glasses: 没透出眼睛的眼镜
-        over-rim_eyewear: 下半无框眼镜
+        blue-framed eyewear: 蓝框眼镜
+        brown-framed eyewear: 棕色镜框眼镜
+        coke-bottle glasses: 厚如玻璃瓶底的圆眼镜
+        no eyewear: 去掉了(原设有的)眼镜
+        opaque glasses: 没透出眼睛的眼镜
+        over-rim eyewear: 下半无框眼镜
 
     - name: 面具
       color: rgba(230, 84, 128, .4)
       tags:
         mask: 面具
-        half_mask: 半面罩
+        half mask: 半面罩
         masked: 蒙面
-        mask_lift: 抬起面罩
-        mask_on_head: 掀到头上的面具
-        mask_removed: 摘下的面具
-        mouth_mask: 口罩
-        surgical_mask: 医用口罩
-        plague_doctor_mask: 瘟疫医生口罩
-        gas_mask: 防毒面具
+        mask lift: 抬起面罩
+        mask on head: 掀到头上的面具
+        mask removed: 摘下的面具
+        mouth mask: 口罩
+        surgical mask: 医用口罩
+        plague doctor mask: 瘟疫医生口罩
+        gas mask: 防毒面具
         visor: 面甲
         helmet: 头盔
-        fox_mask: 狐狸面具
-        diving_mask: 潜水面罩
-        diving_mask_on_head: 头戴式潜水面罩
-        oni_mask: 鬼面具
-        tengu_mask: 天狗面具
-        ninja_mask: 忍者面具
-        skull_mask: 骷髅面具
-        hockey_mask: 曲棍球面具
-        bird_mask: 鸟面具
-        stone_mask: 石鬼面
-        horse_mask: 马面具
-        masquerade_mask: 化妆舞会面具
-        domino_mask: SM面具
+        fox mask: 狐狸面具
+        diving mask: 潜水面罩
+        diving mask on head: 头戴式潜水面罩
+        oni mask: 鬼面具
+        tengu mask: 天狗面具
+        ninja mask: 忍者面具
+        skull mask: 骷髅面具
+        hockey mask: 曲棍球面具
+        bird mask: 鸟面具
+        stone mask: 石鬼面
+        horse mask: 马面具
+        masquerade mask: 化妆舞会面具
+        domino mask: SM面具
 
     - name: 手臂
       color: rgba(230, 84, 128, .4)
       tags:
-        long_sleeves: 长袖
-        short_sleeves: 短袖
-        wide_sleeves: 宽袖
+        long sleeves: 长袖
+        short sleeves: 短袖
+        wide sleeves: 宽袖
         furisode: 振袖
-        detached_sleeves: 分离式袖子
-        single_sleeve: 单袖
+        detached sleeves: 分离式袖子
+        single sleeve: 单袖
         sleeveless: 无袖
-        asymmetrical_sleeves: 不对称袖子
-        puffy_sleeves: 蓬松的袖子
-        puffy_long_sleeves: 蓬蓬长袖
-        puffy_short_sleeves: 蓬蓬短袖
-        frilled_sleeves: 褶袖边
-        juliet_sleeves: 朱丽叶袖
-        bandaged_arm: 绷带手臂
-        raglan_sleeves: 插肩袖
+        asymmetrical sleeves: 不对称袖子
+        puffy sleeves: 蓬松的袖子
+        puffy long sleeves: 蓬蓬长袖
+        puffy short sleeves: 蓬蓬短袖
+        frilled sleeves: 褶袖边
+        juliet sleeves: 朱丽叶袖
+        bandaged arm: 绷带手臂
+        raglan sleeves: 插肩袖
         vambraces: 下臂护甲
-        layered_sleeves: 分层袖子
-        fur-trimmed_sleeves: 毛边袖子
-        see-through_sleeves: 透明袖子
-        torn_sleeves: 撕裂的袖子
-        sleeves_past_fingers: 袖子过指
-        sleeves_past_wrists: 袖子过腕
-        sleeves_past_elbows: 袖子过肘
-        sleeves_pushed_up: 袖子上推
-        arm_out_of_sleeve: 袖子里的手臂
-        uneven_sleeves: 不均匀的袖子
-        mismatched_sleeves: 不匹配的袖子
-        sleeve_rolled_up: 袖子卷起
-        sleeves_rolled_up: 单只袖子卷起
-        feather-trimmed_sleeves: 羽毛装饰的袖子
-        hands_in_opposite_sleeves: 双手交叉伸进袖子里
-        lace-trimmed_sleeves: 蕾丝边袖子
-        pinching_sleeves: 掐袖子
-        puffy_detached_sleeves: 蓬蓬的袖子
-        ribbed_sleeves: 棱纹袖子
-        single_detached_sleeve: 单边没脱掉的袖子
-        sleeves_folded_up: 叠起来的袖子
-        striped_sleeves: 条纹袖子
-        wrist_cuffs: 和袖子分开的手腕的袖口
+        layered sleeves: 分层袖子
+        fur-trimmed sleeves: 毛边袖子
+        see-through sleeves: 透明袖子
+        torn sleeves: 撕裂的袖子
+        sleeves past fingers: 袖子过指
+        sleeves past wrists: 袖子过腕
+        sleeves past elbows: 袖子过肘
+        sleeves pushed up: 袖子上推
+        arm out of sleeve: 袖子里的手臂
+        uneven sleeves: 不均匀的袖子
+        mismatched sleeves: 不匹配的袖子
+        sleeve rolled up: 袖子卷起
+        sleeves rolled up: 单只袖子卷起
+        feather-trimmed sleeves: 羽毛装饰的袖子
+        hands in opposite sleeves: 双手交叉伸进袖子里
+        lace-trimmed sleeves: 蕾丝边袖子
+        pinching sleeves: 掐袖子
+        puffy detached sleeves: 蓬蓬的袖子
+        ribbed sleeves: 棱纹袖子
+        single detached sleeve: 单边没脱掉的袖子
+        sleeves folded up: 叠起来的袖子
+        striped sleeves: 条纹袖子
+        wrist cuffs: 和袖子分开的手腕的袖口
         armband: 袖章(臂带)
         armlet: 臂镯
 
@@ -1895,315 +1825,314 @@
       tags:
         bandage: 绷带
         leash: 皮带
-        arm_tattoo: 手臂纹身
-        number_tattoo: 数字文身
-        bead_bracelet: 珠子手链
+        arm tattoo: 手臂纹身
+        number tattoo: 数字文身
+        bead bracelet: 珠子手链
         bracelet: 手镯
-        flower_bracelet: 花手镯
-        spiked_bracelet: 带钉手镯
-        wrist_cuffs: 腕饰
+        flower bracelet: 花手镯
+        spiked bracelet: 带钉手镯
+        wrist cuffs: 腕饰
         wristband: 腕带
         bracer: 护腕
         cuffs: 袖口
-        bound_wrists: 绑定手腕
-        wrist_scrunchie: 手腕发圈
+        bound wrists: 绑定手腕
+        wrist scrunchie: 手腕发圈
         handcuffs: 手铐
         shackles: 手铐
         chains: 锁链
-        chain_leash: 锁链带牵绳
+        chain leash: 锁链带牵绳
 
     - name: 手套
       color: rgba(230, 84, 128, .4)
       tags:
         gloves: 手套
-        gloves_removed: 脱下手套
-        no_gloves: 去掉了(原设有的)手套
-        single_glove: 单只手套
-        single_elbow_glove: 单手戴着过肘的手套
-        long_gloves: 长手套
-        elbow_gloves: 长袖手套（肘部手套）
-        bridal_gauntlets: 新娘手套
-        half_gloves: 很短的手套|半截手套
-        fingerless_gloves: 露指手套
-        partially_fingerless_gloves: 部分露指手套
-        paw_gloves: 爪子手套(分指手套)
+        gloves removed: 脱下手套
+        no gloves: 去掉了(原设有的)手套
+        single glove: 单只手套
+        single elbow glove: 单手戴着过肘的手套
+        long gloves: 长手套
+        elbow gloves: 长袖手套（肘部手套）
+        bridal gauntlets: 新娘手套
+        half gloves: 很短的手套|半截手套
+        fingerless gloves: 露指手套
+        partially fingerless gloves: 部分露指手套
+        paw gloves: 爪子手套(分指手套)
         mittens: 连指手套(两指手套)
-        baseball_mitt: 棒球手套
-        fur-trimmed_gloves: 毛边手套
-        latex_gloves: 乳胶手套
-        lace-trimmed_gloves: 蕾丝边手套
-        leather_gloves: 皮手套
-        frilled_gloves: 花边手套
-        mismatched_gloves: 双色手套
-        multicolored_gloves: 多色款手套
-        asymmetrical_gloves: 不对称的手套
-        brown_gloves: 棕色手套
-        oven_mitts: 隔热手套
-        print_gloves: 印花手套
-        striped_gloves: 条纹手套
-        torn_gloves: 破损的手套
+        baseball mitt: 棒球手套
+        fur-trimmed gloves: 毛边手套
+        latex gloves: 乳胶手套
+        lace-trimmed gloves: 蕾丝边手套
+        leather gloves: 皮手套
+        frilled gloves: 花边手套
+        mismatched gloves: 双色手套
+        multicolored gloves: 多色款手套
+        asymmetrical gloves: 不对称的手套
+        brown gloves: 棕色手套
+        oven mitts: 隔热手套
+        print gloves: 印花手套
+        striped gloves: 条纹手套
+        torn gloves: 破损的手套
 
     - name: 耳饰
       color: rgba(230, 84, 128, .4)
       tags:
-        cross_earrings: 十字耳环
-        crystal_earrings: 水晶耳环
+        cross earrings: 十字耳环
+        crystal earrings: 水晶耳环
         earrings: 耳环
-        flower_earrings: 花耳环
-        heart_earrings: 心形耳环
-        hoop_earrings: 环状耳环
-        multiple_earrings: 多个耳环
-        pill_earrings: 药丸样式的耳环
-        single_earring: 只一边戴着耳环
-        skull_earrings: 骷髅耳环
-        star_earrings: 星形耳环
+        flower earrings: 花耳环
+        heart earrings: 心形耳环
+        hoop earrings: 环状耳环
+        multiple earrings: 多个耳环
+        pill earrings: 药丸样式的耳环
+        single earring: 只一边戴着耳环
+        skull earrings: 骷髅耳环
+        star earrings: 星形耳环
 
     - name: 头饰
       color: rgba(230, 84, 128, .4)
       tags:
         halo: 光环
-        mechanical_halo: 机械光环
+        mechanical halo: 机械光环
         headwear: 头饰
         headpiece: 头饰
-        headwear_removed: 头饰已移除
-        head_wreath: 头花环
+        headwear removed: 头饰已移除
+        head wreath: 头花环
         crown: 皇冠
-        mini_crown: 迷你皇冠
+        mini crown: 迷你皇冠
         tiara: 头冠
         diadem: 同上
-        tilted_headwear: 倾斜的头饰
-        head_fins: 头鳍
-        maid_headdress: 女仆头饰
-        bridal_veil: 新娘头纱
+        tilted headwear: 倾斜的头饰
+        head fins: 头鳍
+        maid headdress: 女仆头饰
+        bridal veil: 新娘头纱
         headband: 头带
         helmet: 头盔
-        alternate_headwear: 与原设不同的头饰
-        fur-trimmed_headwear: 毛边头饰
-        goggles_on_headwear: 帽子上的护目镜
+        alternate headwear: 与原设不同的头饰
+        fur-trimmed headwear: 毛边头饰
+        goggles on headwear: 帽子上的护目镜
         earphones: 耳机
         earmuffs: 耳罩
-        ears_through_headwear: 耳朵穿过头饰
-        xx_on_head: xx在头上
-        leaf_on_head: 头上的叶子
+        ears through headwear: 耳朵穿过头饰
+        xx on head: xx在头上
+        leaf on head: 头上的叶子
         topknot: 纂
         suigintou: 水银头
-        triangular_headpiece: 三角头饰
-        forehead_protector: 护额
-        radio_antenna: 天线
-        animal_hood: 兽耳头罩
-        arrow_(symbol): 箭头
+        triangular headpiece: 三角头饰
+        forehead protector: 护额
+        radio antenna: 天线
+        animal hood: 兽耳头罩
+        arrow (symbol): 箭头
         axe: 斧头
         bald: 秃头
         bandana: 头巾
-        bob_cut: 波波头
+        bob cut: 波波头
         bone: 骨头
-        bowl_cut: 锅盖头
+        bowl cut: 锅盖头
         circlet: 头冠
-        double_bun: 团子头
-        double_dildo: 双头假阴茎
+        double bun: 团子头
+        double dildo: 双头假阴茎
         drill: 钻头
         faucet: 水龙头
         hachimaki: 扎头巾(名词)
-        hair_behind_ear: 耳后有头发
-        hair_bell: 头发上系着铃铛
-        hair_bun: 发髻|团子头
-        hair_down: 披下来的头发
-        hair_flaps: 在摆动的头发
-        hair_flip: 拨头发
-        hair_flower: 头发上别着花
-        hair_spread_out: 散开的头发
-        hair_up: 盘起来的头发
+        hair behind ear: 耳后有头发
+        hair bell: 头发上系着铃铛
+        hair bun: 发髻|团子头
+        hair down: 披下来的头发
+        hair flaps: 在摆动的头发
+        hair flip: 拨头发
+        hair flower: 头发上别着花
+        hair spread out: 散开的头发
+        hair up: 盘起来的头发
         helm: 戴着头盔的
-        helmet_removed: 摘下头盔|被摘下的头盔
-        horned_helmet: 带角头盔
-        japari_bun: 加帕里馒头
+        helmet removed: 摘下头盔|被摘下的头盔
+        horned helmet: 带角头盔
+        japari bun: 加帕里馒头
         kerchief: 方头巾
-        mami_mogu_mogu: 麻美断头梗
-        mob_cap: 头巾式室内女帽
-        one_side_up: 只扎了一边的头发
+        mami mogu mogu: 麻美断头梗
+        mob cap: 头巾式室内女帽
+        one side up: 只扎了一边的头发
         owl: 猫头鹰
         pier: 突码头
         pillow: 枕头
-        raised_fist: 举起的拳头
-        skull_and_crossbones: 头骨和交叉的骨头
+        raised fist: 举起的拳头
+        skull and crossbones: 头骨和交叉的骨头
         stone: 石头
         turban: 穆斯林头巾
-        twin_drills: 双钻头发型
+        twin drills: 双钻头发型
         updo: 头发往上蜷的发型
-        wet_hair: 湿头发
+        wet hair: 湿头发
         headdress: 头部穿戴物(偏笼统)
-        adjusting_headwear: 整理头饰
-        bear_hair_ornament: 熊印花头饰
-        brown_headwear: 棕色头饰
-        horned_headwear: 角状头饰
-        horns_through_headwear: 为角留了洞的头饰
-        no_headwear: 去掉了(原设有的)头饰
-        object_on_head: 头上有非头饰类的物体
-        print_headwear: 印花头饰
-        bone_hair_ornament: 骨头状饰品
-        bunny_hair_ornament: 兔子饰品
-        horn_ornament: 角上有饰物
-        animal_on_head: 头上有动物
-        behind-the-head_headphones: 从后脑戴上的耳机
-        bird_on_head: 头上的鸟
-        cat_ear_headphones: 猫耳式耳机
-        cat_on_head: 头上趴着猫
-        eyewear_on_head: 眼镜别在头上
+        adjusting headwear: 整理头饰
+        bear hair ornament: 熊印花头饰
+        brown headwear: 棕色头饰
+        horned headwear: 角状头饰
+        horns through headwear: 为角留了洞的头饰
+        no headwear: 去掉了(原设有的)头饰
+        object on head: 头上有非头饰类的物体
+        print headwear: 印花头饰
+        bone hair ornament: 骨头状饰品
+        bunny hair ornament: 兔子饰品
+        horn ornament: 角上有饰物
+        animal on head: 头上有动物
+        behind-the-head headphones: 从后脑戴上的耳机
+        bird on head: 头上的鸟
+        cat ear headphones: 猫耳式耳机
+        cat on head: 头上趴着猫
+        eyewear on head: 眼镜别在头上
         forehead: 额头
-        forehead_jewel: 额前有宝石
-        forehead_kiss: 亲吻额头
-        forehead_mark: 额前有图案
+        forehead jewel: 额前有宝石
+        forehead kiss: 亲吻额头
+        forehead mark: 额前有图案
         forehead-to-forehead: 额头贴额头
-        goggles_on_head: 头上别着护目镜
+        goggles on head: 头上别着护目镜
         head: 头
-        head_bump: 头上起包
-        head_down: 低着头
-        head_mounted_display: 戴着头戴显示设备
-        head_out_of_frame: 一部分头部没画进框里
-        head_rest: 枕着头|托着头
-        head_tilt: 歪着头
-        head_wings: 头上有翅膀
+        head bump: 头上起包
+        head down: 低着头
+        head mounted display: 戴着头戴显示设备
+        head rest: 枕着头|托着头
+        head tilt: 歪着头
+        head wings: 头上有翅膀
         headgear: 头部饰品(含一定科幻元素)
         headphones: 耳机
-        heads-up_display: 状态条(游戏和科幻风格)
+        heads-up display: 状态条(游戏和科幻风格)
         headset: 头戴式耳机
-        inter_headset: EVA神经连接器
-        on_head: 在头上
-        person_on_head: 小人儿在头上
-        single_head_wing: 单侧头上有翅膀
+        inter headset: EVA神经连接器
+        on head: 在头上
+        person on head: 小人儿在头上
+        single head wing: 单侧头上有翅膀
 
     - name: 帽子
       color: rgba(230, 84, 128, .4)
       tags:
         hat: 帽子
-        no_hat: 没有帽子
-        large_hat: 大帽子
-        mini_hat: 迷你帽
-        witch_hat: 魔女帽
-        mini_witch_hat: 迷你魔女帽
-        wizard_hat: 巫师帽子
-        party_hat: 派对帽
-        jester_cap: 小丑帽
-        tokin_hat: 大礼帽
-        top_hat: 高顶礼帽
-        mini_top_hat: 迷你礼帽
-        bowler_hat: 圆顶礼帽
-        pillbox_hat: 药盒帽
-        cloche_hat: 钟形女帽
-        side_cap: 侧边帽
-        military_hat: 军帽
+        no hat: 没有帽子
+        large hat: 大帽子
+        mini hat: 迷你帽
+        witch hat: 魔女帽
+        mini witch hat: 迷你魔女帽
+        wizard hat: 巫师帽子
+        party hat: 派对帽
+        jester cap: 小丑帽
+        tokin hat: 大礼帽
+        top hat: 高顶礼帽
+        mini top hat: 迷你礼帽
+        bowler hat: 圆顶礼帽
+        pillbox hat: 药盒帽
+        cloche hat: 钟形女帽
+        side cap: 侧边帽
+        military hat: 军帽
         beret: 贝雷帽
-        garrison_cap: 驻军帽
-        police_hat: 警察帽
-        nurse_cap: 护士帽
-        chef_hat: 厨师帽
-        school_hat: 校帽
-        pirate_hat: 海盗帽
-        cabbie_hat: 出租车司机帽
-        bucket_hat: 渔夫帽
+        garrison cap: 驻军帽
+        police hat: 警察帽
+        nurse cap: 护士帽
+        chef hat: 厨师帽
+        school hat: 校帽
+        pirate hat: 海盗帽
+        cabbie hat: 出租车司机帽
+        bucket hat: 渔夫帽
         hardhat: 安全帽
-        straw_hat: 草帽
-        sun_hat: 太阳帽
-        rice_hat: 斗笠
-        animal_hat: 动物帽
-        fur_hat: 皮帽
-        hat_with_ears: 带耳朵的帽子
+        straw hat: 草帽
+        sun hat: 太阳帽
+        rice hat: 斗笠
+        animal hat: 动物帽
+        fur hat: 皮帽
+        hat with ears: 带耳朵的帽子
         bobblehat: 泡泡帽
-        pillow_hat: 枕帽
-        pumpkin_hat: 南瓜帽
-        baseball_cap: 棒球帽
-        flat_cap: 鸭舌帽
-        torn_hat: 撕裂的帽子
-        mob_cap: 暴民帽
-        newsboy_cap: 报童帽
-        bowknot_over_white_beret: 白色贝雷帽上的蝴蝶结
-        backwards_hat: 反扣的帽子
-        bowl_hat: 碗状帽子
-        cat_hat: 猫耳帽子
-        chat_log: 聊天框风格
-        cowboy_hat: 牛仔帽
-        dixie_cup_hat: 狗盆帽
-        hat_bow: 带有蝴蝶结的帽子
-        hat_feather: 带有羽毛的帽子
-        hat_flower: 带着花的帽子
-        hat_ornament: 带有饰物的帽子
-        hat_over_one_eye: 帽子遮住了一只眼
-        hat_removed: 帽子被摘下|摘下帽子
-        hat_ribbon: 带有缎带的帽子
-        hat_tip: 捏着帽檐
-        hatching_(texture): 线影法(纹理)
-        hatsune_miku_(cosplay): cos成初音未来
-        is_that_so: so-nanoka(是这样啊的口癖)
-        porkpie_hat: 道士帽
-        sailor_hat: 水手帽
-        santa_hat: 圣诞帽
-        sideways_hat: 帽舌划到侧面
+        pillow hat: 枕帽
+        pumpkin hat: 南瓜帽
+        baseball cap: 棒球帽
+        flat cap: 鸭舌帽
+        torn hat: 撕裂的帽子
+        mob cap: 暴民帽
+        newsboy cap: 报童帽
+        bowknot over white beret: 白色贝雷帽上的蝴蝶结
+        backwards hat: 反扣的帽子
+        bowl hat: 碗状帽子
+        cat hat: 猫耳帽子
+        chat log: 聊天框风格
+        cowboy hat: 牛仔帽
+        dixie cup hat: 狗盆帽
+        hat bow: 带有蝴蝶结的帽子
+        hat feather: 带有羽毛的帽子
+        hat flower: 带着花的帽子
+        hat ornament: 带有饰物的帽子
+        hat over one eye: 帽子遮住了一只眼
+        hat removed: 帽子被摘下|摘下帽子
+        hat ribbon: 带有缎带的帽子
+        hat tip: 捏着帽檐
+        hatching \(texture\): 线影法(纹理)
+        hatsune miku \(cosplay\): cos成初音未来
+        is that so: so-nanoka(是这样啊的口癖)
+        porkpie hat: 道士帽
+        sailor hat: 水手帽
+        santa hat: 圣诞帽
+        sideways hat: 帽舌划到侧面
         what: 作者犯病
-        what_if: 另一条世界线
+        what if: 另一条世界线
 
     - name: 发饰
       color: rgba(230, 84, 128, .4)
       tags:
-        hair_ribbon: 发_带
-        hairband: 发_带
-        hair_tie: 发_带
-        lolita_hairband: 洛丽塔发带
-        frilled_hairband: 褶边发带
-        lace-trimmed_hairband: 蕾丝边饰发带
-        hair_bobbles: 头绳
-        hair_ornament: 发饰
-        hair_flower: 发_花
-        x_hair_ornament: x_发饰
-        hair_bow: 蝴蝶结发饰
-        frog_hair_ornament: 青蛙发饰
-        heart_hair_ornament: 心形发饰
-        butterfly_hair_ornament: 蝴蝶发饰
-        star_hair_ornament: 星星发饰
-        food-themed_hair_ornament: 食物主题发饰
-        anchor_hair_ornament: 锚形发饰
-        bat_hair_ornament: 蝙蝠发饰
-        carrot_hair_ornament: 胡萝卜发饰
-        cat_hair_ornament: 猫系发饰
-        clover_hair_ornament: 三叶草发饰
-        crescent_hair_ornament: 月牙发饰
-        cross_hair_ornament: 十字发饰
-        d-pad_hair_ornament: 方向键发饰
-        fish_hair_ornament: 鱼形发饰
+        hair ribbon: 发 带
+        hairband: 发 带
+        hair tie: 发 带
+        lolita hairband: 洛丽塔发带
+        frilled hairband: 褶边发带
+        lace-trimmed hairband: 蕾丝边饰发带
+        hair bobbles: 头绳
+        hair ornament: 发饰
+        hair flower: 发 花
+        x hair ornament: x 发饰
+        hair bow: 蝴蝶结发饰
+        frog hair ornament: 青蛙发饰
+        heart hair ornament: 心形发饰
+        butterfly hair ornament: 蝴蝶发饰
+        star hair ornament: 星星发饰
+        food-themed hair ornament: 食物主题发饰
+        anchor hair ornament: 锚形发饰
+        bat hair ornament: 蝙蝠发饰
+        carrot hair ornament: 胡萝卜发饰
+        cat hair ornament: 猫系发饰
+        clover hair ornament: 三叶草发饰
+        crescent hair ornament: 月牙发饰
+        cross hair ornament: 十字发饰
+        d-pad hair ornament: 方向键发饰
+        fish hair ornament: 鱼形发饰
         hairpods: 头发上成对的像无线蓝牙的发饰
-        leaf_hair_ornament: 叶子发饰
-        musical_note_hair_ornament: 音符发饰
-        pumpkin_hair_ornament: 南瓜发饰
-        skull_hair_ornament: 骷髅发饰
-        snake_hair_ornament: 蛇形发饰|蛙头发饰
-        snowflake_hair_ornament: 雪花发饰
-        strawberry_hair_ornament: 草莓发饰
-        sunflower_hair_ornament: 向日葵发饰
+        leaf hair ornament: 叶子发饰
+        musical note hair ornament: 音符发饰
+        pumpkin hair ornament: 南瓜发饰
+        skull hair ornament: 骷髅发饰
+        snake hair ornament: 蛇形发饰|蛙头发饰
+        snowflake hair ornament: 雪花发饰
+        strawberry hair ornament: 草莓发饰
+        sunflower hair ornament: 向日葵发饰
         hairpin: 发夹
-        hairclip: 发_夹
-        hair_tubes: 发管
-        hair_stick: 发棒
-        hair_bun: 发髻
-        single_hair_bun: 发髻(单)
-        hair_bell: 发_铃
-        hair_rings: 发_圈
+        hairclip: 发 夹
+        hair tubes: 发管
+        hair stick: 发棒
+        hair bun: 发髻
+        single hair bun: 发髻(单)
+        hair bell: 发 铃
+        hair rings: 发 圈
 
     - name: 小装饰
       color: rgba(230, 84, 128, .4)
       tags:
         ring: 戒指
-        wedding_band: 婚戒
+        wedding band: 婚戒
         earrings: 耳环
-        single_earring: 单耳环
-        stud_earrings: 耳钉
+        single earring: 单耳环
+        stud earrings: 耳钉
         necklace: 项链
         jewelry: 首饰
         crystal: 水晶
         brooch: 胸针
         gem: 宝石
-        chest_jewel: 胸前宝石
-        forehead_jewel: 额头宝石
+        chest jewel: 胸前宝石
+        forehead jewel: 额头宝石
         tassel: 流苏
-        belly_chain_: 肚链
+        belly chain: 肚链
         lace: 花边
         ribbon: 丝带
         stitches: 缝饰
@@ -2215,30 +2144,30 @@
         bell: 铃铛
         amulet: 护身符
         emblem: 徽章
-        flag_print: 旗印
-        anchor_symbol: 锚符号
+        flag print: 旗印
+        anchor symbol: 锚符号
         cross: 十字
-        diffraction_spikes: 衍射十字星
-        iron_cross: 铁十字架
-        latin_cross: 拉丁式十字架
-        lace-trimmed_hairband: 蕾丝边发带
-        ankle_lace-up: 脚踝系带
-        st._gloriana's_(emblem): 圣葛罗莉安娜女学园校徽
-        heart_lock_(kantai_collection): 舰娘锁(舰C)
+        diffraction spikes: 衍射十字星
+        iron cross: 铁十字架
+        latin cross: 拉丁式十字架
+        lace-trimmed hairband: 蕾丝边发带
+        ankle lace-up: 脚踝系带
+        st. gloriana's \(emblem\): 圣葛罗莉安娜女学园校徽
+        heart lock \(kantai collection\): 舰娘锁(舰C)
         garters: 袜带
-        thigh_strap: 大腿绑带
-        thigh_ribbon: 大腿缎带
-        leg_garter: 腿环|袜带
-        garter_straps: 吊带袜的吊带
-        leg_ribbon: 腿锻带
-        bandaid_on_leg: 腿上的绷带
-        bandaged_leg: 包扎过的腿
-        arm_garter: 臂环
+        thigh strap: 大腿绑带
+        thigh ribbon: 大腿缎带
+        leg garter: 腿环|袜带
+        garter straps: 吊带袜的吊带
+        leg ribbon: 腿锻带
+        bandaid on leg: 腿上的绷带
+        bandaged leg: 包扎过的腿
+        arm garter: 臂环
         joints: 关节
         kneepits: 膝盖
-        knee_pads: 护膝
-        thigh_holster: 大腿皮套
-        bandaid_on_knee: 膝盖上的创可贴
+        knee pads: 护膝
+        thigh holster: 大腿皮套
+        bandaid on knee: 膝盖上的创可贴
 
     - name: 首饰
       color: rgba(230, 84, 128, .4)
@@ -2267,172 +2196,177 @@
     - name: 笑
       color: rgba(241, 229, 140, .4)
       tags:
-        smile: 微笑
-        laughing: 大笑
-        kind_smile: 开心
+        # 基础笑容
         :d: 开心的笑_:D😀
         ;d: 眨眼笑_:D
-        grin: 露齿咧嘴笑
-        teasing_smile: 被逗笑，咧嘴傻笑
-        seductive_smile: 魅惑的微笑
-        smirk: 傻笑,自鸣得意的笑
-        giggling: 咯咯傻笑
-        smug: 洋洋得意
-        naughty_face: 调皮的脸
+        crazy smile: 疯狂的笑
         evil smile: 邪恶笑
-        crazy_smile: 疯狂的笑
+        grin: 露齿咧嘴笑
+        kind smile: 开心
+        laughing: 大笑
+        naughty face: 调皮的脸
+        seductive smile: 魅惑的微笑
+        smile: 微笑
+        smirk: 傻笑,自鸣得意的笑
+        smug: 洋洋得意
+        teasing smile: 被逗笑，咧嘴傻笑
+
+        # 节日欢乐
         happy: 快乐|幸福
-        happy_birthday: 生日快乐
-        happy_halloween: 万圣节快乐
-        happy_new_year: 新年快乐
-        happy_tears: 开心的眼泪
-        happy_valentine: 情人节快乐
+        happy birthday: 生日快乐
+        happy halloween: 万圣节快乐
+        happy new year: 新年快乐
+        happy tears: 开心的眼泪
+        happy valentine: 情人节快乐
 
     - name: 哭
       color: rgba(241, 229, 140, .4)
       tags:
-        sad: 伤心
-        tear: 啜泣
+        # 哭泣状态
         crying: 大哭
-        crying_with_eyes_open: 睁着眼睛哭
-        streaming_tears: 流泪
+        crying with eyes open: 睁着眼睛哭
+        sad: 伤心
+        streaming tears: 流泪
+        tear: 啜泣
         teardrop: 泪珠
-        tearing_clothes: 撕破衣服
-        tearing_up: 要哭的表情
+        tearing up: 要哭的表情
         tears: 眼泪
-        wiping_tears: 擦眼泪
+        wiping tears: 擦眼泪
+
+        # 其他负面情绪
         badmood: 心情不好
+        tearing clothes: 撕破衣服
 
     - name: 不开心
       color: rgba(241, 229, 140, .4)
       tags:
-        frustrated: 沮丧
-        frustrated_brow: 沮丧的眉头
-        annoyed: 苦恼的
+        # 消极情绪
         anguish: 苦闷
-        sigh: 叹气
-        gloom: 忧郁的
-        disappointed: 失望的
+        annoyed: 苦恼的
         despair: 绝望
+        disappointed: 失望的
+        frustrated: 沮丧
+        frustrated brow: 沮丧的眉头
+        gloom: 忧郁的
+        sigh: 叹气
 
     - name: 蔑视
       color: rgba(241, 229, 140, .4)
       tags:
-        disgust: 厌恶(看垃圾一样的眼神)
-        disdain: 轻蔑
+        # 轻蔑表情
         contempt: 蔑视
-        shaded_face: 脸上有阴影，配合蔑视
-        jitome: 鄙夷的眼神
+        disdain: 轻蔑
+        disgust: 厌恶(看垃圾一样的眼神)
+        fear kubrick: 害怕侧目
         frown: 皱眉/蹙额
-        wince: 皱眉蹙额(性交前)
-        furrowed_brow: 眉头紧锁
-        fear_kubrick: 害怕侧目
+        furrowed brow: 眉头紧锁
+        jitome: 鄙夷的眼神
         laughing: 在笑的
+        shaded face: 脸上有阴影，配合蔑视
+        wince: 皱眉蹙额(性交前)
 
     - name: 生气
       color: rgba(241, 229, 140, .4)
       tags:
+        # 愤怒表现
         angry: 生气的
-        glaring: 怒目而视
-        serious: 严肃的（和angry有点像）
-        kubrick_stare: 侧头瞪着你
         evil: 邪恶的
-        sulking: 生_闷气
+        glaring: 怒目而视
+        kubrick stare: 侧头瞪着你
         screaming: 尖叫|大声喊
+        serious: 严肃的（和angry有点像）
         shouting: 喊叫
+        sulking: 生_闷气
 
     - name: 其他表情
       color: rgba(241, 229, 140, .4)
       tags:
-        expressionless: 面无表情
-        sleepy: 困乏的
-        drunk: 喝醉的
+        # 性相关表情
+        ahegao: 阿黑颜
+        female orgasm: 绝顶
+        rape face: 强奸脸
+        rolling eyes: 翻白眼(高潮眼）
+
+        # 复杂性格
+        Jekyll and Hyde: 多重人格
+        Tsundere: 傲娇
+        dark persona: 黑化的
+        multiple persona: 多重人格
+        yandere: 病娇
+
+        # 羞涩表情
+        blush: 脸红
+        embarrass: 害羞的(尴尬的)
+        light blush: 轻微脸红
+        shy: 害羞的
+
+        # 其他情绪状态
         bored: 无聊的
         confused: 使困惑
-        thinking: 思考
-        lonely: 孤独
-        light_blush: 轻微脸红
-        blush: 脸红
-        shy: 害羞的
-        embarrass: 害羞的(尴尬的)
+        crazy: 疯狂的
+        drunk: 喝醉的
+        endured face: 忍耐的表情
+        envy: 嫉妒
+        exhausted: 筋疲力尽的
+        expressionless: 面无表情
+        expressions: 表情差分（大概）
         facepalm: 捂脸
         flustered: 慌张的
-        sweat: 流汗
-        scared: 害怕的
-        ahegao: 阿黑颜
-        endured_face: 忍耐的表情
-        restrained: 忍耐
-        dark_persona: 黑化的
-        crazy: 疯狂的
-        exhausted: 筋疲力尽的
-        Tsundere: 傲娇
-        yandere: 病娇
-        multiple_persona: 多重人格
-        Jekyll_and_Hyde: 多重人格
-        twitching: 抽搐
-        spasm: 痉挛
-        trembling: 颤抖
-        rape_face: 强奸脸
-        rolling_eyes: 翻白眼(高潮眼）
-        envy: 嫉妒
-        female_orgasm: 绝顶
-        heavy_breathing: 重呼吸，可能没用
-        naughty: 淘气
-        expressions: 表情差分（大概）
+        heavy breathing: 重呼吸，可能没用
+        lonely: 孤独
         moaning: 呻吟
+        naughty: 淘气
+        restrained: 忍耐
+        scared: 害怕的
         scowl: 嫌弃的眼神
+        sleepy: 困乏的
+        spasm: 痉挛
+        sweat: 流汗
+        thinking: 思考
+        trembling: 颤抖
+        twitching: 抽搐
 
     - name: 基础动作
       color: rgba(241, 229, 140, .4)
       tags:
+        # 站立姿势
         standing: 站立
-        on back: 躺
-        on stomach: 趴
-        kneeling: 跪
-        on_side: 侧卧
-        on_stomach: 趴着
-        top-down_bottom-up: 趴着翘臀
-        the_pose: 趴在地上并翘起脚
-        bent_over: 翘臀姿势
-        upside-down: 倒立
-        reversal: 反转
-        fighting_stance: 战斗姿态
-        leaning_to_the_side: 靠在一边
-        leaning: 倚靠|身体倾斜
-        leaning_back: 身体往后靠
-        leaning_on_object: 靠在物体上
-        arched_back: 弓身体
-        leaning_forward: 身体前倾
-        afloat: 浮(在水上
+        standing on liquid: 站在水上或液体上
+        standing on one leg: 单腿站立
+        standing split: 站立劈叉|站立高抬腿
+
+        # 躺卧姿势
+        fetal position: 胎儿姿势(躺)
         lying: 躺着的
-        fetal_position: 胎儿姿势(躺)
-        lying_on_person: 躺在人身上
-        lying_on_the_lake: 躺在湖面上
-        lying_on_water: 躺在水中
-        on_back: 仰躺
-        prone_bone: 俯卧后入
+        lying on person: 躺在人身上
+        lying on the lake: 躺在湖面上
+        lying on water: 躺在水中
+        on back: 仰躺
+        on side: 侧卧
+        on stomach: 趴
+        prone bone: 俯卧后入
         reclining: 斜倒斜躺姿势
-        sleeping_upright: (不躺着)睡觉|直立睡觉
-        presenting: 展示（后接部位）
-        spinning: 旋转
-        posing: 摆姿势
-        stylish_pose: 时尚姿势
-        public_indecency: 公然猥亵
-        parody: 模仿
-        in_container: 在容器中
-        against_glass: 挤压玻璃(无效)
+        sleeping upright: (不躺着)睡觉|直立睡觉
+        the pose: 趴在地上并翘起脚
+        top down bottom up: 趴着翘臀
+
+        # 其他姿势
+        afloat: 浮(在水上
+        against glass: 挤压玻璃(无效)
         aiming: 瞄准
-        aiming_at_viewer: 瞄准了读者(的视角)
-        applying_makeup: 化妆
+        aiming at viewer: 瞄准了读者(的视角)
+        applying makeup: 化妆
+        arched back: 弓身体
         bathing: 洗澡
+        bent over: 翘臀姿势
         biting: 咬
         bleeding: 出血
         blowing: 吹
         bowing: 鞠躬
-        breathing_fire: 喷火
-        broom_riding: 骑扫帚
-        brushing_teeth: 刷牙
-        bubble_blowing: 吹泡泡
+        breathing fire: 喷火
+        broom riding: 骑扫帚
+        brushing teeth: 刷牙
+        bubble blowing: 吹泡泡
         bullying: 欺负
         burning: 燃烧
         cast: 投掷
@@ -2447,15 +2381,16 @@
         diving: 潜水
         dragging: 拖某物
         drawing: 绘画
-        drawing_bow: 拉弓
+        drawing bow: 拉弓
         dreaming: 做梦
         drinking: 喝
         driving: 驾驶
         dropping: (意外)掉落
         drying: 弄干(浴后)
-        dual_wielding: 双持
+        dual wielding: 双持
         exercise: 做运动
         fighting: 战斗中的
+        fighting stance: 战斗姿态
         firing: 射击
         fishing: 钓鱼
         flapping: 拍打动作
@@ -2463,29 +2398,42 @@
         fleeing: 在逃跑的
         flexing: 秀肌肉
         flying: 飞行
-        flying_kick: 飞踢
-        hair_brushing: 梳头
-        hair_tucking: 撩头发
+        flying kick: 飞踢
+        hair brushing: 梳头
+        hair tucking: 撩头发
         hanging: 吊起来的
+        hiding: 躲藏
         hitting: 击打
         imagining: 在想象的
+        in container: 在容器中
         jumping: 跳跃
         kicking: 踢
+        kneeling: 跪
+        leaning: 倚靠|身体倾斜
+        leaning back: 身体往后靠
+        leaning forward: 身体前倾
+        leaning on object: 靠在物体上
+        leaning to the side: 靠在一边
         licking: 舔
-        licking_lips: 舔嘴唇
-        lip_biting: 咬嘴唇
+        licking lips: 舔嘴唇
+        lip biting: 咬嘴唇
         meditation: 冥想
         painting: 绘画
-        Painting_(Action): 画画
-        playing_card: 扑克牌
-        playing_games: 打游戏
-        playing_instrument: 演奏乐器
-        pole_dancing: 钢管舞
+        Painting \(Action\): 画画
+        parody: 模仿
+        playing card: 扑克牌
+        playing games: 打游戏
+        playing instrument: 演奏乐器
+        pole dancing: 钢管舞
+        posing: 摆姿势
         praying: 祈祷
+        presenting: 展示（后接部位）
+        public indecency: 公然猥亵
         punching: 挥拳
         pushing: 推搡
         railing: 用手扶着
         reading: 阅读
+        reversal: 反转
         riding: 骑
         running: 奔跑
         sewing: 缝纫
@@ -2499,28 +2447,27 @@
         smoking: 抽烟
         sneezing: 打喷嚏
         snowing: 下雪
-        soaking_feet: 泡脚
+        soaking feet: 泡脚
         soccer: 足球运动
         spilling: 从容器中倒出液体的动作
+        spinning: 旋转
         spitting: 从嘴里吐出液体的动作
         splashing: 飞溅
-        standing_on_liquid: 站在水上或液体上
-        standing_on_one_leg: 单腿站立
-        standing_split: 站立劈叉|站立高抬腿
-        steepled_fingers: 指尖抵着指间
+        steepled fingers: 指尖抵着指间
         strangling: 绞首
+        stylish pose: 时尚姿势
         sweeping: 打扫
         swimming: 游泳
         swing: 摆动
-        tail_wagging: 摇尾巴
-        taking_picture: 拍照|自拍
+        tail wagging: 摇尾巴
+        taking picture: 拍照|自拍
         talking: 有台词的
-        talking_on_phone: 打电话
+        talking on phone: 打电话
         teasing: 戏弄
         thinking: 思考
         tickling: 挠痒痒
-        toilet_use: 上厕所
-        tossing_: 投掷
+        toilet use: 上厕所
+        tossing: 投掷
         tripping: 被绊倒
         trolling: 恶搞行为
         twitching: 抽搐
@@ -2528,647 +2475,567 @@
         unsheathing: 拔出鞘的
         untying: 解开的
         unzipping: 拉开拉链(动作)
+        upside down: 倒立
         wading: 涉水
-        waking_up: 醒来
+        waking up: 醒来
         walking: 走路
-        walking_on_liquid: 在液体上行走
+        walking on liquid: 在液体上行走
         washing: 洗涤
         whispering: 讲悄悄话
         wrestling: 摔角(运动)
         writing: 写作
         yawning: 打哈欠
-        hiding: 躲藏
 
     - name: 手部动作
       color: rgba(241, 229, 140, .4)
       tags:
-        arms_behind_back: 手放在身后
-        arm_above_head: 手在头上
-        arm_behind_head: 手放头后
-        arms_crossed: 手交叉于胸前
-        arm_support: 用手支撑住
+        # 手臂位置
+        arm above head: 手在头上
+        arm at side: 单手垂放
+        arm behind back: 单手背到身后
+        arm behind head: 手放头后
+        arm cannon: 手炮
+        arm hug: 挽手
+        arm support: 用手支撑住
+        arm up: 举着手
         armpits: 露腋
-        arms_up: 抬手
-        hands_on_hips: 双手叉腰
-        arm_around_waist: 单手搂腰
+        arms at sides: 双手垂放
+        arms behind back: 手放在身后
+        arms behind head: 双手抱头
+        arms crossed: 手交叉于胸前
+        arms up: 抬手
         caramelldansen: 某著名伸手扭腰动作
-        hands_in_opposite_sleeves: 双手反袖
-        waving: 招手
-        crossed_arms: 交叉双臂
-        outstretched_arms: 伸出双臂
-        v_arms: 双臂摆出V
-        w_arms: 双臂摆出W
-        salute: 敬礼
-        reaching: (有目的地)伸手
-        reaching_out: 朝画外伸手
-        stretch: 伸懒腰
-        hugging_own_legs: 拥抱自己的腿
-        arm_blade: 手臂刀刃
-        arm_grab: 抓住手臂
-        arm_held_back: 手臂往后拉
-        arm_ribbon: 手臂丝带
-        bandaged_arm: 缠着绷带的手臂
-        bandaid_on_arm: 手臂上贴着创可贴
-        bound_arms: 手臂被束缚
-        convenient_arm: 遮住关键部位的手臂
-        extra_arms: 多只手臂
-        locked_arms: 互挽手臂
-        outstretched_arm: 伸出手臂
-        waving_arms: 挥舞着手臂
-        arm_at_side: 单手垂放
-        arm_behind_back: 单手背到身后
-        shou: 单手托在脑后
-        arm_cannon: 手炮
-        arm_hug: 挽手
-        arm_up: 举着手
-        arms_at_sides: 双手垂放
-        arms_behind_head: 双手抱头
-        hand_to_mouth: 手放在嘴边
-        shushing: 嘘手势
-        cat_pose: 猫爪手势
-        claw_pose: 爪手势
-        paw_pose: 招财猫手势(下弯手腕)
-        fox_shadow_puppet: 狐狸手势
-        double_fox_shadow_puppet: b
-        finger_gun: 手指枪手势
-        v: 胜利手势
-        double_v: 双_v
-        thumbs_up: 翘大拇指
-        index_finger_raised: 食指抬起
-        middle_finger: 国际友好手势
-        grimace: 做鬼脸
-        eyelid_pull: 做鬼脸
-        fingersmile: 用手指做出笑脸
-        wiping_tears: 擦眼泪
-        finger_on_trigger: 准备扣扳机的手势
-        pointing_at_self: 指着自己
-        pointing_at_viewer: 指向看图的人
-        pointing_up: 向上指
-        poking: 戳
-        hand_gesture: 做手势
-        ok_sign: OK手势
-        shading_eyes: 遮阳手势
-        finger_biting: 咬手指
-        finger_in_mouth: 吮吸手指
-        fingering_through_clothes: 手指
-        fingers_together: 手指并拢
-        hair_twirling: 手指卷着头发
-        hands_clasped: 双手手指交叉|双手紧握
-        holding_hair: 握着头发|手指绕着头发
-        pointing: 用手指着
-        sharp_fingernails: 锐利的手指甲
-        sleeves_past_fingers: 袖子长过手指
-        spread_fingers: 张开手指
-        trigger_discipline: 手指没放在扳机上
-        w: 手指比W
+        crossed arms: 交叉双臂
+        hands in opposite sleeves: 双手反袖
+        hands on hips: 双手叉腰
+        outstretched arms: 伸出双臂
+        v arms: 双臂摆出V
+        w arms: 双臂摆出W
+
+        # 手臂状态
+        arm blade: 手臂刀刃
+        arm grab: 抓住手臂
+        arm held back: 手臂往后拉
+        arm ribbon: 手臂丝带
+        bandaged arm: 缠着绷带的手臂
+        bandaid on arm: 手臂上贴着创可贴
+        bound arms: 手臂被束缚
+        convenient arm: 遮住关键部位的手臂
+        extra arms: 多只手臂
+        locked arms: 互挽手臂
+        outstretched arm: 伸出手臂
+        waving arms: 挥舞着手臂
+
+        # 手势动作
+        adjusting clothes: 拨弄衣服
+        adjusting eyewear: 扶眼镜
+        adjusting gloves: 拨弄手套
+        adjusting hair: 理头发
+        adjusting hat: 整理帽子
+        adjusting swimsuit: 拨弄泳衣
+        adjusting thighhigh: 调整过膝袜
         balancing: (保持)平衡的姿势
-        curvy: 展现魅力的姿势
-        multiple_views: 多角度|多姿势
-        pose: 姿势
-        ready_to_draw: 准备拔刀的姿势
-        trefoil: 一种女性展示臀部的姿势
-        zombie_pose: 僵尸姿势
         beckoning: 招手
-        bunching_hair: 手持辫子
+        bunching hair: 手持辫子
         carrying: 抱起
-        carrying_over_shoulder: 肩扛
-        carrying_under_arm: 夹在腋下
+        carrying over shoulder: 肩扛
+        carrying under arm: 夹在腋下
+        cat pose: 猫爪手势
+        cheek pinching: 捏脸颊
+        cheek poking: 戳脸颊
+        cheek pull: 扯脸颊
         cheering: 助威
-        finger_to_mouth: 手抵在嘴唇边
-        cheek_pinching: 捏脸颊
-        cheek_poking: 戳脸颊
-        chin_stroking: 摸下巴
-        hair_pull: 拉头发
-        covering_mouth: 遮盖嘴
-        covering_xx: 遮盖xx
-        self_fondle: 自我抚摸
-        adjusting_thighhigh: 调整过膝袜
-        chin_rest: 托脸颊
-        head_rest: 托头
-        take: 拿着
-        _sheet_grab: 抓床单
-        groping: 摸索
-        skirt_lift: 掀裙子
-        crotch_grab: 手抓裆部
-        covering_chest_by_hand: 用手遮住胸部
-        bangs_pinned_back: 掀起的刘海
-        clothes_lift: 掀起衣物
-        dress_lift: 掀起裙子
-        kimono_lift: 掀起和服
-        lifted_by_another: 被对方掀起衣物
-        lifted_by_self: 掀起自己的衣物
-        shirt_lift: 拉起掀起卷起衬衫
-        skirt_basket: 指掀起裙子时形成的篮子形状
-        skirt_flip: 被掀起裙子(含突发情况意义)
-        bikini_lift: 往上剥开的比基尼
-        leg_lift: 单腿抬高
-        lifting_person: 将人抱起
-        strap_lift: 往上掰衣物的吊带
-        wind_lift: 起风效果|上升气流
-        bikini_pull: 扯着比基尼
-        cheek_pull: 扯脸颊
-        clothes_pull: 拉开衣物
-        dress_pull: 剥下裙子胸口的部分
-        hair_pulled_back: 头发往后扎
-        kimono_pull: 剥开和服
-        leotard_pull: 剥开连衣裤
-        mask_pull: 拉着口罩
-        pants_pull: 拉着裤子
-        pulled_by_another: 被另一个人拉(或拉衣物)
-        pulled_by_self: 拉下自己的衣物
-        pulling: 拉
-        shirt_pull: 拉开衬衫
-        shorts_pull: 褪下短裤
-        skirt_pull: 拉开裙子
-        swimsuit_pull: 扯下泳衣
-        zipper_pull_tab: 拉链的拉片
-        adjusting_clothes: 拨弄衣服
-        adjusting_eyewear: 扶眼镜
-        adjusting_gloves: 拨弄手套
-        adjusting_hair: 理头发
-        adjusting_hat: 整理帽子
-        adjusting_swimsuit: 拨弄泳衣
+        chin rest: 托脸颊
+        chin stroking: 摸下巴
+        claw pose: 爪手势
+        covering chest by hand: 用手遮住胸部
+        covering mouth: 遮盖嘴
+        covering xx: 遮盖xx
+        crotch grab: 手抓裆部
+        double fox shadow puppet: b
+        double v: 双_v
+        eyelid pull: 做鬼脸
+        finger biting: 咬手指
+        finger gun: 手指枪手势
+        finger in mouth: 吮吸手指
+        finger on trigger: 准备扣扳机的手势
+        finger to mouth:
 
     - name: 手部动作(拿着某物)
       color: rgba(241, 229, 140, .4)
       tags:
+        # 武器类
+        holding arrow: 拉着弓
+        holding axe: 握着斧头
+        holding bow \(weapon\): 拿着弓(武器)
+        holding dagger: 手持匕首
+        holding gun: 拿着枪
+        holding knife: 拿着刀
+        holding polearm: 手持长柄武器
+        holding scythe: 手持镰刀
+        holding sheath: 握着刀鞘
+        holding shield: 手持盾牌
+        holding spear: 手持长矛
+        holding staff: 手持法杖
+        holding sword: 手持剑
+        holding whip: 握着鞭子
+
+        # 生物类
+        holding animal: 抱着动物
+        holding cat: 抱着猫
+        holding pokemon: 抱着宝可梦
+
+        # 食物饮品类
+        holding bottle: 拿着瓶子
+        holding bowl: 端着碗
+        holding can: 拿着易拉罐
+        holding candy: 手持糖果
+        holding chopsticks: 拿着筷子
+        holding cup: 手持杯子
+        holding food: 拿着食物
+        holding fork: 拿着餐叉
+        holding fruit: 拿着水果
+        holding lollipop: 拿着棒棒糖
+        holding pizza: 拿着披萨
+        holding plate: 端着碟子
+        holding spoon: 拿着汤勺
+
+        # 容器工具类
+        holding bag: 提着包
+        holding basket: 提着篮子
+        holding box: 端着箱子
+        holding broom: 手持扫帚
+        holding camera: 手持摄像机
+        holding sack: 拎着包袱
+        holding syringe: 手持注射器
+        holding tray: 托着盘子
+        holding umbrella: 撑伞
+
+        # 个人物品类
+        holding book: 捧着书
+        holding card: 手持卡片
+        holding cigarette: 手叼香烟
+        holding clothes: 拿着衣服
+        holding condom: 拿着避孕套
+        holding eyewear: 拿着眼镜|正在摘眼镜
+        holding fan: 拿着扇子
+        holding flag: 手持旗帜
+        holding flower: 拿着花
+        holding gift: 拿着礼物
+        holding hat: 拿着帽子
+        holding helmet: 拿着头盔
+        holding innertube: 拿着泳圈
+        holding instrument: 拿着乐器
+        holding leaf: 拿着叶子
+        holding mask: 拿着面具
+        holding microphone: 拿着麦克风
+        holding needle: 拿着缝衣针
+        holding paintbrush: 手握画笔
+        holding paper: 拿着纸
+        holding pen: 握笔
+        holding pencil: 手持铅笔
+        holding phone: 拿着手机
+        holding pipe: 拿着烟斗
+        holding poke ball: 拿着精灵球
+        holding shoes: 拿着鞋子
+        holding sign: 手持招牌
+        holding stylus: 手持手写笔
+        holding towel: 拿着毛巾
+        holding wand: 握着棒子
+
+        # 玩偶类
+        holding doll: 抱着玩偶
+        holding pillow: 抱着枕头
+        holding stuffed animal: 抱着毛绒玩具
+
+        # 身体接触类
+        arm around neck: 单手搂着脖子
+        arms around neck: 双手搂着脖子
         holding: 拿着某物
-        holding_animal: 抱着动物
-        holding_arrow: 拉着弓
-        holding_axe: 握着斧头
-        holding_bag: 提着包
-        holding_ball: 抱着球
-        holding_basket: 提着篮子
-        holding_book: 捧着书
-        holding_bottle: 拿着瓶子
-        holding_bouquet: 手捧花束
-        holding_bow_(weapon): 拿着弓(武器)
-        holding_bowl: 端着碗
-        holding_box: 端着箱子
-        holding_breath: 憋气
-        holding_broom: 手持扫帚
-        holding_camera: 手持摄像机
-        holding_can: 拿着易拉罐
-        holding_candy: 手持糖果
-        holding_card: 手持卡片
-        holding_cat: 抱着猫
-        holding_chopsticks: 拿着筷子
-        holding_cigarette: 手叼香烟
-        holding_clothes: 拿着衣服
-        holding_condom: 拿着避孕套
-        holding_cup: 手持杯子
-        holding_dagger: 手持匕首
-        holding_doll: 抱着玩偶
-        holding_eyewear: 拿着眼镜|正在摘眼镜
-        holding_fan: 拿着扇子
-        holding_flag: 手持旗帜
-        holding_flower: 拿着花
-        holding_food: 拿着食物
-        holding_fork: 拿着餐叉
-        holding_fruit: 拿着水果
-        holding_gift: 拿着礼物
-        holding_gun: 拿着枪
-        holding_hands: 牵手
-        holding_hat: 拿着帽子
-        holding_head: 手里捧着头
-        holding_helmet: 拿着头盔
-        holding_innertube: 拿着泳圈
-        holding_instrument: 拿着乐器
-        holding_knife: 拿着刀
-        holding_leaf: 拿着叶子
-        holding_lollipop: 拿着棒棒糖
-        holding_mask: 拿着面具
-        holding_microphone: 拿着麦克风
-        holding_needle: 拿着缝衣针
-        holding_own_foot: 握着自己的脚
-        holding_paintbrush: 手握画笔
-        holding_paper: 拿着纸
-        holding_pen: 握笔
-        holding_pencil: 手持铅笔
-        holding_phone: 拿着手机
-        holding_pillow: 抱着枕头
-        holding_pipe: 拿着烟斗
-        holding_pizza: 拿着披萨
-        holding_plate: 端着碟子
-        holding_poke_ball: 拿着精灵球
-        holding_pokemon: 抱着宝可梦
-        holding_polearm: 手持长柄武器
-        holding_sack: 拎着包袱
-        holding_scythe: 手持镰刀
-        holding_sheath: 握着刀鞘
-        holding_shield: 手持盾牌
-        holding_shoes: 拿着鞋子
-        holding_sign: 手持招牌
-        holding_spear: 手持长矛
-        holding_spoon: 拿着汤勺
-        holding_staff: 手持法杖
-        holding_strap: 手拉着吊带
-        holding_stuffed_animal: 抱着毛绒玩具
-        holding_stylus: 手持手写笔
-        holding_sword: 手持剑
-        holding_syringe: 手持注射器
-        holding_towel: 拿着毛巾
-        holding_tray: 托着盘子
-        holding_umbrella: 撑伞
-        holding_wand: 握着棒子
-        holding_whip: 握着鞭子
-        arm_around_neck: 单手搂着脖子
-        arms_around_neck: 双手搂着脖子
+        holding breath: 憋气
+        holding hands: 牵手
+        holding head: 手里捧着头
+        holding own foot: 握着自己的脚
+        holding strap: 手拉着吊带
 
     - name: 手部动作(放在某地)
       color: rgba(241, 229, 140, .4)
       tags:
+        # 遮盖动作
         covering: 遮盖的动作
-        covering_face: 挡住脸
-        covering_ass: 遮着臀部
-        covering_crotch: 遮着裆部
-        covering_eyes: 遮住眼睛
-        covering_mouth: 挡住嘴巴
-        covering_nipples: 挡住乳头
-        hands_on_another's_: 双手放在别人的脸上
-        hands_on_another's_cheeks: 双手放在对方的脸颊上
-        hands_on_ass: 双手放在屁股上
-        hands_on_feet: 双手放在脚上
-        hands_on_headwear: 双手碰到头上的饰物
-        hands_on_hilt: 双手搭在刀柄上
-        hands_on_lap: 双手放在两腿之间
-        hands_on_own_face: 双手放在自己的脸上
-        hands_on_own_cheeks: 双手放在自己的脸颊上
-        hands_on_own_chest: 双手放在自己的胸口
-        hands_on_own_head: 双手放在自己的头上
-        hands_on_own_knees: 双手放在自己的膝盖上
-        hands_on_own_stomach: 双手放在自己的肚子上
-        hands_on_own_thighs: 双手放在自己的大腿上
-        hands_on_another's_shoulders: 双手放在别人的肩膀上
-        hands_on_hips: 双手叉腰|双手搁在腰上
-        hand_on_another's_: 手接触到对方的脸
-        hand_on_another's_cheek: 手摸着对方的脸颊
-        hand_on_another's_chest: 手放在对方的胸前
-        hand_on_another's_chin: 手托着对方的下巴
-        hand_on_another's_head: 手放在对方的头上
-        hand_on_another's_shoulder: 手放在对方的肩上
-        hand_on_another's_stomach: 手放在对方的肚子上
-        hand_on_ass: 手放在屁股上
-        hand_on_head: 手放在头上
-        hand_on_headwear: 手触碰帽子
-        hand_on_hilt: 手搁在刀柄上
-        hand_on_hip: 手叉着腰|手搁在腰上
-        hand_on_own_: 把手放在自己脸上
-        hand_on_own_cheek: 把手放在自己的脸颊上
-        hand_on_own_chest: 把手放在自己的胸口
-        hand_on_own_chin: 手碰着自己的下巴
-        hand_on_own_stomach: 把手放在自己的肚子上
-        hand_on_shoulder: 手放在肩上
-        hand_in_another's_hair: 手放在对方的头发上
-        hand_in_hair: 手埋在头发里
-        hand_in_pocket: 手插在口袋里
+        covering ass: 遮着臀部
+        covering crotch: 遮着裆部
+        covering eyes: 遮住眼睛
+        covering face: 挡住脸
+        covering mouth: 挡住嘴巴
+        covering nipples: 挡住乳头
+
+        # 接触他人
+        hands on another's face: 双手放在别人的脸上
+        hands on another's cheeks: 双手放在对方的脸颊上
+        hands on another's shoulders: 双手放在别人的肩膀上
+        hand on another's face: 手接触到对方的脸
+        hand on another's cheek: 手摸着对方的脸颊
+        hand on another's chest: 手放在对方的胸前
+        hand on another's chin: 手托着对方的下巴
+        hand on another's head: 手放在对方的头上
+        hand on another's shoulder: 手放在对方的肩上
+        hand on another's stomach: 手放在对方的肚子上
+        hand in another's hair: 手放在对方的头发里
+
+        # 接触自己
+        hands on own face: 双手放在自己的脸上
+        hands on own cheeks: 双手放在自己的脸颊上
+        hands on own chest: 双手放在自己的胸口
+        hands on own head: 双手放在自己的头上
+        hands on own knees: 双手放在自己的膝盖上
+        hands on own stomach: 双手放在自己的肚子上
+        hands on own thighs: 双手放在自己的大腿上
+        hand on own face: 把手放在自己脸上
+        hand on own cheek: 把手放在自己的脸颊上
+        hand on own chest: 把手放在自己的胸口
+        hand on own chin: 手碰着自己的下巴
+        hand on own stomach: 把手放在自己的肚子上
+
+        # 其他位置
+        hands on ass: 双手放在屁股上
+        hands on feet: 双手放在脚上
+        hands on headwear: 双手碰到头上的饰物
+        hands on hilt: 双手搭在刀柄上
+        hands on hips: 双手叉腰|双手搁在腰上
+        hands on lap: 双手放在两腿之间
+        hand on ass: 手放在屁股上
+        hand on head: 手放在头上
+        hand on headwear: 手触碰帽子
+        hand on hilt: 手搁在刀柄上
+        hand on hip: 手叉着腰|手搁在腰上
+        hand on shoulder: 手放在肩上
+        hand in hair: 手埋在头发里
+        hand in pocket: 手插在口袋里
 
     - name: 手部动作(抓着某物)
       color: rgba(241, 229, 140, .4)
       tags:
-        ass_grab: 抓着屁股
-        flat_chest_grab: 抓着贫乳
+        # 身体部位
+        ass grab: 抓着屁股
+        flat chest grab: 抓着贫乳
+        grabbing another's ass: 抓着对方屁股
+        grabbing another's hair: 抓着对方的头发
+        grabbing own ass: 抓着自己的屁股
+        hair grab: 抓着头发
+        leg grab: 抓着腿
+        penis grab: 抓着阴茎
+        thigh grab: 抓着大腿
+        torso grab: 抓着躯干
+        wrist grab: 抓着手腕
+
+        # 物品
+        necktie grab: 抓着领带
+        neckwear grab: 抓着颈部的衣服
+        pillow grab: 抓着枕头
+        sheet grab: 抓着床单
+        tail grab: 抓着尾巴
+
+        # 其他动作
         grabbing: 抓住|抓着
-        grabbing_another's_ass: 抓着对方屁股
-        grabbing_another's_hair: 抓着对方的头发
-        grabbing_from_behind: 从背后揉胸|从背后抓住胸部
-        grabbing_own_ass: 抓着自己的屁股
-        guided_penetration: 抓住男性器插入自己
-        hair_grab: 抓着头发
-        leg_grab: 抓着腿
-        necktie_grab: 抓着领带
-        neckwear_grab: 抓着颈部的衣服
-        penis_grab: 抓着阴茎
-        pillow_grab: 抓着枕头
-        sheet_grab: 抓着床单
-        tail_grab: 抓着尾巴
-        thigh_grab: 抓着大腿
-        torso_grab: 抓着躯干
-        wrist_grab: 抓着手腕
+        grabbing from behind: 从背后揉胸|从背后抓住胸部
+        guided penetration: 抓住男性器插入自己
 
     - name: 腿部动作
       color: rgba(241, 229, 140, .4)
       tags:
-        legs_up: 抬一只腿
+        # 腿部姿势
+        legs up: 抬一只腿
         spread legs: 张腿
-        legs_together: 两腿并拢
-        crossed_legs: 二郎腿
-        m_legs: M字摆腿
-        standing_split,_leg_up: M字摆腿
-        curtsy: 屈膝礼（女仆行礼）
-        hand_between_legs: 双腿之间的手
-        open_stance: 稍息
-        convenient_leg: 挡住关键部位的腿
-        leg_lock: 用双腿夹住
+        legs together: 两腿并拢
+        crossed legs: 二郎腿
+        m legs: M字摆腿
+        standing split, leg up: M字摆腿
+        open stance: 稍息
+        convenient leg: 挡住关键部位的腿
+        leg lock: 用双腿夹住
         legs: 双腿
-        legs_over_head: 双腿抬过头
-        squatting,_open_legs: 蹲下分开双腿
-        knees_together_feet_apart: 膝盖合并，两脚分开
-        animal_on_lap: 膝盖上有动物
-        hand_on_own_knee: 手放在自己的膝盖上
-        knee_up: 顶起膝盖
+        legs over head: 双腿抬过头
+        knees together feet apart: 膝盖合并，两脚分开
+        knee up: 顶起膝盖
         knees: 膝盖
-        knees_to_chest: 膝盖顶到胸部
-        on_lap: 在膝盖上
-        sitting: 坐
+        knees to chest: 膝盖顶到胸部
+
+        # 坐姿类
         wariza: 鸭子坐
         straddling: 跨坐
         yokozuwari: 侧身坐
-        sitting_backwards: 向后坐
-        sitting_in_tree: 坐在树上
-        sitting_on_xx: 坐在物体上
-        butterfly_sitting: 蝴蝶坐
-        lotus_position: 坐在桌子上
-        sitting_on_railing: 坐在栏杆上
-        sitting_on_rock: 坐在石头
-        sitting_on_stairs: 坐在楼梯上
-        sitting_on_table: 坐在桌子上
-        sitting_on_water: 坐在水上
-        cushion: 坐垫
-        indian_style: 盘腿坐
-        sitting_on_chair: 坐在椅子上
+        sitting backwards: 向后坐
+        sitting in tree: 坐在树上
+        butterfly sitting: 蝴蝶坐
+        lotus position: 坐在桌子上
+        indian style: 盘腿坐
         sidesaddle: 侧坐在鞍上
-        sitting_on_bed: 坐在床上
-        sitting_on_desk: 坐在课桌上
-        sitting_on_lap: 坐在大腿上
-        sitting_on_person: 坐在人身上
-        upright_straddle: 对坐体位
+        upright straddle: 对坐体位
+        sitting: 坐
+        sitting on xx: 坐在物体上
+        sitting on railing: 坐在栏杆上
+        sitting on rock: 坐在石头
+        sitting on stairs: 坐在楼梯上
+        sitting on table: 坐在桌子上
+        sitting on water: 坐在水上
+        sitting on chair: 坐在椅子上
+        sitting on bed: 坐在床上
+        sitting on desk: 坐在课桌上
+        sitting on lap: 坐在大腿上
+        sitting on person: 坐在人身上
+        cushion: 坐垫
+
+        # 其他姿势
         squatting: 蹲下
-        one_knee: 一只膝盖
+        squatting, open legs: 蹲下分开双腿
+        one knee: 一只膝盖
         kneeling: 下跪
-        all_fours: 四肢着地
-        gravure_pose: 凹版姿势
+        all fours: 四肢着地
+        gravure pose: 凹版姿势
         kicking: 踢
-        high_kick: 高踢
-        soaking_feet: 泡脚
+        high kick: 高踢
+        soaking feet: 泡脚
         reclining: 斜倚
-        hugging_own_legs: 抱自己的双腿
-        bare_legs: 裸腿
-        between_legs: (强调)两腿之间
-        cropped_legs: 只画了一部分腿
-        k/da_(league_of_legends): KDA组合(英雄联盟)
-        leg_belt: 腿部系着带子
-        leg_hair: 腿毛
-        leg_up: 抬起腿
-        legs_apart: 两腿分开
+        hugging own legs: 抱自己的双腿
+        curtsy: 屈膝礼（女仆行礼）
+
+        # 腿部特征
+        bare legs: 裸腿
+        between legs: (强调)两腿之间
+        cropped legs: 只画了一部分腿
+        leg belt: 腿部系着带子
+        leg hair: 腿毛
+        leg up: 抬起腿
+        legs apart: 两腿分开
         lowleg: M字摆腿
-        mechanical_legs: 机械义足
-        multiple_legs: 多足角色
-        no_legs: 没画出腿
-        no_legwear: 裆胯以下裸着
-        tail_between_legs: 尾巴蜷到两腿之间
-        barefoot: 裸足
-        foot_out_of_frame: 单脚不在图内
-        footprints: 脚印
-        dirty_feet: 脚的画法错误
-        feet: 脚
-        feet_out_of_frame: 双脚不在图内
-        feet_up: 翘起脚
-        wrong_feet: 脚部作画错误
-        cameltoe: 骆驼趾
+        mechanical legs: 机械义足
+        multiple legs: 多足角色
+        no legs: 没画出腿
+        no legwear: 裆胯以下裸着
+        tail between legs: 尾巴蜷到两腿之间
+        thick thighs: 肉腿
+        thigh holster: 腿上系着带子或工具包或枪套
         pigeon-toed: 萌向的内八腿
+        amputee: 欠损|独脚|肢体残缺|欠损少女
+
+        # 脚部相关
+        barefoot: 裸足
+        footprints: 脚印
+        dirty feet: 脚的画法错误
+        feet: 脚
+        feet up: 翘起脚
+        wrong feet: 脚部作画错误
         tiptoes: 踮起脚尖
         toe-point: 趾尖|脚尖
-        amputee: 欠损|独脚|肢体残缺|欠损少女
-        ankle_strap: 脚踝丝环
-        ankle_wrap: 脚踝套
-        crossed_ankles: 交叉脚踝
+        ankle strap: 脚踝丝环
+        ankle wrap: 脚踝套
+        crossed ankles: 交叉脚踝
+
+        # 其他
+        animal on lap: 膝盖上有动物
+        hand between legs: 双腿之间的手
+        hand on own knee: 手放在自己的膝盖上
+        on lap: 在膝盖上
+        k/da \(league of legends\): KDA组合(英雄联盟)
         pince-nez: 夹鼻眼镜|无脚眼镜
         folded: 抬腿露阴
-        thick_thighs: 肉腿
-        thigh_holster: 腿上系着带子或工具包或枪套
+        cameltoe: 骆驼趾
 
     - name: 其他动作
       color: rgba(241, 229, 140, .4)
       tags:
-        asymmetrical_docking: 胸部互碰|胸顶着胸
+        # 身体接触
+        asymmetrical docking: 胸部互碰|胸顶着胸
         back-to-back: 背对背
+        symmetrical docking: 胸挤胸
+        hug: 拥抱
+        holding hands: 牵手
+        interlocked fingers: 紧扣的双手
+        princess carry: 公主抱
+        Kabedon: 壁咚
+        lap pillow: 膝枕
+        sitting on head: 坐在头上
+        sitting on shoulder: 坐在肩膀上
+
+        # 面部动作
+        eye contact: 眼对眼（对视）
+        facing another: 面对另一个
+        tongue: 舌头
+        tongue out: 吐舌头
+        long tongue: 长舌头
+        uvula: 小舌头|口盖垂|悬雍垂
+
+        # 亲密动作
+        french kiss: 法国之吻
+        imminent kiss: 即将接吻
+        ear biting: 咬耳朵
         cunnilingus: 舔阴
-        eye_contact: 眼对眼（对视）
-        facing_another: 面对另一个
-        feeding: 喂食
-        finger_in_another's_mouth: 口内指交
-        fingering: 指交
-        french_kiss: 法国之吻
-        giving: 递|赠送
+        licking penis: 舔阴茎
+        oral invitation: 迎接射精而伸出舌头
+        finger in another's mouth: 口内指交
         grinding: 素股|臀推
         groping: 猥亵
-        holding_hands: 牵手
-        hug: 拥抱
-        imminent_kiss: 即将接吻
-        incoming_food: 递食物
-        incoming_gift: 递礼物
-        interlocked_fingers: 紧扣的双手
-        Kabedon: 壁咚
-        lap_pillow: 膝枕
-        licking_penis: 舔阴茎
-        long_tongue: 长舌头
-        mimikaki: 掏耳勺
-        oral_invitation: 迎接射精而伸出舌头
-        princess_carry: 公主抱
-        shared_bathing: 共浴|鸳鸯浴
-        shared_food: 共享食物|用嘴递食物
-        sitting_on_head: 坐在头上
-        sitting_on_shoulder: 坐在肩膀上
+
+        # 惩罚动作
         slapping: 掌掴
         spanking: 打屁股
-        special_feeling_(meme): 雪中打伞的恋人梗
-        symmetrical_docking: 胸挤胸
-        tongue: 舌头
-        tongue_out: 吐舌头
-        uvula: 小舌头|口盖垂|悬雍垂
-        ear_biting: 咬耳朵
-        mixed_bathing: 混浴
+
+        # 共享行为
+        feeding: 喂食
+        giving: 递|赠送
+        incoming food: 递食物
+        incoming gift: 递礼物
+        shared bathing: 共浴|鸳
 
 - name: 画面
   groups:
-    - name: 画质
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Ametatags#dtext-file
+    - name: 分辨率
       color: rgba(0, 255, 255, .4)
       tags:
-        checkered: 格子的
         lowres: 低分辨率
         highres: 高分辨率
         absurdres: 超高分辨率
         incredibly absurdres: 极高分辨率
-        huge filesize: 超级高分辨率/大文件
-        wallpaper: 壁纸
-        pixel art: 点阵图
-        monochrome: 单色图片
-        colorful: 色彩斑斓的
 
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aimage_composition#dtext-subject-matter
+    - name: 出处
+      color: rgba(0, 255, 255, .4)
+      tags:
+        ai-generated: AI生成
+        ai-assisted: AI辅助
+        end card: 动画片尾图
+        game cg: 游戏CG
+        novel illustration: 小说插画
+        anime screenshot: 动画截图
+        official art: 官方艺术
+        promotional art: 宣传图
+        artbook: 画集
+        doujinshi: 同人志
+        scan: 扫描
+        scan artifacts: 扫描伪影
+        magazine scan: 杂志扫描
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/traditional_media
+    - name: 传统媒体形式
+      color: rgba(0, 255, 255, .4)
+      tags:
+        traditional media: 传统媒体（手绘稿）
+        acrylic paint \(medium\): 丙烯颜料画
+        ballpoint pen \(medium\): 圆珠笔画
+        calligraphy brush \(medium\): 毛笔画
+        canvas \(medium\): 画布
+        charcoal \(medium\): 木炭画
+        colored pencil \(medium\): 彩色铅笔画
+        color ink \(medium\): 彩墨画
+        coupy pencil \(medium\): 铅笔画
+        crayon \(medium\): 蜡笔画
+        gouache \(medium\): 水粉画
+        graphite \(medium\): 石墨画
+        ink \(medium\): 墨水画
+        marker \(medium\): 马克笔画
+        millipen \(medium\): 毫笔画
+        nib pen \(medium\): 笔尖笔画
+        oil painting \(medium\): 油画
+        painting \(medium\): 油画画
+        pastel \(medium\): 粉彩画
+        photo \(medium\): 照片画
+        watercolor \(medium\): 水彩画
+        watercolor pencil \(medium\): 水彩笔画
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aimage_composition#dtext-format
+    - name: 艺术形式
+      color: rgba(0, 255, 255, .4)
+      tags:
+        calendar \(medium\): 日历
+        card \(medium\): 卡片
+        comic: 漫画
+        1koma: 一格漫画
+        2koma: 二格漫画
+        3koma: 三格漫画
+        4koma: 四格漫画
+        multiple 4koma: 多个四格漫画
+        5koma: 五格漫画
+        borderless panels: 无边框漫画
+        silent comic: 无对话漫画
+        cover: 封面
+        album cover: 专辑封面
+        cover page: 表纸
+        doujin cover: 同人封面
+        DVD cover: DVD封面
+        video game cover: 游戏封面
+        magazine cover: 杂志封面
+        manga cover: 漫画封面
+        social media composition: 仿社交媒体post
+        pixel art: 像素画
+        poster \(medium\): 海报(艺术形式)
+        dakimakura \(medium\): 抱枕(艺术形式)
+        collage: 拼贴艺术
+        fine art parody: 名画模仿
+        icon: 图标
+        logo: LOGO
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aimage_composition#dtext-styles
     - name: 艺术风格
       color: rgba(0, 255, 255, .4)
       tags:
-        artbook: 原画
-        game cg: 游戏CG
-        comic: 漫画
-        4koma: 四格
-        animated gif: GIF格式图片
-        dakimakura: 抱枕
-        cosplay: 角色扮演
-        crossover: 穿越
-        dark: 暗的
-        light: 亮的
-        guro: 猎奇
-        realistic: 写实
-        photo: 照片
-        real: 真实
-        landscape/scenery: 风景
-        cityscape: 城市风景
-        science fiction: 科技幻想
-        original: 原创
-        parody: 拙劣的模仿
-        personification: 拟人
-        optical illusion: 视觉错误
-        fine art parody: 名画模仿
-        sketch: 素描
-        traditional media: 传统媒体（手绘稿）
-        watercolor (medium): 透明水彩绘
-        silhouette: 剪影
-        cover: 封面
-        album: 专辑
-        sample: 图上有字样
-        back: 背影像
-        bust: 半身像
-        profile: 侧面绘
-        expressions: 表情绘（各种表情）
-        everyone: 一部作品中的主要人物集齐
-        column lineup: 一列列小图组成大图
-        transparent background: 透明的背景
-        simple background: 简单的背景
-        gradient background: 渐变的背景
-        zoom layer: 背景是前景的放大版
-        8 Bit Game: 8bit游戏
-        1980s anime: 80动画
-        disney movie: 迪士尼电影
-        goth: 哥特摇滚
-        80s movie: 80电影
-        bubble bobble: 泡泡龙
-        style of Pixar: 皮克斯动画
-        Polaroid art: 宝丽来艺术
-        Kaleidoscope Photography: 万花筒摄影
-        opal render: 欧泊渲染
-        chemigram: 色谱图
-        Studio Ghibli: 吉卜力风格
-        dreamlike: 梦幻
-        (faux traditional media): 签绘风格
-        genshin impact: 原神冲击
-        azur lane: 碧蓝航线
-        kantai collection: 舰队收藏
-        rebecca (cyberpunk): 边缘行者
-        chainsaw man: 电锯人
-        Magic Vortex: 魔法旋涡
-        ((dieselpunk)): 柴油朋克
-        magazine scan: 杂志扫描
-        album cover: 专辑封面
-        (lineart): 线条变粗
-        synthwave: 蒸汽波
-        (illustration),(paper figure),(lococo),((impasto)),(shiny skin): 洛可可
-
-    - name: 艺术类型
-      color: rgba(0, 255, 255, .4)
-      tags:
-        monochrome: 单色图片
-        Collage: 拼贴艺术
-        Dalle de verre: 彩色玻璃
-        pixel art: 像素画
-        Encaustic painting: 瓷画
-        Ink wash painting: 水墨画
-        Mezzotint: 铜版雕刻
-        silhouette: 剪影
-        illustration: 插画
-        (((ink))), ((watercolor)): 水彩画
-        illustration,(((ukiyoe))),((sketch)),((japanese_art)): 浮世绘
-        ((wash painting)),((ink s...)): 中国风
-        ((dyeing)),((oil painting)),((impasto)): 油画
-        (posing sketch), (monochrome): 黑白草图
-        sketch: 手画草稿
-        (monochrome), (gray scale), (pencil sketch lines: 铅笔速写
-        (watercolor pencil): 彩铅画
-
-    - name: 艺术派系
-      color: rgba(0, 255, 255, .4)
-      tags:
-        ((art nouveau)): 新艺术主义
-        ((classicism)): 古典主义
-        ((futurism)): 未来主义
-        ((Dadaism)): 达达主义
-        ((abstract art)): 抽象艺术
-        ((ASCII art)): ASCII艺术
-
-    - name: 艺术家风格
-      color: rgba(0, 255, 255, .4)
-      tags:
-        ((alphonse mucha)): 穆夏风格
-        ((Monet style)): 莫奈风格
-
-    - name: 光照
-      color: rgba(0, 255, 255, .4)
-      tags:
-        rim light: 轮廓光
-        Volumetric Lighting: 体积光
-        glowing neon lights: 霓虹灯
-        Cinematic Lighting: 电影级光照
-        lens flare: 透镜光晕
-        metallic luster: 金属光泽
-        moody lighting: 氛围光照
-        Tyndall effect: 丁达尔效应
-        light leaks: 漏光光效
-        background light: 背景光
-        available light: 自然光
-
-    - name: 写实
-      color: rgba(0, 255, 255, .4)
-      tags:
-        realistic: 写实
-        highres: 厚涂（风格）
-        photo_(medium): 照片（风格）
-        oil_painting: 油画
-        reality: 真实
-        polaroid: 照片(拍立得)
-
-    - name: 素描
-      color: rgba(0, 255, 255, .4)
-      tags:
-        sketch: 素描
-        flat_color: 色块
-        monochrome: 单色
-        spot_color: 纯色
-        halftone: 半色调
-        greyscale: 灰度
-        high_contrast: 高对比度
-        partially_colored: 部分着色
-        chromatic_aberration: 色差、色失焦
-        contour_deepening: 轮廓加深
+        3d: 3D
+        flat color: 色块
         outline: 轮廓线
-        silhouette: 剪影
+        oekaki: 涂鸦
+        sketch: 草稿涂鸦
+        abstract: 抽象画
+        lineart: 线画
+        no lineart: 无线艺术
+        art nouveau: 新艺术运动风格
+        impressionism: 印象派
+        ligne claire: 清晰的线条(赫热)
+        nihonga: 日本传统绘画
+        ukiyo-e: 浮世绘
+        sumi-e: 墨画
+        ink wash painting: 水墨画
+        minimalism: 极简风格
+        realistic: 写实
+        photorealistic: 仿照片风格
+        faux traditional media: 仿传统媒体风格
+        surreal: 超现实风格
 
-    - name: 画笔
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aimage_composition#dtext-techniques
+    - name: 艺术手法
       color: rgba(0, 255, 255, .4)
       tags:
-        traditional_media: 传统画布（如纸等）
-        faux_traditional_media: 签绘风格
-        marker_(medium): 马克笔
-        copics: 马克笔（中性灰色）
-        pencil_sketch_lines: 铅笔速写
-        graphite_(medium): 石墨铅笔
-        colored_pencil_(medium): 彩色铅笔
-        millipen_(medium): 绘图笔
-        nib_pen_(medium): 绘图笔
-        ballpoint_pen_(medium)_: 圆珠笔
-        pastel_color: 柔和的色彩
-        watercolor_(medium): 水彩
-        acrylic_paint_(medium): 丙烯漆料画
-        contour_deepening: 线条变粗
+        afterimage: 残影
+        blending: 前景背景融合
+        bokeh: 焦外虚化
+        chiaroscuro: 明暗对比
+        chromatic aberration: 彩色模糊光晕(失真)
+        depth of field: 景深
+        blurry: 模糊
+        distortion: 失真
+        double exposure: 双重曝光
+        drop shadow: 平移阴影
+        emphasis lines: 集中线
+        film grain: 噪点
+        foreshortening: 前缩(表现物体远近)
+        glitch: 画面BUG
+        gradient: 渐变
+        motion blur: 动态模糊
+        motion lines: 运动线
+        overexposure: 曝光过度
+        speed lines: 速度线
+        silhouette: 剪影
+        vignetting: 渐晕(渐变边框)
 
+    # TODO: 
     - name: 颜色
       color: rgba(0, 255, 255, .4)
       tags:
         orange: 橙色
         blue: 蓝色
         red: 红色
-        light_brown: 浅棕色
-        dark_pink: 深粉色
+        light brown: 浅棕色
+        dark pink: 深粉色
         khaki: 卡其色
         blonde: 金黄色的
         brown: 棕色
@@ -3303,82 +3170,358 @@
         slateblue: 石蓝色
         mediumslateblue: 中石板蓝色
 
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Acolors
+    - name: 色调
+      color: rgba(0, 255, 255, .4)
+      tags:
+        colorful: 色彩斑斓
+        high contrast: 高对比度
+        # 单色
+        aqua theme: 青緑色调
+        black theme: 黑色调
+        blue theme: 蓝色调
+        brown theme: 棕色调
+        green theme: 绿色调
+        grey theme: 灰色调
+        orange theme: 橙色调
+        pink theme: 粉色调
+        purple theme: 紫色调
+        red theme: 红色调
+        white theme: 白色调
+        yellow theme: 黄色调
+        monochrome: 黑白单色调
+        greyscale: 灰度
+        sepia: 褐棕色调
+        # 深浅度
+        muted color: 淡色
+        pale color: 深色
+        # 局部上色
+        greyscale with colored background: 灰度主体背景上色
+        partially colored: 部分上色
+        spot color: 单点上色
+        # 滤镜
+        limited palette: 少量颜色
+        multiple monochrome: 多个单色调
+        pastel colors: 柔和的颜色
+        neon palette: 霓虹色
+        color contrast: 互补色
+        halftone: 半色调
+        dithering: 位图混色
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Alighting
+    - name: 光照
+      color: rgba(0, 255, 255, .4)
+      tags:
+        # 角度
+        backlighting: 背面光
+        sidelighting: 侧面光
+        underlighting: 下面光
+        # 光照类型
+        bloom: 明亮光照引起的模糊
+        sunlight: 阳光
+        sunbeam: 温柔阳光
+        dappled sunlight: 透过树叶的阳光
+        moonlight: 月光
+        spotlight: 聚光灯
+        stage lights: 舞台灯光
+        caustics: 水上水下反光
+        crack of light: 缝隙下光照
+        refraction: 折射
+        ultraviolet light: 紫外线光
+        light rays: 可见光
+        diffraction spikes: 衍射彩色光条
+        lens flare: 透镜光晕
+        dark: 昏暗
+        darkness: 黑暗
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Alighting#dtext-sources
+    - name: 光源
+      color: rgba(0, 255, 255, .4)
+      tags:
+        glowstick: 荧光棒
+        lamp: 台灯
+        desk lamp: 桌上台灯
+        lamppost: 街路灯
+        wall lamp: 壁灯
+        neon lights: 霓虹灯
+        torch: 火把
+        fire: 火
+        embers: 余烬
+        flashlight: 手电筒
+        lantern: 灯笼
+        paper lantern: 纸灯笼
+        oil lamp: 油灯
+        wooden lantern: 木灯
+        ceiling light: 天花板灯
+        chandelier: 吊灯
+        candlelight: 烛光
+        muzzle flash: 枪口火光
+        headlight beam: 车灯
+        floodlights: 泛光灯
+        flare: 信号弹
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Abackgrounds
     - name: 背景
       color: rgba(0, 255, 255, .4)
       tags:
-        fantasy: 幻想风格
-        ban: 科技幻想
-        cyberpunk: 赛博朋克
-        depth_of_field: 景深(画法)
-        blurry: 背景模糊
-        blurry_foreground: 前景模糊
-        simple_background: 简单的背景
-        black_background: 黑色背景
-        white_background: 白色背景
-        transparent_background: 透明背景
-        beige_background: 米色背景
-        brown_background: 棕色背景
-        tan_background: 棕褐色背景
-        grey_background: 灰色背景
-        two-tone_background: 双色调背景
-        gradient_background: 渐变的背景
-        multicolored_background: 多彩的背景
-        rainbow_background: 彩虹背景
-        abstract_background: 抽象背景
-        argyle_background: 菱形背景
-        checkered_background: 方格背景
-        floral_background: 花朵点缀的背景
-        halftone_background: 网点图背景
-        heart_background: 桃色背景
-        honeycomb_background: 蜂窝风格背景
-        plaid_background: 格子呢背景
-        polka_dot: 圆斑背景
-        striped_background: 圆斑背景
-        scenery: 风景
-        landscape: 景观
-        foral_background: 花卉图案装饰的背景
-        crop_top_overhang: 作物顶部悬垂
-        starry_background: 星空背景
-        sparkle_background: 闪着星光的背景
-        cityscape: 城市背景
-        city_lights: 城市灯光背景
-        clock_background: 时钟背景
-        bubble_background: 气泡背景
+        # 颜色
+        aqua background: 水绿色背景
+        black background: 黑色背景
+        blue background: 蓝色背景
+        brown background: 棕色背景
+        green background: 绿色背景
+        grey background: 灰色背景
+        orange background: 橙色背景
+        pink background: 粉色背景
+        purple background: 紫色背景
+        red background: 红色背景
+        white background: 白色背景
+        yellow background: 黄色背景
+
+        # 多种颜色
+        gradient background: 渐变背景
+        greyscale with colored background: 灰度带彩色背景
+        monochrome background: 单色背景
+        multicolored background: 多彩背景
+        rainbow background: 彩虹背景
+        heaven condition: 天堂状态
+        two-tone background: 双色背景
+
+        # 纹理
+        argyle background: 菱形格纹背景
+        checkered background: 棋盘格背景
+        cross background: 十字背景
+        dotted background: 点状背景
+        food-themed background: 食物主题背景
+        grid background: 网格背景
+        halftone background: 半调背景
+        honeycomb background: 蜂巢背景
+        marble background: 大理石背景
+        paw print background: 爪印背景
+        plaid background: 格子背景
+        polka dot background: 圆点背景
+        simple background: 简单背景
+        snowflake background: 雪花背景
+        spiral background: 螺旋背景
+        strawberry background: 草莓背景
+        striped background: 条纹背景
+        sunburst background: 放射状背景
+
+        # 其他
+        AI-generated background: AI生成背景
+        abstract background: 抽象背景
+        animal background: 动物背景
+        text background: 文字背景
+        blurry background: 模糊背景
+        card background: 卡片背景
+        chibi inset: Q版嵌入
+        drama layer: 戏剧层
+        fiery background: 火焰背景
+        flag background: 旗帜背景
+        floral background: 花卉背景
+        fruit background: 水果背景
+        game screenshot background: 游戏截图背景
+        heart background: 心形背景
+        imageboard colors: 图板颜色
+        lace background: 蕾丝背景
+        mosaic background: 马赛克背景
+        paneled background: 面板背景
+        photo background: 照片背景
+        projected inset: 投影嵌入
+        Sofmap background: Sofmap背景
+        sparkle background: 闪光背景
+        starry background: 星空背景
+        transparent background: 透明背景
+
+- name: 镜头&构图
+  groups:
+    # DONE: 
+    - name: 透视
+      color: rgba(99, 201, 2, .4)
+      tags:
+        atmospheric perspective: 大气透视
+        fisheye: 鱼眼
+        panorama: 全景
+        perspective: 透视
+        vanishing point: 消失点
+        variations: 变化图
+
+    # OPTIMIZE: 
+    - name: 图像组成 / 构图
+      color: rgba(99, 201, 2, .4)
+      tags:
+        cut-in: cut-in
+        tachi-e: 立绘
+        isometric: 等距构图
+        symmetry: 对称
+        polar opposites: 两极对立
+        rotational symmetry: 点対称
+        negative space: 余白
+        partially underwater shot: 部分水下拍摄
+        # TODO: https://danbooru.donmai.us/wiki_pages/border
         border: 边框
-        pillarboxed: 柱状画布背景
-        rounded_corners: 背景或画框是圆角
+        fading border: 渐变边框
+        inset border: 嵌入式边框
+        ornate border: 华丽边框
+        outside border: 外边框
+        rounded corners: 圆角边框
         viewfinder: 相机取景框
-        windowboxed: 套着画框(背景)
-        outside_border: 一部分画到了背景框外
-        flashback: 回忆场景
-        wall_of_text: 文字背景
-        background_text: 背景文字
+        letterboxed: 电影式边框(上下)
+        pillarboxed: 电影式边框(左右)
+        # TODO: https://danbooru.donmai.us/wiki_pages/chart
+        chart: 图表
+        diagram: 示意图
+        character chart: 人物图
+        reference sheet: 设定图
+        relationship graph: 关系图
+        stats: 角色数值/状态
+        collage: 多图拼贴
+        zoom layer: 缩放层
+        projected inset: (同角色)内容嵌入
+
+    # TODO: 补充更多
+    - name: 人物像构图
+      color: rgba(99, 201, 2, .4)
+      tags:
+        portrait: 肖像（脸部到肩膀）
+        upper body: 上半身（脸部至躯干）
+        lower body: 下半身（从躯干向下）
+        cowboy shot: 中景镜头（脸部至大腿）
+        full body: 全身
+        wide shot: 广角镜头（远距离拍摄全身）
+        very wide shot: 超广角拍摄（超远距离拍摄全身）
+        close-up: 特写镜头
+        split crop: 只描画半张脸
+        cropped legs: 没画腿部以下
+        cropped torso: 没画躯干以下
+        cropped arms: 没画手臂以下
+        cropped shoulders: 没画肩以下
+        cropped head: 没画头部以下
+        profile: 侧面肖像画
+        lineup: 角色组图
+        column lineup: 角色组图(线条分割)
+        bust chart: 半身像组图
+        out of frame: 身体部位出画框
+        feet out of frame: 双脚出画框
+        foot out of frame: 单脚出画框
+        head out of frame: 头部出画框
+        knees out of frame: 膝盖出画框
+        armpit focus: 腋窝焦点
+        ass focus: 屁股焦点
+        back focus: 背部焦点
+        breast focus: 乳房焦点
+        eye focus: 眼睛焦点
+        foot focus: 脚部焦点
+        hand focus: 手部焦点
+        hip focus: 臀部焦点
+        male focus: 男性焦点
+        monster focus: 怪物焦点
+        navel focus: 肚脐焦点
+        pectoral focus: 胸肌焦点
+        penis focus: 阴茎焦点
+        thigh focus: 大腿焦点
+
+    - name: 图像主题
+      color: rgba(99, 201, 2, .4)
+      tags:
+        # cityscape: 都市
+        everyone: 全角色
+        group picture: 全家福
+        iei: 遗照
+        # landscape: 風景画
+        # nature: 自然
+        # no humans: 无人
+        # scenery: 风景
+        # still life: 静物
+        animal focus: 动物焦点
+        cloud focus: 云焦点
+        food focus: 食物焦点
+        plant focus: 植物焦点
+        vehicle focus: 车辆焦点
+        book focus: 书籍焦点
+        weapon focus: 武器焦点
+        text focus: 文字焦点
+        object focus: 物体焦点
+        other focus: 其他焦点
+
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aimage_composition#dtext-angle
+    - name: 视角
+      color: rgba(99, 201, 2, .4)
+      tags:
+        pov: 主观视角
+        dutch angle: 荷兰倾斜角度（画面倾斜）
+        from above: 俯视角度
+        from behind: 背面视角
+        from below: 仰视角度
+        from side: 侧面视角
+        high up: 高处视角
+        sideways: 侧向
+        straight-on: 正面视角
+        three quarter view: 四分之三视角
+        upside-down: 倒置视角
+        from outside: 从外部看向内部
+        upskirt: 裙底视角
+        multiple views: 多重视角
+
+    - name: 主角动作
+      color: rgba(99, 201, 2, .4)
+      tags:
+        looking_at_viewer: 看向观众
+        eye-contact: 眼神接触
+        eyeball: 盯着看
+        stare: 凝视
+        looking_back: 回眸
+        # gradient: 人物倾斜
+        looking_down: 人物视角向下看↘
+        looking_up: 人物视角抬头看↗
+        facing_away: 面向别处
+        looking_to_the_side: 看向侧面
+        looking_away: 看着别处
+        looking_ahead: 展望未来
+        looking_afar: 遥望
+        looking_outside: 向外看
+        head_tilt: 歪头
+        head_down: 低头
+        sideways_glance: 轻轻向侧面瞥
+        upshirt: 从衬衫下方瞥
+        upshorts: 从裙底瞥
+        looking_at_another: 看着另一个
+        looking_at_phone: 看手机
+        looking_at_animal: 看着动物
+        looking_at_mirror: 照镜子
+        looking_at_hand: 看着手
+        looking_at_hands: 看着双手
+        looking_at_food: 看食物
+        looking_at_screen: 看着屏幕
 
 - name: 环境
   groups:
     - name: 季节
       color: rgba(31, 144, 255, .4)
       tags:
-        in spring: 春天
-        in summer: 夏天
-        in autumn: 秋天
-        in winter: 冬天
-        (autumn maple forest:1.3),(very few fallen leaves),(path): 秋景
+        spring \(season\) : 春天
+        summer: 夏天
+        autumn: 秋天
+        winter: 冬天
 
     - name: 天气
       color: rgba(31, 144, 255, .4)
       tags:
+        morning: 早上
+        dawn: 天明
+        sunrise: 日出
         day: 白天
+        evening: 夕方
+        sunset: 夕阳
+        twilight: 黄昏
         dusk: 黄昏
         night: 夜晚
         rain: 下雨
         rainy days: 雨天
-        sunset: 日落
         cloudy: 多云
-        full moon: 满月
         sun: 太阳
         moon: 月亮
-        full_moon: 满月
+        full moon: 满月
         stars: 星星
         sky: 天空
         universe: 宇宙
@@ -3389,6 +3532,7 @@
         meteor shower: 流星雨
         cumulonimbus: 积雨云
 
+    # TODO:
     - name: 大自然
       color: rgba(31, 144, 255, .4)
       tags:
@@ -3736,7 +3880,7 @@
         couch: 沙发
         kotatsu: 被炉
         fireplace: 壁炉
-        window_: 窗
+        window: 窗
         sash: 窗扇
         curtains: 窗帘
         door: 门
@@ -3804,7 +3948,7 @@
         mouse: 鼠标
         cellphone: 手机
         Smartphones: 智能手机
-        handheld_game_console_: 掌上游戏机
+        handheld_game_console: 掌上游戏机
         nintendo_3ds: 任天堂3ds
         nintendo_ds: 任天堂ds
         nintendo_switch: 任天堂switch
@@ -3968,7 +4112,7 @@
         cigarette: 香烟
         coffee: 咖啡
         cookie: 饼干
-        cotton_candy_: 棉花糖
+        cotton_candy: 棉花糖
         cream: 奶油
         dango: 团子
         doughnut: 甜甜圈
@@ -4000,7 +4144,7 @@
         sweets: 糖果
         food: 食物
         food_in_mouth: 嘴里有食物
-        food_on_: 脸上有食物
+        food_on_face: 脸上有食物
         food_on_body: 身体上有食物
         food_print: 食物印花
         food_stand: 食品摊
@@ -4085,124 +4229,6 @@
         pumpkin: 南瓜
         jack-o'-lantern: 南瓜灯
         spring_onion: 大葱
-
-- name: 镜头
-  groups:
-    - name: 镜头
-      color: rgba(99, 201, 2, .4)
-      tags:
-        panorama: 全景
-        landscape: 风景镜头(远景)
-        wide_shot: 全景镜头(广角镜头)
-        medium_shot: 中景镜头
-        mid_shot: 中景镜头
-        full_shot: 全身像
-        bust: 半身像
-        upper_body: 上半身
-        lower_body: 下半身
-        cowboy_shot: 上半身+上半大腿(牛仔镜头)
-        portrait: 肖像画(脸+肩+偶尔再加胸)
-        profile: 侧面肖像画(portrait的侧脸版)
-
-    - name: 特写镜头
-      color: rgba(99, 201, 2, .4)
-      tags:
-        close-up: 特写镜头
-        macro_shot: 微距镜头
-        inset: 插入其他镜头或图片
-        cross-section: 剖面图
-        x-ray: X射线
-        solo_focus: 聚焦在单个人物(适合复杂场景)
-        xx_focus: 聚焦在xx上
-        face_focus: 聚焦在面部
-        eyes_focus: 聚焦在眼睛
-        foot_focus: 聚焦在脚上
-        hip_focus: 聚焦在臀部
-        ass_focus: 聚焦在屁股上
-        vehicle_focus: 聚焦在载具上
-        between_legs: (强调)两腿之间
-        between_breasts: (突出)胸部
-        between_fingers: (突出)指间
-        peeking: 偷窥
-        peeking_out: 偷窥(的姿态)
-        peeping: 偷窥(强调视角)
-        midriff_peek: 肚脐偷看
-        armpit_peek: 腋窝偷看
-        pussy_peek: 浦西偷看
-        panty_peek: 内裤偷看
-        pantyshot: 内裤走光
-        caught: 被抓现行
-
-    - name: 其他构图
-      color: rgba(99, 201, 2, .4)
-      tags:
-        aerial: 空中
-        turn_one's_back: 转身
-        upskirt: 裙底视角
-        phone_screen: 手机屏幕
-        multiple_views: 多视角分解
-        mirror selfie: 对镜自拍
-        three-quarter view: 3/4视角
-
-    - name: 镜头角度
-      color: rgba(99, 201, 2, .4)
-      tags:
-        front view: 正面视角
-        from_side: 侧面视角
-        from_above: 从上方↘
-        from_below: 从下方↗
-        from_outside: 由室外向室内
-        from_back: 后背视角
-        from behind: 后背视角
-        dynamic_angle: 动态角度
-        cinematic_angle: 电影角度
-        dutch angle: 倾斜角度
-        foreshortening: 透视法
-        fisheye: 远景透视画法
-
-    - name: 效果
-      color: rgba(99, 201, 2, .4)
-      tags:
-        depth of field: 景深（协调人景）
-        lens_flare: 镜头光晕
-        motion_blur: 运动导致的模糊
-        motion_lines: 体现运动的线
-        speed_lines: 速度线
-        bokeh: 焦散
-        chromatic_aberration: 色差
-        overexposure: 过曝
-        contour_deepening: 等高线强化
-
-    - name: 主角动作
-      color: rgba(99, 201, 2, .4)
-      tags:
-        looking_at_viewer: 看向观众
-        eye-contact: 眼神接触
-        eyeball: 盯着看
-        stare: 凝视
-        looking_back: 回眸
-        gradient: 人物倾斜
-        looking_down: 人物视角向下看↘
-        looking_up: 人物视角抬头看↗
-        facing_away: 面向别处
-        looking_to_the_side: 看向侧面
-        looking_away: 看着别处
-        looking_ahead: 展望未来
-        looking_afar: 遥望
-        looking_outside: 向外看
-        head_tilt: 歪头
-        head_down: 低头
-        sideways_glance: 轻轻向侧面瞥
-        upshirt: 从衬衫下方瞥
-        upshorts: 从裙底瞥
-        looking_at_another: 看着另一个
-        looking_at_phone: 看手机
-        looking_at_animal: 看着动物
-        looking_at_mirror: 照镜子
-        looking_at_hand: 看着手
-        looking_at_hands: 看着双手
-        looking_at_food: 看食物
-        looking_at_screen: 看着屏幕
 
 - name: 汉服
   groups:
@@ -4506,39 +4532,60 @@
 - name: 反向提示词
   groups:
     - name: 画面
-      color:
+      color: rgba(5, 160, 69, .4)
       tags:
-        NSFW: Not Safe For Work
-        logo: 商标
-        text: 文字
-        blurry: 模糊
-        low quality: 低质量
-        bad anatomy: 错误的解剖
-        sketches: 素描
-        lowres: 低分辨率
-        normal quality: 正常质量
-        monochrome: 单色
+        scan artifacts: 扫描伪影
+        lossy-lossless: 有损转无损(伪影)
+        ai-generated: AI 生成
+        abstract: 抽象(消除杂乱线条)
+        official art: 官方艺术
+        2koma: 二格漫画
+        4koma: 四格漫画
+        multiple views: 多视图
+        reference sheet: 人设图
+        dakimakura \(medium\): 抱枕(艺术形式)
+        turnaround: 全身三视图
+        comic: 漫画
         grayscale: 灰度
-        worstquality: 最差质量
-        signature: 签名
+        monochrome: 单色
+        sketch: 线稿
+        unfinished: 未完成的作品
         watermark: 水印
-        cropped: 裁剪
-        bad proportions: 错误的比例
-        out of focus: 脱离焦点
+        logo: LOGO
+        signature: 艺术家签名
+        text: 文字
+        artist name: 艺术家名字
+        dated: 日期
         username: 用户名
+        web address: 网址
+        blurry: 模糊
+        cropped: 裁剪
+        out of focus: 脱离焦点
 
     - name: 人
-      color:
+      color: rgba(5, 160, 69, .4)
       tags:
-        Multiple people: 多人
-        (AS-YoungV2-Neg:1.3): 移除成年人
-        (AS-Adult-Neg:1.3): 移除年轻人
-        bad body: 坏身体
-        long body: 身体长
-        (fat:1.2): 肥胖
+        anthro: 拟人福瑞
+        feral: 福瑞
+        semi-anthro: 半拟人福瑞
+        mammal: 哺乳动物(福瑞)
+        artistic error: 作画失误
+        bad hands: 坏手
+        bad feet: 坏脚
+        extra digits: 额外的指头
+        fewer digits: 缺少指头
+        extra arms: 多余的手臂
+        extra faces: 多面
+        multiple heads: 多头
+        missing limb: 缺少肢体
+        amputee: 四肢欠损
+        severed limb: 断肢
+        mutated hands: 变异的手
+        bad anatomy: 错误的解剖
+        distorted anatomy: 扭曲的解剖
         long neck: 长颈
+        bad proportions: 错误的比例
         deformed: 畸形
-        mutated: 变异的
         mutation: 变异
         ugly: 丑陋
         disfigured: 毁容
@@ -4546,30 +4593,785 @@
         skin blemishes: 皮肤瑕疵
         skin spots: 皮肤斑点
         acnes: 痤疮
-        missing limb: 缺少肢体
         malformed limbs: 畸形的肢体
         floating limbs: 漂浮的肢体
         disconnected limbs: 肢体不连贯
         extra limb: 多余的肢体
-        extra arms: 多余的手臂
-        mutated hands: 变异的手
         poorly drawn hands: 画的不好的手
         malformed hands: 畸形的手
         mutated hands and fingers: 畸形的手和手指
-        bad hands: 坏手
         missing fingers: 缺少手指
         fused fingers: 融合的手指
         too many fingers: 太多手指
         extra legs: 多余的腿
-        bad feet: 坏脚
         cross-eyed: 斗鸡眼
 
-    - name: Embeddings
-      color:
+
+- name: NSFW
+  groups:
+    - name: "人物:"
+      color: rgba(255, 50, 100, .4)
       tags:
-        AS-YoungV2-neg:
-        BadDream:
-        badhandv4:
-        BadNegAnatomyV1-neg:
-        EasyNegative:
-        FastNegativeV2:
+        dark-skinned male,faseless male: 无脸黑皮男
+        minigirl,mini person,koonago: 小人
+        female ejaculation,female orgasm,forced orgasm,squirting,gushing: 高潮
+    - name: 对象
+      color: rgba(255, 50, 100, .4)
+      tags:
+        dark-skinned male: 黑皮男人
+        faseless male: 无脸男
+        fat man: 胖男人
+    - name: 胸部
+      color: rgba(255, 50, 100, .4)
+      tags:
+        sideboob: 侧乳
+        backboob: 从背面看到的乳房
+        inverted nipples: 乳头内陷
+        puffy nipples: 乳头浮肿
+        huge nipples: 巨乳头
+        covered nipples: 乳头勃起(透过衣服)
+        large areolae: 大乳晕
+        asymmetrical breasts: 不对称的乳房(大小)
+        unaligned breasts: 不对称的乳房(弹跳)
+        bouncing breasts: 摇动的乳房
+        floating breasts: 水中浮起的乳房
+        pointy breasts: 尖乳房
+        perky breasts: 挺拔的乳房
+        sagging breasts: 下垂的乳房
+        hanging breasts: (因弯腰而)下垂的乳房
+        breasts squeezed together: 向中间挤压胸部
+        breast press: 向前挤压胸部
+        breast lift: 托着胸部
+        breast smother: 洗面奶
+        veiny breasts: 血管可见的乳房
+        food on breasts: 食物在乳房上
+        chocolate on breasts: 巧克力在乳房上
+        breast milk: 母乳
+    - name: 腹部
+      color: rgba(255, 50, 100, .4)
+      tags:
+        ribs: 肋骨
+        stomach: 腹部
+        belly: 丰满的腹部
+        stomach bulge: 被(阴茎)撑起的腹部
+        pregnant: 怀孕
+        big belly: 孕肚
+        navel: 肚脐
+        midriff: 露脐
+        abs: 腹肌
+        obliques: 斜肌
+        weight conscious,plump,muffin top: 肥肉肚子
+    #TODO
+    - name: 小穴
+      color: rgba(255, 50, 100, .4)
+      tags:
+        pussy: 小穴
+        urethra: 尿道
+        partially visible vulva: 可以看见一部分外阴
+        fat mons: 馒头穴
+        cleft of venus: 小穴密缝
+        defloration: 破处
+        female ejaculation:
+        female orgasm:
+        forced orgasm:
+        squirting:
+        gushing:
+        cervix: 子宫口
+        uterus: 子宫
+        ovaries: 卵巢
+        fallopian tubes: 输卵管
+        ovum: 卵子
+        sperm cell: 受精
+        giving birth: 分娩
+        fetus: 胎儿
+    - name: 屁股
+      color: rgba(255, 50, 100, .4)
+      tags:
+        ass: 屁股
+        anus: 肛门
+        puckered anus: 甜甜圈肛门
+        wide hips: 安产型身材
+    #TODO
+    - name: 阴茎
+      color: rgba(255, 50, 100, .4)
+      tags:
+        penis: 阴茎
+        small penis:
+        large penis:
+        huge penis:
+        gigantic penis:
+        precum: 先走汁
+        twitching penis: 痉挛的阴茎
+        ejaculating while penetrated: 前列腺高潮/被插入时射精
+        projectile cum: 射到空中
+        mutual orgasm: 同时高潮
+    #TODO
+    - name: 表现
+      color: rgba(255, 50, 100, .4)
+      tags:
+        trefoil: 内裤勒出的内陷
+        skindentation: 衣物勒出的内陷
+        deep skin: 人为勒出的内陷
+        taut clothes: 勒出波纹的衣服
+        impossible clothes:
+        skin tight: 紧贴皮肤(并清晰可见)的衣服
+        ass ripple: 撞击屁股的波纹
+        motion lines: 运动线
+        cross-section: 断面图
+        internal cumshot: 内部射精
+        impregnation: 受精图
+        cervical penetration: 子宫姦
+        reverse x-ray: 反向透视(手机或画板)
+        see-through silhouette: 透视剪影
+        disembodied penis: 只画一半的阴茎
+        disembodied limb: 只画一半的胳膊
+
+    - type: wrap
+
+    - name: "服饰:"
+      color: rgba(255, 50, 100, .4)
+      tags:
+        revealing clothes: 暴露的衣服
+        crop top overhang: 奶帘(整体)
+        breast curtains: 奶帘(条状)
+        framed breasts: 被外侧衣服框柱的乳房
+        sleeveless: 无袖
+        short sleeves: 短袖
+        sleeves past elbows: 七分袖
+        long sleeves: 长袖
+        sleeves past wrists: 萌袖(过手腕)
+        sleeves past fingers: 萌袖(过手指)
+        pinching sleeves: 攥着袖子
+        short over long sleeves: 短袖下的长袖
+        open fly: 上下双开
+        partially unbuttoned: 半解开的扣子
+        unbuttoned: 解开的扣子
+        untied: 解开的系绳
+        unzipped: 拉开的拉链
+    - name: 普通衣物
+      color: rgba(255, 50, 100, .4)
+      tags:
+        wedding dress: 婚纱
+        elbow gloves: 长手套
+        fishnets: 渔网服饰
+        bodysuit: 连体紧身衣
+        latex: 连体紧身胶衣
+        bondage outfit: 束缚装
+        gimp suit: 束缚装胶衣
+    - name: 内衣
+      color: rgba(255, 50, 100, .4)
+      tags:
+        lingerie: 内衣
+        bra: 胸罩
+        nightgown: 睡衣
+        babydoll: 无袖衬裙睡衣(蕾丝)
+        chemise: 无袖衬裙睡衣(宽松)
+        camisole: 无袖紧身背心(细肩带)
+        bodystocking: 连体袜
+        garter straps: 吊带袜的吊带
+        garter belt: 吊带袜的腰带
+        bustier: 紧身胸衣
+        corset: 束腰
+        panties: 内裤
+        boyshort panties: 平角短裤内裤
+        thong: 丁字内裤
+        g-string: Y字内裤
+        pearl thong: 珍珠内裤
+    - name: 内衣(男)
+      color: rgba(255, 50, 100, .4)
+      tags:
+        male underwear: 男式内裤
+        boxers: 拳击手内裤(男式)
+        briefs: 三角内裤(男式)
+        boxer briefs: 紧身平角内裤(男式)
+        bikini briefs: 丁字内裤(男式)
+        jockstrap: 下体保护内裤(男式)
+        ball bra: 仅罩住阴囊的内裤
+        penis sheath: 仅罩住阴茎的内裤
+        penis ribbon: 阴茎上绑的丝带
+    - name: 有切口的服装
+      color: rgba(255, 50, 100, .4)
+      tags:
+        crotchless: 有切口的服装
+        crotchless panties: 露裆内裤
+        crotchless pants: 露裆裤
+        crotchless swimsuit: 露裆泳衣
+        crotchless pantyhose: 露裆裤袜
+        crotchless leotard: 露裆紧身衣
+        crotchless bloomers: 露裆灯笼裤
+        crotchless buruma: 露裆体育三角裤
+        nippleless clothes: 露乳头的衣服
+        breastless clothes: 露乳房的服装
+    - name: 衣服开窗
+      color: rgba(255, 50, 100, .4)
+      tags:
+        clothing cutout: 衣服开窗
+        armpit cutout: 腋下开窗
+        ass cutout: 臀部开窗
+        back cutout: 后背开窗
+        cleavage cutout: 奶窗
+        cat cutout: 猫形奶窗
+        heart cutout: 心形奶窗
+        underboob cutout: 下乳奶窗
+        crotch cutout: 胯部开窗
+        hip vent: 臀部外侧开窗
+        thigh cutout: 大腿内侧开窗
+        shoulder cutout: 肩部开窗
+        stomach cutout: 腹部开窗
+        cutout above navel: 腹部开窗(脐上)
+        navel cutout:  腹部开窗(肚脐)
+        cutout below navel:  腹部开窗(脐下)
+    - name: 撕裂的服装
+      color: rgba(255, 50, 100, .4)
+      tags:
+        torn xx: 撕裂的xx
+        exploding clothes: 爆开的衣服
+        torn bike shorts: 撕裂的自行车短裤
+        torn shirt: 撕裂的衬衫
+        torn bodysuit: 撕裂的连体紧身衣
+        torn coat: 撕裂的外套
+        torn dress: 撕裂的连衣裙
+        torn gloves: 撕裂的手套
+        torn jacket: 撕裂的夹克
+        torn kimono: 撕裂的和服
+        torn hakama: 撕裂的袴
+        torn legwear: 撕裂的裤袜
+        torn leotard: 撕裂的紧身衣
+        torn necktie: 撕裂的领带
+        torn panties: 撕裂的内裤
+        torn pants: 撕裂的裤子
+        torn scarf: 撕裂的围巾
+        torn shorts: 撕裂的短裤
+        torn skirt: 撕裂的裙子
+        torn sleeves: 撕裂的袖子
+        torn swimsuit: 撕裂的泳衣
+    - name: 捆绑
+      color: rgba(255, 50, 100, .4)
+      tags:
+        rope: 绳子
+        crotch rope: 压迫小穴的绳子(捆绑)
+        rope walking: 压迫小穴的绳子(行走)
+        naked ribbon: 裸体丝带
+        bound arms: 捆住两臂
+        bound feet: 捆住两脚
+        bound legs: 捆住两腿
+        bound calves: 捆住小腿
+        bound knees: 捆住两膝盖
+        bound thighs: 捆住两大腿
+        bound torso: 捆住躯干
+        bound wrists: 捆住两手腕
+        box tie: 将小臂束缚在后背
+        frogtie: 将脚踝束缚在大腿或手腕上
+        hogtie: 将脚踝和手腕都在背后绑在一起
+        separated arms: 被束缚而分开的两臂
+        separated legs: 被束缚而分开的两腿
+        separated wrists: 被束缚而分开的两腕
+        strappado: 身体前倾,两臂从下方被捆绑到背后吊起
+        suspension: 因束缚而悬挂
+    - name: 其他
+      color: rgba(255, 50, 100, .4)
+      tags:
+        crotch zipper: 裆部拉链
+        breast zipper: 胸部拉链
+        button gap: 衬衫纽扣之间的小缝隙
+        center opening: 开胸装(露乳沟)
+        plunging neckline: 深V领口(露脐)
+
+    - type: wrap
+
+    - name: "动作:"
+      color: rgba(255, 50, 100, .4)
+      tags:
+        assertive female: 女性占优位
+    - name: 表情动作
+      color: rgba(255, 50, 100, .4)
+      tags:
+        presenting: (性诱惑)展示
+        seductive smile: 诱人的微笑
+        leaning forward: 身体前倾
+        leaning back: 身体后仰
+        arched back: 拱腰
+        sway back: 上体后拱、下体前拱
+        naughty face: 调皮的脸
+        come hither: 色诱
+        bed invitation: 邀请进入被子
+        flashing: 撩衣服(露出)
+        outstretched arm: 伸出的胳膊
+        outstretched hand: 伸出的手
+        reaching towards viewer: 手伸向观看者
+        carry me: 要求抱抱
+        incoming gift: 递给观看者的礼物
+        dildo riding: 骑在假阳具上
+        hand on another's head: 手放在某人头上
+        covering own mouth: 捂住自己的嘴
+        hand over own mouth: 手盖住自己的嘴
+    - name: 性交体位
+      color: rgba(255, 50, 100, .4)
+      tags:
+        sex: 性交
+        imminent penetration: 事前
+        just the tip: 前端插入
+        guided penetration: 引导插入
+        deep penetration: 插到底
+        69: "69"
+        back stand: 背面立位
+        doggystyle: 背后位
+        bent over: 站立背后位
+        prone bone: 后趴位
+        top-down bottom-up: 三角式
+        spooning: 侧位
+        on side: 抬腿侧位(松葉崩し)
+        girl on top: 女性压在另一人身上
+        amazon position: 逆打桩机体位
+        straddling: 骑乘
+        cowgirl position: 骑乘位
+        squatting cowgirl position: 蹲式骑乘位
+        reverse cowgirl position: 背后骑乘位
+        reverse upright straddle: 背面座位
+        upright straddle: 对面座位
+        boy on top: 男性压在另一人身上
+        folded: 折叠式
+        knees to chest: 抬腿(膝盖靠近胸部)
+        legs over head: 腿抬到头上
+        legs up: 双腿抬腿
+        feet up: 
+        missionary: 正常位
+        mating press: 打桩机体位
+        suspended congress: 火车便当式
+        reverse suspended congress: 逆火车便当式
+        full nelson: 抬腿逆火车便当式
+        group sex: 群交
+        spitroast: 性交+同时口交
+        reverse spitroast: 骑乘位+颜面骑乘
+        double penetration: 二穴插入
+        triple penetration: 三穴插入
+        #TODO: GroupSex https://danbooru.donmai.us/wiki_pages/tag_group%3Asex_acts
+    - name: 侍奉
+      color: rgba(255, 50, 100, .4)
+      tags:
+        footjob: 足交
+        double footjob: 双脚足交
+        cooperative footjob: W足交
+        shoejob: 穿鞋足交
+        licking foot: 舔脚
+        frottage: 摩擦
+        armpit sex: 腋交
+        grinding: 素股
+        buttjob: 臀交
+        cooperative grinding: W素股
+        kneepit sex: 膝下交
+        paizuri: 乳交
+        cooperative paizuri: W乳交
+        autopaizuri: 自己乳交(扶她)
+        naizuri: 平胸乳交
+        paizuri on lap: 膝上乳交
+        paizuri under clothes: 着衣乳交
+        perpendicular paizuri: 垂直乳交
+        straddling paizuri: 骑乘乳交
+        thigh sex: 大腿素股
+        groping: 抚摸
+        hairjob: 发交
+        handjob: 手交
+        caressing testicles: 爱抚睾丸
+        double handjob: 两手手交(不同男性)
+        cooperative handjob: W手交
+        nursing handjob: 授乳手交
+        cuddling handjob: 拥抱手交
+        reverse nursing handjob: 舔乳头手交
+        reach-around: 从背后手交
+        two-handed handjob: 双手手交
+        masturbation: 自慰
+        clothed masturbation: 着衣自慰
+        crotch rub: 摩擦自慰(用物体)
+        pillow sex: 摩擦自慰(用枕头)
+        teddy bear sex: 自慰(用泰迪熊)
+        table humping: 桌角自慰
+        female masturbation: 女性自慰
+        futanari masturbation: 扶她自慰
+        implied masturbation: 暗示在自慰
+        male masturbation: 男性自慰
+        mutual masturbation: 互相自慰
+        fingering: 扣穴
+        oral: 口交(不分男女)
+        anilingus: 舔肛
+        rusty trombone: 舔肛手交
+        breast sucking: 乳头吸吮
+        cunnilingus: 舔阴
+        fellatio: 口交(女→男)
+        cleanup fellatio: 清理口交
+        kissing penis: 亲吻阴茎
+        autofellatio: 自己乳交(扶她)
+        cum swap: 精液交换(通关接吻)
+        implied fellatio: 暗示在口交
+        stealth fellatio: 隐藏口交
+        deepthroat: 深喉
+        irrumatio: 深喉
+        cooperative fellatio: W口交
+        multiple penis fellatio: 多阴茎口交
+        fellatio under mask: 口罩下口交
+        hug and suck: 抱腰口交
+        simulated fellatio: 模拟口交
+        licking penis: 舔阴茎
+        reverse fellatio: 反向口交(身体朝上)
+        tonguejob: 舌头口交
+        :>=: 
+        imminent fellatio: 即将口交
+        lipstick ring: 口交留下的痕迹
+        oral invitation: 舌射待ち
+        cheek bulge: 脸颊鼓包
+        sitting on face: 颜面骑乘
+        licking testicle: 舔睾丸
+        testicle sucking: 吮吸睾丸
+        penis awe: 亮"枪"
+        finger in another's mouth: 口内指責め
+    - name: 抓&揉
+      color: rgba(255, 50, 100, .4)
+      tags:
+        xx grab: 抓住xx
+        ass grab: 抓屁股
+        torso grab: 抓住躯干
+        grabbing own breast: 抓住自己的乳房
+        grabbing another's breast: 揉奶
+        guided breast grab: 引导某人揉奶
+        nipple tweak: 玩弄乳头
+        crotch grab: 揉胯下(着衣)
+        guided crotch grab: 引导某人揉胯下(着衣)
+        holding miniperson: 抓着小人
+        # TODO: https://danbooru.donmai.us/wiki_pages/grabbing_another%27s_breast
+    - name: 抱
+      color: rgba(255, 50, 100, .4)
+      tags:
+        arm around shoulder: 单手搂肩
+        arm around waist: 单手搂腰
+        arm around neck: 单手搂脖子
+        arm around back: 单手搂背
+        arms around waist: 双手搂腰
+        arms around neck: 双手搂脖子
+        arms around back: 双手搂背
+        hug: 拥抱
+        forced hug: 强行拥抱
+        glomp: 热情拥抱
+        group hug: 群体拥抱
+        hug from behind: 从后面抱
+        imminent hug: 即将拥抱
+        incoming hug: 即将拥抱(第一人称)
+        mutual hug: 互相拥抱
+        waist hug: 抱腰
+        arm hug: 抱胳膊
+        hugging own legs: 抱自己的腿
+        hugging another's leg: 抱别人的腿
+        hugging tail: 抱尾巴
+        animal hug: 抱着动物
+        hugging object: 抱着物体
+        pillow hug: 抱着枕头
+        hugging doll: 抱着娃娃
+        hugging book: 抱着书
+    - name: 其他
+      color: rgba(255, 50, 100, .4)
+      tags:
+        tearing clothes: 撕开服装
+        covering crotch: 遮挡裆部
+        trembling: 颤抖
+        twitching: 痉挛
+        shaking: 摇晃
+
+    - type: wrap
+
+    - name: "物品:"
+      color: rgba(255, 50, 100, .4)
+      tags:
+    - name: 性玩具
+      color: rgba(255, 50, 100, .4)
+      tags:
+        sex toy: 性玩具
+        too many sex toys: 大量性玩具
+        anal beads: 肛珠
+        anal tail: 肛塞尾巴
+        artificial vagina: 飞机杯
+        tenga: Tenga飞机杯
+        butt plug: 肛塞
+        aneros: 前列腺自慰器
+        butt plug tail: 肛塞尾巴
+        jewel butt plug: 宝石肛塞
+        cock ring: 锁精环
+        dildo: 假阳具
+        double dildo: 双头假阳具
+        huge dildo: 巨大假阳具
+        dragon dildo: 龙型假阳具
+        horse dildo: 马型假阳具
+        spiked dildo: 带刺或凹凸的假阳具
+        strap-on: 假阳具内裤
+        suction cup dildo: 吸盘式假阳具
+        dildo under panties: 内裤内的假阳具
+        object insertion: 异物插入
+        food insertion: 插入食物
+        prostate massager: 前列腺自慰器
+        breast pump: 搾乳器
+        clitoris pump: 阴蒂吸引泵
+        sex machine: 机械奸
+        sounding: 尿道插入(阴茎)
+        urethral insertion: 尿道插入(小穴)
+        catheter: 导尿管
+        urethral beads: 尿道珠
+        vibrator: 跳蛋,按摩棒
+        rabbit vibrator: 按摩棒(附带阴蒂按摩)
+        egg vibrator: 跳蛋
+        remote control vibrator: 跳蛋遥控器
+        hitachi magic wand: 电动按摩器
+        riding machine: 骑马按摩器
+        vibrator under clothes: 衣服下的按摩器
+        vibrator in thighhighs: 塞在长筒袜内的遥控器
+        vibrator in thigh strap: 绑在大腿上的遥控器
+        vibrator under panties: 内裤内的按摩器
+        vibrator on nipple: 乳头跳蛋
+        vibrator in anus: 肛门内的按摩棒
+        vibrator on penis: 阴茎上的跳蛋
+        aphrodisiac: 媚药
+        enema: 灌肠
+        lotion: 润滑液
+        lube: 润滑液
+        lotion bottle: 润滑液瓶
+    - name: 拘束具
+      color: rgba(255, 50, 100, .4)
+      tags:
+        blindfold: 眼罩
+        chastity belt: 贞操带(女式)
+        chastity cage: 贞操带(男式)
+        clitoris clamp: 阴蒂夹
+        nipple clamps: 乳头夹
+        collar: 项圈
+        cuffs: 手铐
+        shackles: 足拷
+        handcuffs: 警察手铐
+        gag: 口塞
+        ball gag: 口球
+        wiffle gag: 口球(有洞)
+        bit gag: 棒装口塞
+        cleave gag: 布制口塞
+        panty gag: 内裤口塞
+        plug gag: 口罩开洞口塞
+        ring gag: 环装口塞
+        tape gag: 胶带口塞
+        dildo gag: 带假阳具的口塞
+        leash: 狗链
+        clitoris leash: 阴蒂狗链
+        leash on penis: 阴茎狗链
+        nose hook: 鼻钩
+        pillory: 颈手铐
+        stocks: 手脚拷(木板制)
+        spreader bar: 拘束杆
+        monoglove: 单手套(手臂束缚器)
+        whip: 鞭子
+        riding crop: 马鞭
+        wooden horse: 三角木马
+    - name: 穿孔
+      color: rgba(255, 50, 100, .4)
+      tags:
+        piercing: 穿孔
+        nipple chain: 乳头链
+        #TODO: https://danbooru.donmai.us/wiki_pages/tag_group%3Apiercings
+
+
+
+- name: XL提示词
+  groups:
+    - name: "特殊提示词:"
+      color: rgba(200, 200, 0, .4)
+      tags:
+        jpeg artifacts:
+    - name: PonyV6
+      color: rgba(200, 200, 0, .4)
+      tags:
+        rating_safe:
+        rating_questionable:
+        rating_explicit:
+        source_pony:
+        source_furry:
+        source_cartoon:
+        source_anime:
+        score_9:
+        score_8_up:
+        score_7_up:
+        score_6_up:
+        score_5_up:
+        score_4_up:
+    - name: AnimagineV3
+      color: rgba(200, 200, 0, .4)
+      tags:
+        masterpiece: '> 95%'
+        best quality: '> 85% & ≤ 95%'
+        great quality: '> 75% & ≤ 85%'
+        good quality: '> 50% & ≤ 75%'
+        normal quality: '> 25% & ≤ 50%'
+        low quality: '> 10% & ≤ 25%'
+        worst quality: '≤ 10%'
+        safe: General
+        sensitive: Sensitive
+        nsfw: Questionable
+        explicit: Explicit
+        newest: 2021 to 2024
+        recent: 2018 to 2020
+        mid: 2015 to 2017
+        early: 2011 to 2014
+        oldest: 2005 to 2010
+        very aesthetic: '> 0.71'
+        aesthetic: '> 0.45 & < 0.71'
+        displeasing: '> 0.27 & < 0.45'
+        very displeasing: '≤ 0.27'
+    - name: NoobAI
+      color: rgba(200, 200, 0, .4)
+      tags:
+        masterpiece: 名作
+        best quality: 最高质量
+        high quality: 高质量(danbooru)
+        good quality: 高质量(e621)
+        normal quality: 普通质量
+        low quality: 低质量(danbooru)
+        bad quality: 低质量(e621)
+        worst quality: 最差质量
+        very awa: 最好美学
+        worst aesthetic: 最差美学
+        general: 大众级
+        sensitive: 敏感
+        nsfw: 色情
+        explicit: 暴露
+        year xxxx: 
+        newest: 2021~2024
+        recent: 2018~2020
+        mid: 2014~2017
+        early: 2011~2013
+        old: 2005~2010
+
+    - type: wrap
+
+    - name: "审查:"
+      color: rgba(200, 200, 0, .4)
+      tags:
+        censored: 有码
+        uncensored: 无码
+    - name: 普通审查
+      color: rgba(200, 200, 0, .4)
+      tags:
+        censored anus: 打码的肛门
+        censored nipples: 打码的乳头
+        bar censor: 黑条打码
+        blank censor: 空白打码
+        blur censor: 模糊打码
+        mosaic censoring: 马赛克打码
+        emoji censor: emoji表情打码
+        heart censor: 爱心打码
+        scribble censor: 涂鸦打码
+    - name: 其他审查
+      color: rgba(200, 200, 0, .4)
+      tags:
+        convenient censoring: 看不到的构图
+        out-of-frame censoring: 出框审查
+        censored identity: 眼睛打码
+        censored with cum: 用精液打码
+        convenient arm: 用手臂挡住(打码)
+        convenient head: 用头挡住(打码)
+        convenient leg: 用腿挡住(打码)
+        soap censor: 用泡沫挡住(打码)
+        steam censor: 用蒸汽挡住(打码)
+        flower censor: 用花挡住(打码)
+        hair censor: 用头发挡住(打码)
+        light censor: 用光挡住(打码)
+        tail censor: 用尾巴挡住(打码)
+        wing censor: 用翅膀挡住(打码)
+        one finger selfie challenge \(meme\): 一根手指挡住
+
+    - type: wrap
+
+    - name: "画师:"
+      color: rgba(200, 200, 0, .4)
+      tags:
+        healthyman: ヘルシーマン
+        mato tsuyoi: Mato.
+        wagashi \(dagashiya\): 和菓子
+        utsusumi kio: 空住キオ
+        setmen: セトマン
+        suga hideo: スガヒデオ
+        atte nanakusa: あって七草
+        tianliang duohe fangdongye: 防冻液
+        hagi \(ame hagi\): 萩
+        onono imoko: 魚介
+        kaedeko \(kaedelic\): 楓子(ガキ巨乳)
+        kupa \(jesterwii\): 苦怕
+        kakure eria: 影おじ
+        mountain han: 山含
+        signalviolet: 紫信号
+        okura-chan \(at nya5\): おくらちゃん
+        matcha \(mattyan\): 抹茶さま
+        kedama milk: 毛玉牛乳
+        neku oneneko: ねくおねねこ
+        yuzuki himuka: 柚月ひむか
+        lolo \(kemonono\): ro
+        airandou: あいらんどう
+        bee \(deadflow\): Б
+        amonitto: アモニット
+        mr h.l.: 
+        sumiyao \(amam\):
+        matanonki: 
+        blvefo9:
+        shoeguy:
+        kujou karasuma:
+        7010:
+        yukie \(kusaka shi\):
+        lk149:
+        ajitarou \(setsu\):
+        nopossumachine:
+        iumu:
+        nababa:
+        torinari \(dtvisu\):
+        iuui:
+        tsurumi kazane:
+        hiroki \(yyqw7151\):
+        tenako \(mugu77\):
+        shibori kasu:
+        chomikuplus:
+        morino831: もりの
+        pkpkpppk:
+        sb \(coco1\):
+        na tarapisu153: ラピス
+        fuya \(tempupupu\):
+        moyori:
+        bkub: 皮皮美
+        blade \(galaxist\):
+        bow \(bhp\):
+        ebifurya:
+        qusouzu mogari: 
+    - name: 像素
+      color: rgba(200, 200, 0, .4)
+      tags:
+        yumykon: pixel_3
+        thejunebug: pixel_3
+        ahiru_tokotoko: pixel_3
+        uramoto_kouji: pixel_4
+        999 \(hansode\): pixel_5
+
+    - type: wrap
+
+    - name: "其他:"
+      color: rgba(200, 200, 0, .4)
+      tags:
+        tachi-e,faux figurine,diorama: 带背景立绘风格
+        monochrome,greyscale,spot color: 黑白加其他颜色风格
+
+    - name: "角色:"
+      color: rgba(200, 200, 0, .4)
+      tags:
+        monster girl, bee girl, arthropod girl, fur trim, fur wrist cuffs, fur collar, brown bodysuit, thighhighs, elbow gloves, bare shoulders, antennae, insect wings, abdomen tail, extra eyes, solid eyes, colored sclera, black sclera: 蜜蜂娘
+        touhoku kiritan,brown hair,ahoge,headgear,red eyes: 東北きりたん
+        japanese clothes,kimono,white kimono,wide sleeves,obi,sash: 東北きりたん_和服
+        ririn-chan,blonde hair,long hair,twintails,hair ornament,hair bow,red bow,blue bow,bell,hair bell,purple eyes,skin fang: リリンちゃん
+        layered clothes,single bare shoulder,single off shoulder,off-shoulder shirt,blue star print,pink shirt,t-shirt,camisole,black skirt,pleated skirt,skirt,thighhighs,striped thighhighs,zettai ryouiki,pink footwear: リリンちゃん私服
+    - name: 碧蓝档案
+      color: rgba(200, 200, 0, .4)
+      tags:
+        ibuki \(blue archive\),blue archive,side ponytail,hair ribbon,halo,demon tail,low wings,demon horns,blonde hair,pointy ears,yellow eyes: イブキ
+        fubuki \(blue archive\),blue archive,multicolored hair,blue hair,long hair,twintails,ahoge,hair bow,hair ornament,halo,purple eyes: フブキ(通常衣装)
+        mari \(blue archive\),blue archive,halo,yellow halo,orange hair,long hair,single braid,braid,hair flower,hair ornament,leaf hair ornament,white flower,flower,animal ears,blue eyes: マリー
+        nun,habit,turtleneck,animal ear headwear,veil,armband,blue neckerchief,neckerchief,white sailor collar,sailor collar,frilled sleeves,puffy long sleeves,puffy sleeves,long skirt,skirt,long sleeves,black footwear,mary janes,shoes,white socks,socks,yellow bow: マリー(通常衣装)
+        green eyes,halo,animal ears,hair ornament,black hair: シュン(幼女)
+        china dress,chinese clothes,dress,thighhighs,white thighhighs,mary janes,shoes: シュン(幼女衣装)
+
