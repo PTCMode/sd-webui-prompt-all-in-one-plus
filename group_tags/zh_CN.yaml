@@ -681,10 +681,13 @@
     - name: 肩部
       color: rgba(255, 123, 2, .4)
       tags:
-        bare shoulders: 赤肩
+        bare shoulders: 裸肩
         collarbonea: 锁骨
         armpits: 腋下
         armpit crease: 腋窝皱痕
+        shoulder blades: 肩甲骨
+        broad shoulders: 宽肩
+        nape: 后颈
 
     - name: 胸部
       color: rgba(255, 123, 2, .4)
@@ -712,6 +715,7 @@
       tags:
         narrow waist: 细腰
         slender waist: 纤细的腰
+        hip bones: 髋骨
 
     - name: 腹部
       color: rgba(255, 123, 2, .4)
@@ -723,6 +727,22 @@
         navel: 肚脐
         groin: 腹股沟
         pregnant: 怀孕
+
+    - name: 背部
+      color: rgba(255, 123, 2, .4)
+      tags:
+        back: 背部
+        bare back: 裸背
+        median furrow: 背中线
+        dimples of venus: 腰窝
+
+    - name: 腿部
+      color: rgba(255, 123, 2, .4)
+      tags:
+        long legs: 长腿
+        slim legs: 细腿
+        groin tendon: 腹股沟肌腱
+        thigh gap: 大腿间隙
 
     - name: 翅膀
       color: rgba(255, 123, 2, .4)
@@ -793,6 +813,7 @@
         german clothes: 德国服装
         gothic lolita: 哥特洛丽塔风格
         # 其他地域风格
+        greek clothes: 希腊服饰
         arabian clothes: 阿拉伯服饰
         egyptian clothes: 埃及风格服饰
         indian style: 印度风格
@@ -2060,9 +2081,6 @@
         hat removed: 帽子被摘下|摘下帽子
         hat ribbon: 带有缎带的帽子
         hat tip: 捏着帽檐
-        hatching \(texture\): 线影法(纹理)
-        hatsune miku \(cosplay\): cos成初音未来
-        is that so: so-nanoka(是这样啊的口癖)
         porkpie hat: 道士帽
         sailor hat: 水手帽
         santa hat: 圣诞帽
@@ -2073,16 +2091,16 @@
     - name: 发饰
       color: rgba(230, 84, 128, .4)
       tags:
-        hair ribbon: 发 带
-        hairband: 发 带
-        hair tie: 发 带
+        hair ribbon: 发带
+        hairband: 发带
+        hair tie: 发带
         lolita hairband: 洛丽塔发带
         frilled hairband: 褶边发带
         lace-trimmed hairband: 蕾丝边饰发带
         hair bobbles: 头绳
         hair ornament: 发饰
-        hair flower: 发 花
-        x hair ornament: x 发饰
+        hair flower: 发花
+        x hair ornament: x发饰
         hair bow: 蝴蝶结发饰
         frog hair ornament: 青蛙发饰
         heart hair ornament: 心形发饰
@@ -2108,13 +2126,13 @@
         strawberry hair ornament: 草莓发饰
         sunflower hair ornament: 向日葵发饰
         hairpin: 发夹
-        hairclip: 发 夹
+        hairclip: 发夹
         hair tubes: 发管
         hair stick: 发棒
         hair bun: 发髻
         single hair bun: 发髻(单)
-        hair bell: 发 铃
-        hair rings: 发 圈
+        hair bell: 发铃
+        hair rings: 发圈
 
     - name: 小装饰
       color: rgba(230, 84, 128, .4)
@@ -2262,7 +2280,8 @@
         furrowed brow: 眉头紧锁
         jitome: 鄙夷的眼神
         laughing: 在笑的
-        shaded face: 脸上有阴影，配合蔑视
+        shaded face: 脸上有阴影
+        partially shaded face: 部分脸上有阴影
         wince: 皱眉蹙额(性交前)
 
     - name: 生气
@@ -2918,9 +2937,10 @@
         magazine scan: 杂志扫描
 
     # DONE: https://danbooru.donmai.us/wiki_pages/traditional_media
-    - name: 传统媒体形式
+    - name: 艺术风格
       color: rgba(0, 255, 255, .4)
       tags:
+        anime coloring: 动画风
         traditional media: 传统媒体（手绘稿）
         acrylic paint \(medium\): 丙烯颜料画
         ballpoint pen \(medium\): 圆珠笔画
@@ -3209,9 +3229,11 @@
         dithering: 位图混色
 
     # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Alighting
-    - name: 光照
+    # TODO: https://danbooru.donmai.us/wiki_pages/shadow
+    - name: 光照&阴影
       color: rgba(0, 255, 255, .4)
       tags:
+        light: 
         # 角度
         backlighting: 背面光
         sidelighting: 侧面光
@@ -3231,8 +3253,27 @@
         light rays: 可见光
         diffraction spikes: 衍射彩色光条
         lens flare: 透镜光晕
+        glowing: 发光的xx   # see: https://danbooru.donmai.us/wiki_pages/glowing
+        dim lighting: 昏暗的光照
         dark: 昏暗
         darkness: 黑暗
+        # 阴影
+        shadow: 阴影
+        under shade: 在阴影下(e621)
+        shade: 日照阴影
+        drop shadow: 等距阴影
+        tree shade: 树荫
+        window shadow: 窗户阴影
+        colored shadow: 带颜色阴影
+        shading eyes: 挡住眼部光线产生的阴影
+        hatching \(texture\): 线影法(纹理)
+        linear hatching: 平行线线影法(纹理)
+        crosshatching: 交叉线影法(纹理)
+        # TODO: ↓↓ 移动?
+        eyes in shadow: 阴影中的眼睛
+        face in shadow: 阴影中的脸
+        different shadow: 与本体不同的阴影
+
 
     # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Alighting#dtext-sources
     - name: 光源
@@ -4569,6 +4610,7 @@
         feral: 福瑞
         semi-anthro: 半拟人福瑞
         mammal: 哺乳动物(福瑞)
+        ambiguous form: 极端体型/物种不明
         artistic error: 作画失误
         bad hands: 坏手
         bad feet: 坏脚
@@ -4670,12 +4712,15 @@
         partially visible vulva: 可以看见一部分外阴
         fat mons: 馒头穴
         cleft of venus: 小穴密缝
+        glistening pussy: 
+        pink inner pussy: 
         defloration: 破处
-        female ejaculation:
-        female orgasm:
-        forced orgasm:
-        squirting:
-        gushing:
+        vaginal tugging: 小穴内壁拉扯
+        female ejaculation: 女性高潮
+        female orgasm: 女性高潮
+        forced orgasm: 强制高潮
+        squirting: 女性高潮喷射
+        gushing: 女性高潮喷射
         cervix: 子宫口
         uterus: 子宫
         ovaries: 卵巢
@@ -4684,6 +4729,8 @@
         sperm cell: 受精
         giving birth: 分娩
         fetus: 胎儿
+        prolapse: 
+        vaginal prolapse: 
     - name: 屁股
       color: rgba(255, 50, 100, .4)
       tags:
@@ -4691,15 +4738,18 @@
         anus: 肛门
         puckered anus: 甜甜圈肛门
         wide hips: 安产型身材
+        anal prolapse: 
     #TODO
     - name: 阴茎
       color: rgba(255, 50, 100, .4)
       tags:
         penis: 阴茎
-        small penis:
-        large penis:
-        huge penis:
-        gigantic penis:
+        small penis: 小阴茎
+        large penis: 大阴茎
+        huge penis: 巨阴茎
+        gigantic penis: 超阴茎
+        testicles: 睾丸
+        glans: 龟头(e621)
         precum: 先走汁
         twitching penis: 痉挛的阴茎
         ejaculating while penetrated: 前列腺高潮/被插入时射精
@@ -4909,6 +4959,8 @@
       color: rgba(255, 50, 100, .4)
       tags:
         sex: 性交
+        implied sex: 暗示性交
+        covered penetration: 
         imminent penetration: 事前
         just the tip: 前端插入
         guided penetration: 引导插入
@@ -5221,14 +5273,11 @@
     - name: NoobAI
       color: rgba(200, 200, 0, .4)
       tags:
-        masterpiece: 名作
-        best quality: 最高质量
-        high quality: 高质量(danbooru)
-        good quality: 高质量(e621)
-        normal quality: 普通质量
-        low quality: 低质量(danbooru)
-        bad quality: 低质量(e621)
-        worst quality: 最差质量
+        masterpiece: '> 95th'
+        best quality: '> 85th, <= 95th'
+        good quality: '> 60th, <= 85th'
+        normal quality: '> 30th, <= 60th'
+        worst quality: '<= 30th'
         very awa: 最好美学
         worst aesthetic: 最差美学
         general: 大众级
@@ -5295,6 +5344,7 @@
         tianliang duohe fangdongye: 防冻液
         hagi \(ame hagi\): 萩
         onono imoko: 魚介
+        happoubi jin: 八宝備仁
         kaedeko \(kaedelic\): 楓子(ガキ巨乳)
         kupa \(jesterwii\): 苦怕
         kakure eria: 影おじ
@@ -5309,6 +5359,9 @@
         airandou: あいらんどう
         bee \(deadflow\): Б
         amonitto: アモニット
+        hekirake: 史莱姆1
+        curss: 史莱姆2
+        hikyou takarasou: 史莱姆3
         mr h.l.: 
         sumiyao \(amam\):
         matanonki: 
@@ -5374,4 +5427,6 @@
         nun,habit,turtleneck,animal ear headwear,veil,armband,blue neckerchief,neckerchief,white sailor collar,sailor collar,frilled sleeves,puffy long sleeves,puffy sleeves,long skirt,skirt,long sleeves,black footwear,mary janes,shoes,white socks,socks,yellow bow: マリー(通常衣装)
         green eyes,halo,animal ears,hair ornament,black hair: シュン(幼女)
         china dress,chinese clothes,dress,thighhighs,white thighhighs,mary janes,shoes: シュン(幼女衣装)
+        miyako \(blue archive\), blue archive, halo, white hair, long hair, side ponytail, hair ribbon, purple eyes: ミヤコ
+        rabbit ears, fake animal ears, animal ears, armband, blue serafuku, boots, bulletproof vest, gloves, knee pads, neckerchief, pink neckerchief, pouch, school uniform, serafuku, tactical clothes, vest: ミヤコ(通常衣装)
 
