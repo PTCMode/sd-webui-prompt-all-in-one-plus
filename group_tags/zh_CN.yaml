@@ -249,6 +249,7 @@
     tags:
       skinny: 骨感
       plump: 丰满
+      overweight: 丰满(e621)
       curvy: 魔鬼身材
       gyaru: 辣妹(日本太妹)
       pregnant: 怀孕
@@ -1680,8 +1681,6 @@
       neck tattoo: 颈部纹身
       ascot: 领巾状宽领带
       ribbon choker: 颈丝带
-      maebari/pasties: 阴贴/乳贴
-      latex: 乳贴
       torn clothes: 破烂衣服
       iron cross: 铁十字勋章
       chinese knot: 中国结
@@ -1912,15 +1911,17 @@
   - name: 耳饰
     color: rgba(230, 84, 128, .4)
     tags:
+      earrings: 耳环
+      single earring: 单耳环
+      stud earrings: 耳钉
+      drop earrings: 耳坠
       cross earrings: 十字耳环
       crystal earrings: 水晶耳环
-      earrings: 耳环
       flower earrings: 花耳环
       heart earrings: 心形耳环
       hoop earrings: 环状耳环
       multiple earrings: 多个耳环
       pill earrings: 药丸样式的耳环
-      single earring: 只一边戴着耳环
       skull earrings: 骷髅耳环
       star earrings: 星形耳环
 
@@ -2166,9 +2167,6 @@
     tags:
       ring: 戒指
       wedding band: 婚戒
-      earrings: 耳环
-      single earring: 单耳环
-      stud earrings: 耳钉
       necklace: 项链
       jewelry: 首饰
       crystal: 水晶
@@ -2224,12 +2222,9 @@
       wristband: 腕带
       pendant: 吊坠
       brooch: 胸针
-      hoop earrings: 圈形耳环
       bangle: 手镯
-      stud earrings: 耳钉
       sunburst: 旭日形首饰
       pearl bracelet: 珍珠手链
-      drop earrings: 耳坠
       puppet rings: 木偶戒指
       corsage: 胸花
       sapphire brooch: 蓝宝石胸针
@@ -2890,7 +2885,6 @@
       k/da \(league of legends\): KDA组合(英雄联盟)
       pince-nez: 夹鼻眼镜|无脚眼镜
       folded: 抬腿露阴
-      cameltoe: 骆驼趾
 
   - name: 其他动作
     color: rgba(241, 229, 140, .4)
@@ -3536,7 +3530,7 @@
       from below: 仰视角度
       from side: 侧面视角
       high up: 高处视角
-      sideways: 侧向
+      sideways: 横向视角(旋转90°)
       straight-on: 正面视角
       three quarter view: 四分之三视角
       upside-down: 倒置视角
@@ -4737,6 +4731,8 @@
       dark-skinned male,faseless male: 无脸黑皮男
       minigirl,mini person,koonago: 小人
       female ejaculation,female orgasm,forced orgasm,squirting,gushing: 高潮
+      weight gain: 丰满化
+      weight conscious: 在意体重
   - name: 对象
     color: rgba(255, 50, 100, .4)
     tags:
@@ -4771,6 +4767,8 @@
       chocolate on breasts: 巧克力在乳房上
       lactation: 泌乳
       breast milk: 母乳
+      alternate breast size: 巨乳化/贫乳化
+      moobs: 男性胸部脂肪(e621)
   - name: 腹部
     color: rgba(255, 50, 100, .4)
     tags:
@@ -4786,7 +4784,8 @@
       midriff: 露脐
       abs: 腹肌
       obliques: 斜肌
-      weight conscious,plump,muffin top: 肥肉肚子
+      muffin top: 腰部赘肉
+      fat rolls: 脂肪褶
     #TODO
   - name: 小穴
     color: rgba(255, 50, 100, .4)
@@ -4794,14 +4793,17 @@
       pussy: 小穴
       urethra: 尿道
       clitoris: 阴蒂
+      erect clitoris: 勃起阴蒂
+      huge clitoris: 大阴蒂
       clitoral hood: 阴蒂包皮
       partially visible vulva: 可以看见一部分外阴
       fat mons: 馒头穴
       cleft of venus: 小穴密缝
-      glistening pussy:
-      pink inner pussy:
+      cameltoe: 骆驼趾
+      glistening pussy: 反光的小穴(e621)
+      pink inner pussy: 粉色小穴(e621)
       defloration: 破处
-      vaginal tugging: 小穴内壁拉扯
+      vaginal tugging: 小穴内壁拉扯(e621)
       female ejaculation: 女性高潮
       female orgasm: 女性高潮
       forced orgasm: 强制高潮
@@ -4846,7 +4848,7 @@
       half-erect: 半勃起
       flaccid: 未勃起
       twitching penis: 痉挛的阴茎
-        # https://danbooru.donmai.us/wiki_pages/cum
+  # TODO: https://danbooru.donmai.us/wiki_pages/cum
   - name: 精液
     color: rgba(255, 50, 100, .4)
     tags:
@@ -4877,7 +4879,7 @@
       skindentation: 衣物勒出的内陷
       deep skin: 人为勒出的内陷
       taut clothes: 勒出波纹的衣服
-      impossible clothes:
+      impossible clothes: 紧贴皮肤(现实不可能)的衣服
       skin tight: 紧贴皮肤(并清晰可见)的衣服
       ass ripple: 撞击屁股的波纹
       motion lines: 运动线
@@ -4888,7 +4890,6 @@
       internal: 内部视图(e621)
       cervical contact: 捅到宫颈
       translucent body: 透明身体(e621)
-      cervical penetration: 子宫姦
       reverse x-ray: 反向透视(手机或画板)
       see-through silhouette: 透视剪影
       disembodied penis: 只画一半的阴茎
@@ -4942,6 +4943,8 @@
       sports bra: 运动内衣胸罩
       training bra: 儿童内衣胸罩
       adhesive bra: 乳贴
+      pasties: 乳贴
+      maebari: 阴贴
       belt bra: 皮带胸罩
       bridgeless bra: 无桥式胸罩
       cupless bra: 无罩式胸罩
@@ -5087,40 +5090,42 @@
       hand on another's head: 手放在某人头上
       covering own mouth: 捂住自己的嘴
       hand over own mouth: 手盖住自己的嘴
-  - name: 性交体位
+  - name: 性交
     color: rgba(255, 50, 100, .4)
     tags:
       sex: 性交
+      vaginal: 阴道插入
+      anal: 肛交
       implied sex: 暗示性交
-      covered penetration:
+      covered penetration: 隐藏插入
       imminent penetration: 事前
       just the tip: 前端插入
       guided penetration: 引导插入
-      deep penetration: 插到底
-      69: "69"
-      back stand: 背面立位
+      large insertion: 巨根插入
+      large penetration: 巨根插入(e621)
+      deep penetration: 完全插入
+      balls deep: 完全插入(e621)
+      cervical penetration: 子宫姦
+      girl on top: 女性压在另一人身上
+      boy on top: 男性压在另一人身上
+      "69": 69式
+      missionary: 正常位
       doggystyle: 背后位
+      back stand: 背面立位
       bent over: 站立背后位
       prone bone: 后趴位
+      standing sex: 立位
       top-down bottom-up: 三角式
       spooning: 侧位
       on side: 抬腿侧位(松葉崩し)
-      girl on top: 女性压在另一人身上
+      mating press: 打桩机体位
       amazon position: 逆打桩机体位
-      straddling: 骑乘
       cowgirl position: 骑乘位
       squatting cowgirl position: 蹲式骑乘位
       reverse cowgirl position: 背后骑乘位
       reverse upright straddle: 背面座位
       upright straddle: 对面座位
-      boy on top: 男性压在另一人身上
       folded: 折叠式
-      knees to chest: 抬腿(膝盖靠近胸部)
-      legs over head: 腿抬到头上
-      legs up: 双腿抬腿
-      feet up:
-      missionary: 正常位
-      mating press: 打桩机体位
       suspended congress: 火车便当式
       reverse suspended congress: 逆火车便当式
       full nelson: 抬腿逆火车便当式
@@ -5129,7 +5134,7 @@
       reverse spitroast: 骑乘位+颜面骑乘
       double penetration: 二穴插入
       triple penetration: 三穴插入
-        #TODO: GroupSex https://danbooru.donmai.us/wiki_pages/tag_group%3Asex_acts
+      #TODO: GroupSex https://danbooru.donmai.us/wiki_pages/tag_group%3Asex_acts
   - name: 侍奉
     color: rgba(255, 50, 100, .4)
     tags:
@@ -5353,8 +5358,41 @@
     color: rgba(255, 50, 100, .4)
     tags:
       piercing: 穿孔
-      nipple chain: 乳头链
-        #TODO: https://danbooru.donmai.us/wiki_pages/tag_group%3Apiercings
+      piercing through clothes: 穿过衣服的穿孔
+      barbell piercing: 杠铃穿孔
+      captive bead ring: 固定珠环
+      linked piercing: 连链穿孔
+      ear piercing: 耳朵穿孔
+      animal ear piercing: 动物耳朵穿孔
+      industrial piercing: 工业穿孔(耳部杠铃穿孔)
+      earclip: 耳夹
+      ear chain: 耳链
+      plug \(piercing\): 扩孔塞
+      eyebrow piercing: 眉钉
+      anti-eyebrow piercing: 眼睑钉
+      lip piercing: 唇钉
+      labret piercing: 下唇钉
+      nose piercing: 鼻钉
+      bridge piercing: 鼻梁钉
+      tongue piercing: 舌钉
+      corset piercing: 束身衣穿孔
+      collarbone piercing: 锁骨钉
+      navel piercing: 脐钉
+      nipple piercing: 乳钉
+      nipple bar: 乳杠
+      nipple chain: 乳链
+      nipple rings: 乳环
+      nipple jewelry: 乳饰
+      nipple tag: 乳标
+      areola piercing: 乳晕钉
+      pussy piercing: 阴唇钉
+      clitoris piercing: 阴蒂钉
+      clitoris ring: 阴蒂环
+      labia piercing: 阴唇穿孔
+      fourchette piercing: 阴唇系带钉
+      pussy jewelry: 阴部饰品
+      penis piercing: 阴茎穿孔
+      #TODO: https://e621.net/wiki_pages/344
 
 
 
@@ -5507,6 +5545,7 @@
       haruto (hirokazu1001): 春々春兎
       m-da s-tarou: MだSたろう
       ebifurya: えびふりゃ
+      unitedunti: ゆなち
       hekirake: 史莱姆1
       curss: 史莱姆2
       hikyou takarasou: 史莱姆3
