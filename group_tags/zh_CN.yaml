@@ -133,15 +133,11 @@
       ballerina: 芭蕾舞演员
       gym leader: 体操教练
       trap: 伪娘
-      female: 女人
       harem: 后宫
       idol: 偶像
-      male: 男人
       priest: 牧师
       cleric: 神职人员(基督教)
       wa maid: 和风女仆
-      yaoi: 搞基
-      yuri: 百合
       albino: 白化病患者
       amputee: 截肢者
 
@@ -624,6 +620,7 @@
       :3: 猫嘴
       :o: 张嘴
       :>: V嘴
+      :>=: 口交脸
       parted lips: 嘴唇张开
       bit gag: 勒住嘴
       cleave gag: 被封住嘴
@@ -1657,6 +1654,7 @@
   - name: 领口
     color: rgba(230, 84, 128, .4)
     tags:
+      detached collar: 分离式领子
       sailor collar: 水手领
       fur collar: 毛皮衣领
       frilled collar: 花边衣领
@@ -3314,6 +3312,8 @@
     color: rgba(0, 255, 255, .4)
     tags:
       glowstick: 荧光棒
+      penlight \(glowstick\): 舞台荧光棒
+      traffic baton: 交通诱导棒
       lamp: 台灯
       desk lamp: 桌上台灯
       lamppost: 街路灯
@@ -3332,6 +3332,9 @@
       candlelight: 烛光
       muzzle flash: 枪口火光
       headlight beam: 车灯
+      stage lights: 舞台灯
+      spotlight: 聚光灯
+      searchlight: 探照灯
       floodlights: 泛光灯
       flare: 信号弹
 
@@ -4794,7 +4797,8 @@
       urethra: 尿道
       clitoris: 阴蒂
       erect clitoris: 勃起阴蒂
-      huge clitoris: 大阴蒂
+      big clitoris: 大阴蒂(e621)
+      huge clitoris: 巨阴蒂
       clitoral hood: 阴蒂包皮
       partially visible vulva: 可以看见一部分外阴
       fat mons: 馒头穴
@@ -4828,6 +4832,7 @@
       wide hips: 安产型身材
       anal prolapse: 脱肛
       perineum: 会阴
+      prostate: 前列腺
     #TODO
   - name: 阴茎
     color: rgba(255, 50, 100, .4)
@@ -4852,15 +4857,20 @@
   - name: 精液
     color: rgba(255, 50, 100, .4)
     tags:
-      precum: 先走汁
+      precum: 前列腺液
       ejaculation: 射精
       excessive cum: 大量射精
+      cum splatter: 精液飞溅(e621)
       mutual orgasm: 同时高潮
       ejaculation under clothes: 在衣服内射精
       handsfree ejaculation: 直接刺激以外导致的射精
       premature ejaculation: 早泄
       cum bubble: 精液泡
-      cumdrip: 流出的精液
+      cumdrip: 流出的精液(拔出后)
+      cum overflow: 流出的精液(插入时)
+      leaking: 流出的精液(e621)
+      leaking cum: 流出的精液(e621)
+      leaking precum: 流出的前列腺液(e621)
       cum pool: 精液摊
       cum string: 精液拉丝
       cum bath: 精液浴
@@ -4870,6 +4880,33 @@
       projectile cum: 射到空中
       cumshot: 射到空中(e621)
       bukkake: 射满身
+      cum in pussy: 阴道内射精
+      cum in ass: 肛门内射精
+      pull out: 外射/拔出
+      facial: 颜射
+      autofacial: 自颜射
+      cum in clothes: 射在衣服里
+      cum in cup: 射在杯子里
+      cum in mouth: 口内射精
+      cum in throat: 深喉射精
+      cum in navel: 肚脐射精
+      cum in urethra: 尿道射精
+      cum on tongue: 舌上射精
+      cum on body: 身体射精
+      cum on armpits: 腋下射精
+      cum on ass: 臀部射精
+      cum on back: 背部射精
+      cum on breasts: 胸部射精
+      cum on chest: 胸膛射精
+      cum on feet: 足部射精
+      cum on fingers: 手指射精
+      cum on hair: 头发射精
+      cum on pectorals: 胸肌射精
+      cum on pussy: 阴部射精
+      cum on stomach: 腹部射精
+      cum on clothes: 衣服上射精
+      cum on eyewear: 眼镜上射精
+      cum on food: 食物上射精
       gokkun: 饮精
     #TODO
   - name: 表现
@@ -5065,9 +5102,17 @@
   - name: "动作:"
     color: rgba(255, 50, 100, .4)
     tags:
+      hetero: 异性恋
+      yuri: 百合
+      implied yuri: 暗示百合
+      bisexual female: 双性恋女
+      yaoi: 搞基
+      bara: 搞基(特指大叔)
+      implied yaoi: 暗示搞基
+      bisexual male: 双性恋男
+      ryona: 虐待
+      humiliation: 屈辱
       assertive female: 女性占优位
-      afterglow: 沉浸在余韵中
-      ruined for marriage: 嫁不出去了(事后捂脸meme)
   - name: 表情动作
     color: rgba(255, 50, 100, .4)
     tags:
@@ -5086,19 +5131,42 @@
       reaching towards viewer: 手伸向观看者
       carry me: 要求抱抱
       incoming gift: 递给观看者的礼物
-      dildo riding: 骑在假阳具上
       hand on another's head: 手放在某人头上
       covering own mouth: 捂住自己的嘴
       hand over own mouth: 手盖住自己的嘴
+      ruined for marriage: 嫁不出去了(事后捂脸meme)
   - name: 性交
     color: rgba(255, 50, 100, .4)
     tags:
       sex: 性交
+      clothed sex: 穿衣性交
+      underwater sex: 水中性交
+      rape: 强奸
+      happy sex: 甜甜的性交
+      sleep molestation: 睡奸
+      group sex: 群交
+      gangbang: 轮奸
+      assisted rape: 辅助强奸
+      orgy: 乱交
+      threesome: 3P
+      mmf threesome: 男男女3P
+      ffm threesome: 女女男3P
+      mmm threesome: 男男男3P
+      fff threesome: 女女女3P
+      kyoudaidon \(sex\): 兄弟盖饭
+      oyakodon \(sex\): 母娘盖饭
+      shimaidon \(sex\): 姐妹盖饭
+      tentacle sex: 触手奸
       vaginal: 阴道插入
       anal: 肛交
+      pegging: 逆肛交
+      sounding: 尿道插入(阴茎)
+      urethral insertion: 尿道插入(小穴)
       implied sex: 暗示性交
       covered penetration: 隐藏插入
       imminent penetration: 事前
+      imminent anal: 肛交事前
+      imminent vaginal: 性交事前
       just the tip: 前端插入
       guided penetration: 引导插入
       large insertion: 巨根插入
@@ -5106,8 +5174,29 @@
       deep penetration: 完全插入
       balls deep: 完全插入(e621)
       cervical penetration: 子宫姦
+      object insertion: 异物插入
+      food insertion: 插入食物
+      double penetration: 二穴插入
+      triple penetration: 三穴插入
+      double anal: 肛门插入两根
+      double vaginal: 小穴插入两根
+      after sex: 事后
+      after anal: 肛交事后
+      after vaginal: 性交事后
+      after insertion: 插入事后
+      after fellatio: 口交事后
+      after fingering: 扣穴事后
+      after masturbation: 自慰事后
+      after paizuri: 乳交事后
+      after rape: 强奸事后
+      clothed after sex: 穿衣事后
+      afterglow: 事后余韵
+  - name: 体位
+    color: rgba(255, 50, 100, .4)
+    tags:
       girl on top: 女性压在另一人身上
       boy on top: 男性压在另一人身上
+      sex from behind: 从背面性交
       "69": 69式
       missionary: 正常位
       doggystyle: 背后位
@@ -5129,12 +5218,11 @@
       suspended congress: 火车便当式
       reverse suspended congress: 逆火车便当式
       full nelson: 抬腿逆火车便当式
-      group sex: 群交
       spitroast: 性交+同时口交
       reverse spitroast: 骑乘位+颜面骑乘
-      double penetration: 二穴插入
-      triple penetration: 三穴插入
-      #TODO: GroupSex https://danbooru.donmai.us/wiki_pages/tag_group%3Asex_acts
+      oral sandwich: 口交+舔肛
+      love train: 性爱火车
+      # TODO: https://danbooru.donmai.us/wiki_pages/tag_group%3Asex_acts#dtext-fetishes
   - name: 侍奉
     color: rgba(255, 50, 100, .4)
     tags:
@@ -5150,6 +5238,8 @@
       buttjob: 臀交
       cooperative grinding: W素股
       kneepit sex: 膝下交
+      breast smother: 洗面奶
+      cooperative breast smother: W洗面奶
       paizuri: 乳交
       cooperative paizuri: W乳交
       autopaizuri: 自己乳交(扶她)
@@ -5176,12 +5266,19 @@
       pillow sex: 摩擦自慰(用枕头)
       teddy bear sex: 自慰(用泰迪熊)
       table humping: 桌角自慰
+      dildo riding: 骑在假阳具上
       female masturbation: 女性自慰
       futanari masturbation: 扶她自慰
       implied masturbation: 暗示在自慰
       male masturbation: 男性自慰
       mutual masturbation: 互相自慰
       fingering: 扣穴
+      fingering from behind: 从后面扣穴
+      fingering through clothes: 衣服上扣穴
+      fingering through panties: 内裤上扣穴
+      anal fingering: 扣肛
+      prostate milking: 刺激前列腺
+      enema: 灌肠
       oral: 口交(不分男女)
       anilingus: 舔肛
       rusty trombone: 舔肛手交
@@ -5204,19 +5301,23 @@
       licking penis: 舔阴茎
       reverse fellatio: 反向口交(身体朝上)
       tonguejob: 舌头口交
-      :>=:
       imminent fellatio: 即将口交
       lipstick ring: 口交留下的痕迹
-      oral invitation: 舌射待ち
+      oral invitation: 等待射到舌头上
       cheek bulge: 脸颊鼓包
       sitting on face: 颜面骑乘
       licking testicle: 舔睾丸
       testicle sucking: 吮吸睾丸
-      penis awe: 亮"枪"
       finger in another's mouth: 口内指責め
+      fisting: 拳交
+      anal fisting: 肛门拳交
+      tribadism: 磨豆腐
+      penises touching: 击剑
+      bulges touching: 穿衣击剑
   - name: 抓&揉
     color: rgba(255, 50, 100, .4)
     tags:
+      grabbing from behind: 从后面抓住
       xx grab: 抓住xx
       ass grab: 抓屁股
       torso grab: 抓住躯干
@@ -5259,6 +5360,7 @@
   - name: 其他
     color: rgba(255, 50, 100, .4)
     tags:
+      penis awe: 亮"枪"
       tearing clothes: 撕开服装
       covering crotch: 遮挡裆部
       trembling: 颤抖
@@ -5293,14 +5395,10 @@
       strap-on: 假阳具内裤
       suction cup dildo: 吸盘式假阳具
       dildo under panties: 内裤内的假阳具
-      object insertion: 异物插入
-      food insertion: 插入食物
       prostate massager: 前列腺自慰器
       breast pump: 搾乳器
       clitoris pump: 阴蒂吸引泵
       sex machine: 机械奸
-      sounding: 尿道插入(阴茎)
-      urethral insertion: 尿道插入(小穴)
       catheter: 导尿管
       urethral beads: 尿道珠
       vibrator: 跳蛋,按摩棒
@@ -5317,7 +5415,6 @@
       vibrator in anus: 肛门内的按摩棒
       vibrator on penis: 阴茎上的跳蛋
       aphrodisiac: 媚药
-      enema: 灌肠
       lotion: 润滑液
       lube: 润滑液
       lotion bottle: 润滑液瓶
@@ -5536,6 +5633,10 @@
       sa ka (sakanoya): 冷やさか
       7010: 7010
       lk149: lk149
+      spicy moo: Moo
+      rokita: ろきた
+      kaneru: かねる
+      null \(nyanpyoun\): アナルあき
       lakilolom: らきろろむ
       inusaka: 犬坂
       op na yarou: オプーな
@@ -5634,4 +5735,8 @@
       : ニヤニヤ教授
       ? black hat,black serafuku,black sailor collar,black coat,bow,bowtie,black dress,black gloves,black pantyhose
       : ニヤニヤ教授(通常衣装)
+      ? justice task force member \(blue archive\),blue archive,halo,red halo,long hair,blunt bangs,red eyes
+      : 正実モブ
+      ? hat,black hat,beret,school uniform,serafuku,black serafuku,neckerchief,red neckerchief,choker,black choker,sailor collar,black sailor collar,gloves,black gloves,pleated skirt,black skirt,socks,black socks,kneehighs,shoes,black shoes,loafers
+      : 正実モブ(通常衣装)
 
