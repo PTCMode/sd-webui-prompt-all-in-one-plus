@@ -1045,19 +1045,11 @@
       navel cutout: 肚脐开洞
       midriff: 露腰上衣
       heart cutout: 心形开口
-      torn clothes: 撕裂的衣服
-      torn shirt: 撕裂的衬衫
-      undressing: 脱衣服中
-      clothes down: 褪下衣物
-      shirt lift: 掀起衬衫
-      shirt pull: 衬衫拉下来
       shirt tucked in: 衬衫塞进去
       clothes tug: 拖拽衣服
       shirt tug: 拖拽衬衫
       untucked shirt: 解开的衬衫
       lifted by self: 掀自己衣服
-      untied: 掀自己衣服
-      open clothes: 敞开的衣服
       unbuttoned shirt: 解开纽扣的衬衫
       button gap: 纽扣之间的缝隙(没解开
       partially unbuttoned: 解开部分纽扣
@@ -1075,8 +1067,6 @@
       oversized clothes: 过大号的衣服
       oversized shirt: 过大号衬衫
       borrowed garments: 男友的衣服
-      strap slip: 衣物吊带滑落(导致走光)
-      strap pull: 拉起衣物吊带
       wet shirt: 湿衬衫
       clothes theft: 偷衣服
 
@@ -3532,7 +3522,6 @@
       from behind: 背面视角
       from below: 仰视角度
       from side: 侧面视角
-      high up: 高处视角
       sideways: 横向视角(旋转90°)
       straight-on: 正面视角
       three quarter view: 四分之三视角
@@ -4861,6 +4850,7 @@
       ejaculation: 射精
       excessive cum: 大量射精
       cum splatter: 精液飞溅(e621)
+      cum expulsion: 精液喷出(e621)
       mutual orgasm: 同时高潮
       ejaculation under clothes: 在衣服内射精
       handsfree ejaculation: 直接刺激以外导致的射精
@@ -4879,8 +4869,12 @@
       ejaculating while penetrated: 前列腺高潮/被插入时射精
       projectile cum: 射到空中
       cumshot: 射到空中(e621)
-      bukkake: 射满身
+      cum everywhere: 射的场景中到处都是(e621)
+      cum covered: 射满身(e621)
+      bukkake: 射满身(群交)
+      cum inside: 射到体内(e621)
       cum in pussy: 阴道内射精
+      cum in uterus: 子宫内射精
       cum in ass: 肛门内射精
       pull out: 外射/拔出
       facial: 颜射
@@ -4891,6 +4885,7 @@
       cum in throat: 深喉射精
       cum in navel: 肚脐射精
       cum in urethra: 尿道射精
+      cum on penis: 阴茎上的精液
       cum on tongue: 舌上射精
       cum on body: 身体射精
       cum on armpits: 腋下射精
@@ -4929,15 +4924,15 @@
       translucent body: 透明身体(e621)
       reverse x-ray: 反向透视(手机或画板)
       see-through silhouette: 透视剪影
+      see-through cleavage: 透过衣物的乳沟
       disembodied penis: 只画一半的阴茎
       disembodied limb: 只画一半的胳膊
 
   - type: wrap
 
-  - name: "服饰:"
+  - name: "服装&裸露:"
     color: rgba(255, 50, 100, .4)
     tags:
-      revealing clothes: 暴露的衣服
       crop top overhang: 奶帘(整体)
       breast curtains: 奶帘(条状)
       framed breasts: 被外侧衣服框柱的乳房
@@ -4954,6 +4949,140 @@
       unbuttoned: 解开的扣子
       untied: 解开的系绳
       unzipped: 拉开的拉链
+  - name: 裸露
+    color: rgba(255, 50, 100, .4)
+    tags:
+      completely nude: 全裸
+      nude: 裸体
+      clothed female nude female: 穿衣女+裸体女
+      clothed female nude male: 穿衣女+裸体男
+      clothed male nude female: 穿衣男+裸体女
+      clothed male nude male: 穿衣男+裸体男
+
+      # slip
+      strap slip: 吊带滑落
+      double strap slip: 两边吊带滑落
+      suspenders slip: 肩带滑落
+      areola slip: 乳晕走光
+      nipple slip: 乳头走光
+      breast slip: 乳房走光
+      clitoris slip: 阴蒂走光
+
+      # peek
+      midriff peek: 腰部走光
+      panty peek: 内裤走光
+      pussy peek: 私处走光
+      armpit peek: 腋下走光
+      pubic hair peek: 阴毛走光
+      anus peek: 肛门走光
+      bra peek: 胸罩走光
+      penis peek: 阴茎走光
+      underbutt: 臀下走光
+      side-tie peek: 侧绑带走光
+      shoulder peek: 肩膀走光
+      leotard peek: 紧身衣走光
+      male underwear peek: 男式内裤走光
+
+      # aside
+      clothing aside: 拉开衣物
+      buruma aside: 拉开布鲁马
+      dress aside: 拉开连衣裙
+      panties aside: 拉开内裤
+      leotard aside: 拉开紧身衣
+      shorts aside: 拉开短裤
+      swimsuit aside: 拉开泳衣
+      bikini bottom aside: 拉开比基尼下装
+      clothes down: 衣物褪下
+
+      # pull
+      clothes pull: 拉扯衣物
+      panty pull: 拉扯内裤
+      pants pull: 拉扯长裤
+      pantyhose pull: 拉扯连裤袜
+      skirt pull: 拉扯短裙
+      bikini pull: 拉扯比基尼
+      shirt pull: 拉扯衬衫
+      shorts pull: 拉扯短裤
+      bra pull: 拉扯胸罩
+      strap pull: 拉扯肩带
+      one-piece swimsuit pull: 拉扯连体泳衣
+      dress pull: 拉扯连衣裙
+      mask pull: 拉扯口罩/面罩
+      leotard pull: 拉扯紧身衣
+      thighhighs pull: 拉扯大腿袜
+      kimono pull: 拉扯和服
+      buruma pull: 拉扯布鲁马
+      jacket pull: 拉扯夹克
+      male underwear pull: 拉扯男式内裤
+      bikini bottom pull: 拉扯比基尼下装
+      sweater pull: 拉扯毛衣
+      sock pull: 拉扯袜子
+
+      # lift
+      clothes lift: 掀起衣物
+      lifting own clothes: 掀起自己的衣物
+      lifting another's clothes: 掀起他人的衣物
+      wind lift: 被风吹起
+      shirt lift: 掀起衬衫
+      skirt lift: 掀起短裙
+      dress lift: 掀起连衣裙
+      bra lift: 掀起胸罩
+      sweater lift: 掀起毛衣
+      bikini top lift: 掀起比基尼上装
+      hoodie lift: 掀起连帽衫
+      strap lift: 掀起肩带
+      kimono lift: 掀起和服
+      apron lift: 掀起围裙
+      sports bra lift: 掀起运动胸罩
+      pelvic curtain lift: 掀起裙摆
+      panty lift: 掀起内裤
+      camisole lift: 掀起吊带衫
+      jacket lift: 掀起夹克
+
+      # open clothes
+      open clothes: 敞开的衣物
+      open jacket: 敞开的夹克
+      open shirt: 敞开的衬衫
+      open coat: 敞开的外套
+      open cardigan: 敞开的羊毛衫
+      open fly: 拉链敞开
+      open kimono: 敞开的和服
+      open vest: 敞开的背心
+      open hoodie: 敞开的连帽衫
+      open collar: 敞开的领子
+      open dress: 敞开的连衣裙
+      open shorts: 敞开的短裤
+      open skirt: 敞开的短裙
+      open pants: 敞开的长裤
+      open bra: 敞开的胸罩
+      open robe: 敞开的长袍
+      open belt: 敞开的腰带
+      open bodysuit: 敞开的连身衣
+      opening another's clothes: 解开他人衣物
+      opened by self: 自行解开
+      undressing: 脱衣中
+      unbuttoned: 纽扣解开
+      unfastened: 松开固定
+      undone bra: 解开的胸罩
+      untied: 系带松开
+      untying: 解开系带
+      unzipped: 拉链拉开
+      unzipping: 拉开拉链中
+
+      # revealing clothes
+      revealing clothes: 暴露的衣服
+      breastless clothes: 无胸剪裁衣物
+      reverse outfit: 反穿服装
+      reverse bunnysuit: 反穿兔女郎装
+      see-through clothes: 透明的衣服
+      crotchless: 无裆设计
+      crotchless panties: 无裆内裤
+      crotchless pants: 无裆长裤
+      crotchless swimsuit: 无裆泳衣
+      crotchless pantyhose: 无裆连裤袜
+      crotchless leotard: 无裆紧身衣
+      crotchless bloomers: 无裆灯笼裤
+      crotchless buruma: 无裆布鲁马
   - name: 普通衣物
     color: rgba(255, 50, 100, .4)
     tags:
@@ -5372,6 +5501,7 @@
   - name: "物品:"
     color: rgba(255, 50, 100, .4)
     tags:
+      leash pull: 
   - name: 性玩具
     color: rgba(255, 50, 100, .4)
     tags:
@@ -5647,6 +5777,7 @@
       m-da s-tarou: MだSたろう
       ebifurya: えびふりゃ
       unitedunti: ゆなち
+      monchan rev3: もんちゃんrev3
       hekirake: 史莱姆1
       curss: 史莱姆2
       hikyou takarasou: 史莱姆3
