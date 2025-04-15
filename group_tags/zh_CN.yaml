@@ -2852,15 +2852,15 @@
         # 脚部相关
       barefoot: 裸足
       footprints: 脚印
-      dirty feet: 脚的画法错误
       feet: 脚
       feet up: 翘起脚
-      wrong feet: 脚部作画错误
       tiptoes: 踮脚尖
       heel up: 抬脚跟
       toe-point: 绷脚/勾脚
       plantar flexion: 绷脚
       dorsiflexion: 勾脚
+      spread toes: 张开脚趾
+      toe scrunch: 蜷缩脚趾
       ankle strap: 脚踝丝环
       ankle wrap: 脚踝套
       crossed ankles: 交叉脚踝
@@ -3530,36 +3530,42 @@
       upskirt: 裙底视角
       multiple views: 多重视角
 
-  - name: 主角动作
+    # DONE: https://danbooru.donmai.us/wiki_pages/tag_group%3Aeyes_tags#dtext-gazes
+  - name: 主角视线
     color: rgba(99, 201, 2, .4)
     tags:
-      looking_at_viewer: 看向观众
-      eye-contact: 眼神接触
-      eyeball: 盯着看
-      stare: 凝视
-      looking_back: 回眸
-        # gradient: 人物倾斜
-      looking_down: 人物视角向下看↘
-      looking_up: 人物视角抬头看↗
-      facing_away: 面向别处
-      looking_to_the_side: 看向侧面
-      looking_away: 看着别处
-      looking_ahead: 展望未来
-      looking_afar: 遥望
-      looking_outside: 向外看
-      head_tilt: 歪头
-      head_down: 低头
-      sideways_glance: 轻轻向侧面瞥
+      staring: 凝视
+      eye contact: 对视
+      looking at viewer: 看向观众
+      looking at another: 看向另一个
+      looking at object: 看向物体
+      looking at breasts: 看向胸部
+      looking at hand: 看着手
+      looking at hands: 看着双手
+      looking at mirror: 照镜子
+      looking at phone: 看手机
+      looking at self: 看向自己
+      looking at penis: 看向阴茎
+      looking at pussy: 看向小穴
+      looking at animal: 看着动物
+      looking at food: 看食物
+      looking at screen: 看着屏幕
+      looking back: 回眸
+      looking up: 抬头看
+      upturned eyes: 向上看(脸不仰)
+      looking down: 低头看
+      downturned eyes: 向下看(脸不低)
+      sideways glance: 斜视
+      looking afar: 遥望
+      facing away: 面向别处
+      looking away: 看着别处
+      looking to the side: 看向侧面
+      looking outside: 向外看
+      looking over eyewear: 透过(或下拉)眼镜看
+      looking through own legs: 弯腰穿过大腿看
+      looking ahead: 看向(角色的)前方
       upshirt: 从衬衫下方瞥
       upshorts: 从裙底瞥
-      looking_at_another: 看着另一个
-      looking_at_phone: 看手机
-      looking_at_animal: 看着动物
-      looking_at_mirror: 照镜子
-      looking_at_hand: 看着手
-      looking_at_hands: 看着双手
-      looking_at_food: 看食物
-      looking_at_screen: 看着屏幕
 
 - name: 环境
   groups:
@@ -4525,52 +4531,74 @@
   - name: 魔法1.0
     color:
     tags:
-      ((water drops)),wet clothes,((beautiful detailed water)),((floating)),dynamic angle: 水魔法
-      beautiful detailed glow, (detailed ice), beautiful detailed water: 冰魔法
-      ? beautiful detailed glow,detailed ice,beautiful detailed water,(floating palaces:1.2),(ice crystal texture wings),（Iridescence and rainbow hair:2.5）
+      ? ((water drops)),wet clothes,((beautiful detailed water)),((floating)),dynamic angle
+      : 水魔法
+      ? beautiful detailed glow, (detailed ice), beautiful detailed water
+      : 冰魔法
+      ? beautiful detailed glow,detailed ice,beautiful detailed water,(floating palaces:1.2),(ice crystal texture wings),(Iridescence and rainbow hair:2.5)
       : 冰系改
-      beautiful detailed glow,detailed ice,beautiful detailed water, (floating palaces:1.3),(((ice crystal texture wings))): 星冰乐
-      ((detailed beautiful snow forest with trees)), ((snowflakes)), floating: 森林冰
+      ? beautiful detailed glow,detailed ice,beautiful detailed water, (floating palaces:1.3),(((ice crystal texture wings)))
+      : 星冰乐
+      ? ((detailed beautiful snow forest with trees)), ((snowflakes)), floating
+      : 森林冰
       ? (((crystals texture Hair))),((beautiful detailed glass hair)),((glass shaped texture hand)),((crystallize texture body)),gem body,hands as clear as jewels,crystallization of clothes,((crystals texture skin)),sparkle, lens flare, light leaks,broken glass,detailed glass shaped clothes,beautiful detailed gemstone sky, gemstone sea, crystals texture flowers,((detailed crystallized clothing))
       : 结晶法
-      beautiful detailed glow,((flames of war)),(((nuclear explosion behide))): 核爆法
-      ((breeze)), flying splashes, flying petals, wind: 风魔法
-      ((surrounded by heavy floating sand flow and floating sharp stones)),((((ink)))),((illustration)),((watercolor)): 流沙法
-      (detailed light), ((lightning in hand)),lightning surrounds,(((lightning chain))): 雷电法
-      (sunlight),(angel),dynamic angle, floating, wing, halo, floating white silk,(Holy Light),silver stars: 圣光法
+      ? beautiful detailed glow,((flames of war)),(((nuclear explosion behide)))
+      : 核爆法
+      ? ((breeze)), flying splashes, flying petals, wind
+      : 风魔法
+      ? ((surrounded by heavy floating sand flow and floating sharp stones)),((((ink)))),((illustration)),((watercolor))
+      : 流沙法
+      ? (detailed light), ((lightning in hand)),lightning surrounds,(((lightning chain)))
+      : 雷电法
+      ? (sunlight),(angel),dynamic angle, floating, wing, halo, floating white silk,(Holy Light),silver stars
+      : 圣光法
       ? beautiful detailed pampas grass field, open hakama, surrounded by floating sakura, yellow full moon, beautiful detailed dark midnight sky, messy white long hair
       : 苇名法
       ? beautiful and delicate water, the finest grass, very delicate light, nature, painting, water spray, breeze, flowers and grass meadow, near the water edge, (sunset, starry sky in a circle), randomly distributed clouds, river, splashing water, falling petals
       : 自然法
-      (detailed light) , feather, leaves, nature, (sunlight), river, (forest),(bloom): 森林法
-      floating and rainbow long hair,Iridescence and rainbow, beautiful detailed starry sky: 虹彩法
+      ? (detailed light) , feather, leaves, nature, (sunlight), river, (forest),(bloom)
+      : 森林法
+      ? floating and rainbow long hair,Iridescence and rainbow, beautiful detailed starry sky
+      : 虹彩法
       ? chain ring, chain storm, dark chain,((wholeblack bloomer)), darkside, night, deep dark, darkness, ((dark clouds)),((ruins)),shadow, death garden
       : 暗锁法
       ? beautiful detailed glow, floating ashes, beautiful and detailed explosion, red moon, fire, fire cloud, wings on fire, a cloudy sky, smoke of gunpowder, burning, black dress, dove of peace, (floating cloud:1.2)
       : 火烧云
-      beautiful detailed glow, detailed ice, beautiful detailed water, (magic circle:1.2), (floating palaces:1.3): 城堡法
+      ? beautiful detailed glow, detailed ice, beautiful detailed water, (magic circle:1.2), (floating palaces:1.3)
+      : 城堡法
       ? (water bloom), (delicate glow), (breeze), long Flowers meadow,(((sunset)), (less stars form a circle), randomly distributed clouds, (rivers), (willows with branches falling into the water)
       : 黄昏法
-      ((colorful bubble)),(floating),detailed light: 泡泡法
-      ((rose)), (vine), cage, bandage, red rope, (detail light), falling rose petals: 蔷薇法
-      (starry tornado:1.4), starry Nebula, beautiful detailed sky: 星空法
-      ((moon)), starry sky, (lighting particle), fog, snow,(bloom): 月亮法
-      beautiful detailed glow, detailed ice, beautiful detailed water, (cold full moon), snowflake, (floating cloud:1.2): 雪月法
-      ((burning forest)), spark, light leaks, burning sky, flame, flames burning around, (flying sparks): 森火法
+      ? ((colorful bubble)),(floating),detailed light
+      : 泡泡法
+      ? ((rose)), (vine), cage, bandage, red rope, (detail light), falling rose petals
+      : 蔷薇法
+      ? (starry tornado:1.4), starry Nebula, beautiful detailed sky
+      : 星空法
+      ? ((moon)), starry sky, (lighting particle), fog, snow,(bloom)
+      : 月亮法
+      ? beautiful detailed glow, detailed ice, beautiful detailed water, (cold full moon), snowflake, (floating cloud:1.2)
+      : 雪月法
+      ? ((burning forest)), spark, light leaks, burning sky, flame, flames burning around, (flying sparks)
+      : 森火法
       ? ((destroyed)),explosion, buildings in disarray, The residual eaves DuanBi, cumulus, mouldy, floating, wind, Dead end machine,(broken robot),(Mechanical robot girl), in the rubble of a devastated city
       : 废土法
-      mecha clothes, robot girl, sliver bodysuit,((sliver)) and (broken) body: 战甲法
+      ? mecha clothes, robot girl, sliver bodysuit,((sliver)) and (broken) body
+      : 战甲法
       ? Extremely gorgeous metal style, Metal crown with ornate stripes, Various metals background, Sputtered molten iron, floating hair, Hair like melted metal, Clothes made of silver, Clothes with gold lace, flowing gold and silver, everything flowing and melt, flowing iron, flowing silver, lace flowing and melt
       : 黄金法
-      mecha clothes, robot girl: 机娘法
-      ink,(((bone))), (((ribs))), rose, black hair, blue eyes, greyscale, no shadow, simple background, bright skin: 死灵法
+      ? mecha clothes, robot girl
+      : 机娘法
+      ? ink,(((bone))), (((ribs))), rose, black hair, blue eyes, greyscale, no shadow, simple background, bright skin
+      : 死灵法
       ? (((gorgeous crystal armor))),(((crystal wings))),((altocumulus)),(clear_sky),(snow mountain),((flowery flowers)),(flowery bubbles),cloud map plane, crystal, crystal poppies,Brilliant light, thick_coating, glass tint,(watercolor)
       : 水晶法
       ? ((an extremely delicate and beautiful)),floating, (detailed wet clothes), (detailed light),feather, nature, (sunlight), river, floating palace, beautiful and delicate water,(bloom),(shine)
       : 水森法
       ? (blue spark),(red and blue hair),blue eyes, burning sky,flame,Rainbow in the sky,((Flames burning ice)),(((fire butterflies))),(((ice crystal texture wings))),(Flying sparks),(detailed ice),((a lot of luminous ice crystals)),((burning feathers)),(feathers made of ice),(frozen feathers),(((ice and fire together)))
       : 冰火法
-      (anger), dragon horns, (silver armor), metal, complex pattern, cape, indifference: 龙骑士
+      ? (anger), dragon horns, (silver armor), metal, complex pattern, cape, indifference
+      : 龙骑士
       ? ((full body)),(helpless),tear, crying,(((((falling from the sky))))),((Weathering With You)),((falling)),((face towards the sky))，(hair flows upwards),((disheveled hair)),(1 girl), floating, beautiful detailed sky
       : 坠落法
       ? ((underwater)),(beautiful detailed water),((coral)),dynamic angle, floating,(detailed light),floating hair,(splash),((fishes)),leaves dress, feather, nature,(sunlight),(underwater forest),(bloom),(detailed glow),drenched, seaweed, fish,(((Tyndall effect)))
@@ -4579,10 +4607,12 @@
       : 秘境法
       ? (((masterpiece))), ((the best quality, super fine illustrations, beautiful and delicate water)), ((very delicate light)), ((nature, painting)), ((fine lighting, more transparent stars, high-quality snowflakes, high-quality mountains, very fine 8KCG wallpapers)), (plateau), (((snow mountain))), sunrise, randomly distributed clouds, (snow field), cliff, ((rotating star sky)), ((lake in mountain stream)), luminous particles
       : 摄影法
-      1980s (style),simple background, retro artstyle: 摩登法
+      ? 1980s (style),simple background, retro artstyle
+      : 摩登法
       ? (white hair), red long hair, red eyes, (full body), (((with sword))), angry face, (beautiful detailed eyes), Blood drop,Blood fog, floating hair, disheveled hair, Splashing blood,(Bloodstain)
       : 血魔法
-      ((dragon)), ((dragon background)): 唤龙术
+      ? ((dragon)), ((dragon background))
+      : 唤龙术
       ? hair fluttering in the wind,((mechanical arm armor)),((mechanical body armor)),riding motor, bodysuit,((ruins of city in war, fire, burning cars, burning buildings)),air force fleet in the sky
       : 战姬法
       ? mecha clothes, robot girl, sliver bodysuit, dragon wings, ((a dragon stands behind the girl)), beautiful detailed sliver dragon armor
@@ -4607,7 +4637,8 @@
       : 花火基础
       ? stars in the eyes, messy floating hair, colored inner hair, Starry sky adorns hair, (lots of big colorful Bubble), (pearl), (Galaxy), depth of field
       : 星之彩
-      stars in the eyes, messy floating hair, colored inner hair, Starry sky adorns hair, depth of field: 沉入星海
+      ? stars in the eyes, messy floating hair, colored inner hair, Starry sky adorns hair, depth of field
+      : 沉入星海
       ? dynamic angle, detailed wet clothes, blank stare, overexplosure, floating, black long straight, red eyes, aqua eyes, gradient eyes, ((blood)), white dress, frills, ((expressionless)), extremely beautiful detailed water, ((lying on the lake)), (bloodred water:1.5), (red background:1.3)
       : 百溺法
       ? ((messy hair)),(grassland),(yellow eyes),incredibly absurdres,(gold hair),floating hair,Large number of environments,the medieval ,grace,prospect,water eyes,wind,breeze,god ray,lawn,Mountains and lakes in the distance,The sun shines through the trees,A vast expanse of grassland
@@ -4632,7 +4663,8 @@
       : 幻碎梦
       ? (white hair),(((red streaked hair))), red eyes, (((full body))),(red hair), (((((Hold a red sword))))), (angry face),((Blood drop)),((Blood fog)),light shafts, soft focus, ((Splashing blood))),Long hair,((Bloodstain)),Fighting stance,{{{{{watercolor (medium)}}}},(((masterpiece))),((white clock)),((ultradetailed)),((Covered in blood)),flowing hair,Exquisite Flame,dynamic angle, floating, (shine), extremely delicate and beautiful girls, bright skin, lying red petals,Holy lighting
       : 血改法
-      dramatic shadows,black and white,monochrome,{{comic}},cross necklace,Cassock: 留影术
+      ? dramatic shadows,black and white,monochrome,{{comic}},cross necklace,Cassock
+      : 留影术
       ? ((ink)),(water color),bloom effect,detailed beautiful grassland with petal,flower,butterfly,necklace,smile,petal,(((surrounded by heavy floating petal flow)))
       : 飘花法
 
